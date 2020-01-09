@@ -1,0 +1,624 @@
+#==####===
+#
+#
+#Bone nute,
+#
+#Dji rprind les eplaidaedjes des djivêyes di mots a decider.
+#
+#rapel: les intrêyes ont des drapeas pa drî ki dnèt les derivés:
+#
+#a: addjectif ( -s, -e, -es, -ès)
+#s: plural (-s)
+#m: po les addjectifs: adviebe et -mint.
+#m: po les viebes: no e -mint (--> deus fômes: -mint et -mints)
+#r: fwait on femrin avou -resse (et -resses)
+#n: omrin et femrin no (-s, -e, -es)
+#i: li prumire voyale est spotchåve
+#
+#po les viebes dji dene deus fômes: li pårticipe erirece eyet
+#li fôme po l' atôtchî indicatif prezintrece (eg: "viké" eyet "(ti) vikes").
+#po les drapeas:
+#
+#v: dit k' c' est on viebe
+#j: fwait on mot avou -aedje (et -aedjes)
+#a: li p.e. est ossu on addjectif
+#i: voyale sipotchåve (et les intrêyes avou co- fijhèt ossu des
+#	fômes avou ki-)
+#t: fwait on addjectif en -ant (eg: riwaitî -> riwaitant, riwaitantes,...)
+#m: fwait on mot e -mint (a mete al fôme do schoûtant prezintrece)
+#m: fwait on adviebe e -mint (a pårti del fôme participe erirece)
+#
+#########
+# Po les viebes dji vs dimandrè di bén rwaiti li fôme "ti", dji n' so nén
+# todi seur, pårticulirmint inte -eyes/-eles/-es/...
+#=========
+
+propagande/s	(ou "prôpagande"?)
+metôde/s	[f.n.]
+
+
+frumint/s
+pierzin/s
+schielêye/s
+gougnot/s	(boket d' pan)
+razans		(ans et razans)
+lonmint		(lontins)
+pômagne/s
+brouwet/s
+lote/s
+tchinistreye/s
+saeyén/s
+raetchon/s
+inflé/vaj
+infeles/v
+rinflé/v
+rinfeles/v
+sacsofone/s
+aisse/s
+londmwin/s
+leddimwin/s
+sourdåd/n
+vårlet/s
+matene/s	(priyire do matén)
+panea-cou
+shijhné/v	(riwaitî a åk tote nute)
+shijhnêyes/v
+djåbe/s
+vinaigue/s
+tinteure/s
+toitche/s	(eg: ene toitche di strin)
+croejhlire/s
+disclapé/vaj
+disclapes/v
+goirdjeye/s
+roemyî/v
+roemeyes/v
+gaztaedje/s
+sinké/v		(vudî on vere)
+sinkes/v
+boûkete/s
+confiteure/s
+pot/s
+schiele/s
+saiwoe/s	(fr: évier)
+porcession/s
+forsôlé/va
+forsolêyes/v
+fel/a
+propôs
+distchårné/a
+bive/s		(fr: castor)
+fenant		(li fenant moes)
+feneu/rs
+rap		(sôre di muzike)
+pressé/va
+presses/v
+nier/s
+triplé/v
+tripeles/v	(ou triplêyes?)
+bråclé/v
+bråkeles/v	(ou bråclêyes?)
+djans		("djans!")
+assurémint
+rôbaleu/r
+indo-uropeyin/a
+lavasse/s	(ploure a lavasse)
+pupe/s		(po foumer)
+civilizåcion/s
+assistance/s
+tribu/s		(nindje di djins)
+frontire/s
+vitra/s		(fr: vitrail)
+antikité/s
+meteyorite/s
+dinozôres/s
+militåre/a
+sitåreye/si	(sitåreye di tere)
+waerbea/s
+arimea/s	("rimea" a ddja stî accepté)
+crestea/s
+godet/s
+tchabårêye/s
+hourêye/s
+mansåd/s	(sôre di colon)
+niyêye/s
+fotche/s
+tiene/a		(fr: tiède)
+tieneur/s
+tienixh/v
+atienixh/v	(rinde tiene (fr: tiède))
+ratienixh/v
+raskignoû/s	(ou "råskingoû"?)
+efexhî/vj	(fr: tresser, entrelacer)
+efexhes/v
+tcherpinte/s
+tcherpetî/r
+etcherpeté/va
+etcherpetes/v
+retcherpeté/vj
+retcherpetes/v
+hardi/a		(franc, sins pawe)
+xhil/s
+xhilete/s
+xhiltreye/s	[f.n.]
+xhilté/vjt
+xhiltêye/v
+xhiltanmint
+xhiltea/s
+xhiltisse/s
+xhiltî/s
+		(li Léonard a "awia" (howe a 4 dints))
+ricepé/vi
+ricepes/vi
+ramaye/s	(pititès coxhes)
+playe/s		(coixheure) (ou "plåye"?)
+fir/am
+firté/s
+mesbrudjî/a
+acseure/s	(coixheure)
+falixh/v	(toumer flåwe)
+difalixh/v
+fruzixh/v
+moudrixh/vi
+kimoudrixh/vi
+matinêye/s
+plinte/s	(plindaedje)
+resdondixh/v
+laboreu/r
+rigret/si	(des rgrets)
+rigreté/vi
+rigretes/vi
+greté/va
+gretes/v
+greteure/s
+froedixh/v
+rafroedixh/va
+rifroedixh/vi
+rapoûlé/v
+rapoûles/v
+hierdî/r
+hierdåvoye/s
+gasse/s		(eurêye)
+hålé/v		(fr: hâler)
+håles/v
+mintneu/n	(onk ki mintént ene sacwè, en: maintainer)
+minténresse/s
+tchôke-divins	(en: plugin)
+coridjrece/s
+coridjeu/nr
+atribut/s
+mådje/s		(les blancs di tchaeke costé d' ene pådje)
+ritrait/s
+sitatut/is
+fabricant/n
+vierné/vaj
+vienes/v
+ravierné/v
+ravienes/v
+govierné/va
+govienes/vm
+administré/vaj
+administrêyes/v
+
+bolou/vat
+boûs/v
+cabolou/v
+caboûs/v
+cabolé/a	(aveur des taetches)
+caboleure/s
+istwere/s
+istorike/a
+gnognot/a	(fr: gnangnan)
+batire/s	(plantchî d' tere)
+batire-hôt
+batires-hôt
+
+cweye/a	?
+scheuve		(scheuve do stoelî)
+nonna
+siya
+abeydimint	(abeye abeye)
+espion/n
+para/s		(parachutisse)
+parachutisse/s
+parachute/s
+mission/s
+
+cavea/s		(fr: "caveau")
+spôrt/s		(sipôrt/i ?)
+sipôrtif/ai
+
+#>>>>>>>>>>===
+
+Mårtén			(no d' djin)
+sins-feu-ni-leu
+estat/s		(purade ki "estat" ?) (H: etat egzistêye, s(i)tat fôme lodjike)
+
+ombe/s		(ou ombion ?)
+
+ashete/s	(ou assiete ? ou assîte ?)
+criyî/v
+creyes/v
+priyî/vj
+preyes/v	(ou priyes?)
+sitritchî/via
+sitritches/v
+crouwå/s
+raspepyî/va
+raspepeyes/v
+diråyî/vi
+diråyes/vi
+sicrepé/vi
+sicrepes/v
+seuve/s
+
+#=========
+
+asservixh/vma	...S.	(H: assiervixh)
+prôpe/a
+prôpieté/s	.H.S.
+prôpietaire/s	.?.S.	
+socio-crustin/a	.x.S.	(H: sociocrustin)
+
+#=========
+
+drouke/s	(H: drougue)
+droucté/va	(H: drougté)
+drouctêyes/v	(H: drougtêyes)
+aståvlé/v	(H: nén "atåvler"? pus corant)
+aståveles/v
+atåvlé/vaj
+atåveles/v
+
+#=========
+
+coviertixh/vj		(M: k(i)viersî)
+
+aiye/s		(aile)
+aile/s		(aiye; deus sinonimes)
+aiyete/s
+	idêye: wårder "aile" et "aiye"; mins l' fôme avou "y" po
+	les derivés. oudonbén "l" po les derivés ?
+lére		(lére, dj' a léjhou, dji lé)
+léjhou/a
+lijhoz/Vj
+lîs/v
+lijhnut/V
+lijhåve/a
+lijheu/n
+elére		(F: trier)
+eléjhou/a
+elijhoz/Vj
+elîs/v
+elijhnut/V
+elijheu/nr
+relére		(sinonime di elere)
+reléjhou/j
+relijhoz/V
+relîs/v
+relijhnut/V
+rilére/i
+riléjhou/i
+rilijhoz/Vi
+rilîs/vi
+rilijhnut/iV
+
+	Kesse: est çk' on rfond elere, relere (F: trier) avou elire, relire
+	(F: élire)?
+	"elire" (elîre e Feller) e-st on epront do francès; mins il a seur li
+	minme etimolodjeye ki l' walon "elere"; et dins bråmitn des coines
+	li viebe walon "lere" et ses derivés s' prononce "lire", dj' ô bén
+	li diferince inte les deus sins ni s' ritrove nén otomaticmint dins
+	l' cåzaedje; d' on ôte costé ça pout esse ahessåve d' aveur cisse
+	diferince dins l' sicrijhaedje...
+
+atuzlé/vj
+atuzeles/v	(ou atuzlêyes ?)
+tuzinreye/s
+
+
+
+#=========
+
+alinne/s	(ou alene ? F: haleine)
+
+
+bele-feye/s
+bea-fi/s
+påråsse/s	(2e mari del mere)
+måråsse/s	(2e feme do pere)
+fiyåsse/s	(bea-fi)
+sårlete/s	(=sånî)
+sånî/s
+poenneus/am
+peket/s
+assåjhné/va
+assåjhnêyes/v
+salé/vaj
+sales/v
+salrece/s	("pire salrece": v.v.m: pire wice k' on broyive li sé)
+saloe/s		(=plaece wice k' on sale)
+salåjhe/s	(termene wice k' on sale)
+salaire/s
+salamande/s
+salsa		(li danse)
+salårdî/s	(usteye po mete li salåde)
+såle/s
+sålon/s
+albasse/s	(F: albâtre)
+ecinse/s	(çou k' ode bén cwand on l' broûle)
+ecinsé/v
+ecinses/vm
+ecinsoe/s
+satén/s		(ou satin ?)
+satinåde/s
+satinete/s
+satiné/vj
+satines/v
+sårot/s
+såvlon/s	(ou såvion el plaece di såvlon avou minme rîle ki po
+	"viyaedje": cwand i gn a i/l on prind "y"?)
+såvloneus/a
+såvné/v
+såvnêyes/v
+såvnire/s
+savon/s
+savonete/s
+savonreye/s
+savné/vja	(ou savoner ?) 
+savnêyes/v
+savneure/s	(ou savonêye ?)
+croejh/s	(viye fôme po "croes")
+croejhea/s
+croejhlé/vaj
+croejheles/v
+discroejhlé/vaj
+discroejheles/v
+eturcroejhlé/va	(po F: entrecroiser ?)
+eturcroejheles/v
+
+#=========
+
+sapinse		.x.S. (H: «s' apinse» ==> li oister et mete li viebe apinser)
+dispiôlé/vj	...S. 
+dispiôlêyes/v	...S. 
+repeté/vj	.H.S. (ou ripeter/rpeter ?)
+repetes/v	.H.S. 
+
+
+####======================
+####  vîs ================
+####======================
+####======================
+
+#== po les viebes del 4e sôre, i gn a mezåjhe ki d' ene seule fôme
+#== si on viebe estmetou chal et k' i n' duvreut nén l' esse, dijhoz mel
+# acweti/acweti		(Lucyin aveut rfondo so "acwati", gilliard a "acwèti")
+fornixh/va
+racwetixh/v
+rabeazixh/v
+rabelixh/v
+adjixh/vtm
+adoûcixh/vmj
+afondrixh/v	(fé pus parfond)
+agrancixh/v	(=si rafyî)
+ahontixh/v
+alaidixh/v
+# alanmi/alanyi/alantchi	(?? kimint rfonde?) (=si nåjhi)
+alårdjixh/v
+alonguixh/v
+alourdixh/v
+amatixh/v	(=divni frexh)
+amôrtixh/v
+amwinrixh/v
+aneyantixh/v
+apairixh/v	(mete pa paires)
+apezantixh/v
+# aplådi/aplôdi	(aplaudi dins gilliard, claper des mwins. kimint rfonde?)
+aprofondixh/v	(? aprofondi dins gilliard, mins ci n' duvreut
+	nén esse aparfondi purade ?)
+aroedixh/va
+arondixh/va
+asplanixh/v
+assombrixh/v
+atårixh/v		(ou atårdji? ou atårdi? =divni tård)
+atenixh/v		(rinde tene)
+atinrixh/v
+avancixh/v	(deus codjowaedjes possibes, come "fini" et come "doirmi" (mins
+	avou pårticipe "avanci", nén *avançou. i gn a sacwants viebes
+	come çoula k' ont deus codjowaedjes, onk come fini et l' ôte
+	come doirmi. I fåt erîler so ene fôme ou wårder les deus?)
+bletixh/v		(divni blet)
+bleuwixh/v
+brunixh/v
+cohoudrixh/v	(?? co-oûdri dins gilliard, fr: se vautrer, se sécouer)
+deurixh/v
+dischandixh/iv	(ou dixhandi? = rafroedi)
+dismolixh/v
+djaenixh/v
+djemixh/vj	(ou djumixh ?)
+enairixh/v
+eplinnixh/v		(si fé plin)
+essevlixh/v
+etablixh/v
+flanixh/v
+aflanixh/v
+frexhixh/v
+gårnixh/v
+groxhixh/v
+implixh/v
+languixh/v
+mannixh/v		(rinde mannet)
+mwaijhixh/v
+ofrixh/v	(i gn a ossu on codjowaedje ofri, dj' ofere,... i m' shonne)
+pålixh/v	(divni påle)
+påtixh/v
+perixh/v
+planixh/v	(griper so èn åbe tot metant les djambes åtoû do tronce)
+plåstrixh/v	(mete del plåsse so les meurs ou l' plafond)
+polixh/v
+pourixh/va
+prustixh/v		(prusti l' påsse)
+pûnixh/vm
+racourtixh/v
+radjonnixh/v
+rafleurixh/v	(fr: égaliser, mettre à niveau)
+ragaiyixh/v
+ragraiyixh/v	(=rinde pus tene. motoit a l' ortografeye doet esse rfondowe)
+ralantixh/v
+raledjerixh/v	(rinde pus ledjir. motoit a rfonde?)
+raprofondixh/v	(rifonde a "raparfondi" ?)
+rastroetixh/v
+ratårdjixh/v	(ratauri dins gilliard)
+ratcherixh/v	(rinde pus tchir)
+raverdixh/v		(rinde vert)
+refantixh/v		(ridivni efant)
+reflechixh/v	(reflechir. motoit a rfonde)
+ripintixh/vi		(fr: repentir)
+roedixh/v
+rostixh/v	(ou rôti? ou les deus? Lucyin eploye "rôti")
+#rôtixh/vja
+siblarixh/vi
+sicrandixh/vi
+sicwerixh/vi	(mete di scwere)
+sipelixh/vi
+aspexhixh/v		(rinde pus spès)
+sitiernixh/vi
+sufixh/v	(calcaedje do francès "suffire"
+transixh/v
+trayixh/v
+#============
+anutixh/v
+afaitixh/v
+blankixh/vj
+aritchixh/va
+rissaizixh/vi
+raveurixh/vj
+obeyixh/v
+mwaistrixh/v
+flåwixh/vjtm
+ribrunixh/vi
+rebrunixh/v
+verdixh/v
+ragrancixh/v
+ramatixh/v
+ramolixh/v
+ramwinrixh/v
+ranairixh/v
+rapairixh/v
+rasplatixh/v
+rassombrixh/v
+ralaidixh/v
+radoûcixh/vmj
+rafrexhixh/v
+disflanixh/v
+ravancixh/v
+saizixh/v
+riplåstrixh/vi
+replinnixh/v
+ribenixh/vi
+rifrexhixh/vi
+riblankixh/vi
+rimwaijhixh/vi
+dispolixh/v
+ripolixh/vi
+riprustixh/vi
+ripûnixh/vi
+ristiernixh/vi
+riverdixh/vi
+rivômixh/vi
+vômixh/v	i n' a nén stî prezinté!
+contremintixh/v
+dismintixh/v
+dispairixh/v
+disrunixh/v
+ridjaenixh/vi
+rigårnixh/vi
+disgårnixh/v
+rigroxhixh/vi
+disgroxhixh/v
+disfaitixh/v
+rischandixh/vi
+schandixh/v	
+eschandixh/v	
+reschandixh/v	
+ratenixh/v
+ratinrixh/v
+sipexhixh/iv
+raspexhixh/v
+dispexhixh/v
+disbelixh/v
+abelixh/v
+ebelixh/v
+radeurixh/v
+adeurixh/v
+rapezantixh/v
+disfrankixh/v
+rafrankixh/v
+ralårdjixh/v
+deperixh/v
+aclairixh/v
+clairixh/v
+raclairixh/v
+escoursixh/v
+aviyixh/vtm
+aveurixh/vj
+rimplixh/vaji
+anôblixh/va
+reyussixh/va
+ralonguixh/va
+motixh/v
+mintixh/v
+rassetchixh/a
+rissetchixh/vi
+setchixh/vjatm
+acropixh/v
+rodjixh/v
+djouwixh/vjc
+redjouwixh/v
+rascourtixh/va
+riglatixh/vti
+#============
+
+cloutche/s	..MS.
+tchaeconk	..MS.
+tchaekene	..MS. (ou tchaesconk, tchaeskene? ou les 4 fômes?)
+corpusse	..MS. (ou corpus ? M: corpusse come oremusse, cårlusse,
+		otobusse,...)
+greco-latén/a	...S. (H: grecolatén)
+såye/s		(ene såye, sayî ene sacwè. oudonbén ene saye ? H: såye
+		come diner, dji dene; durer, dji deure,...)
+		M: saye
+animateur/s	(et li femrinne fôme ? animatrice ou animatresse ?)
+	(M: nén pol cawete -teur --> animeu/nr)
+animåcion/s
+leu/s	(ou "leup/s" ?)  (H: leup, M: leu)
+djalot/nm	(djalote,djalotmint. ou djalous,djalouse,djalouzmint?)
+contraire/s	(ou contråve, ou les deus? M: contråve, H: deus sins diferins)
+chitroumfe/is	(ou chitroumf/is (avou ou sins "e" al difén ?)
+avocåt/n	(ou advocåt ?)
+aviedje/s
+
+
+
+
+
+
+
+#=======
+
+etinde
+dispaitchî
+pårti
+fåtchî
+faleur
+saizi/a
+esse
+fé
+
+#=========
+
+
+
+
+

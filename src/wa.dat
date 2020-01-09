@@ -1,0 +1,18 @@
+name wa
+charset iso8859-1
+# ' at begining of words, eg: "'l est bon", middle, eg: "a-d'-couloûte"
+# and end, eg: "k'".
+# . is used for some acronyms
+# - is used in words like "abat-djoû", "a-d'-couloûte"
+# 1 is for "1î", only at the beginning; but aspell wants middle if begin is set
+# 2 is for "bzip2-rastrindou"
+# ° is for "°C" and "l°"; but aspell wants middle if begin is set
+special ' *** . -*- - -*- 1 **- 2 -** ° *-- º --*
+# phonetic rules
+soundslike wa
+invisible-soundslike
+store-as lower
+# REP lines in wa_affix.dat file (for myspell compatibility)
+repl-table wa_affix.dat
+affix	wa
+affix-compress	true

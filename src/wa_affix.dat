@@ -1,0 +1,1752 @@
+# Copyright 2000-2007, Pablo Saratxaga <pablo@walon.org>
+#		       Lucyin Mahin <lucyin@walon.org>
+
+# aspell affix for Walloon language (new unified ortography)
+
+# Drapeas po les viebes:
+# ======================
+#
+# v: bodje A des viebes (cogne do pårticipe erirece)
+# v: bodjes B et C des viebes (cogne atôtchî prezintrece)
+# V: bodje B des viebes avou B != C (cogne atôtchî futurrece)
+# V: bodje C des viebes avou B != C (cogne riwaitants namurwesse)
+# V: bodje (B ou C) po les 3 djins singulî (cogne atôtchî prezintrece)
+# j: on pout fé on mot avou -aedje a pårti do viebe
+# i: stitchåve voyale
+
+# Drapeas po les nos:
+# ==================
+#
+# n: no (femrin sing -> omrin sing, -> omrin plur, -> femrin plur)
+# a: adjectif (come li drapea "n" avou ossu -ès)
+# s: no (sing -> plurial)
+# i: stitchåve voyale
+# r: pout fé on femrin avou -resse 
+
+# ------------------------------------------------------------
+
+SET ISO8859-1
+# letes eployeyes e walon, relîtes pa ôre di frekince
+TRY ersainthocuxdlpéymbzîvjåfèwgkêôûçERSAINTHOCUXDLPÉYMBZÎVJÅFÈWGKÊÔÛÇ'
+
+# prefixes
+#PFX i Y 62
+PFX i Y 58
+PFX i   er	r	er
+PFX i   er	ri	er
+PFX i   es	s	es
+PFX i   es	si	es
+PFX i   de	d	de
+PFX i   me	m	me		# m(e)zurer, b(e)zogne
+PFX i   se	s	se		# s(e)reut
+PFX i   ve	v	ve
+PFX i   chi	ch	chi[^y]
+PFX i   di	d	di[^gsy]
+PFX i   di	d	dign
+PFX i   di	d	dis[^s]
+PFX i   dis	d	diss
+PFX i   di	d	diy[^iî]
+PFX i   dji	dj	dji
+PFX i   fi	f	fi[^y]		# f(i)jhans
+PFX i   gni	gn	gni[^y]		#
+PFX i   ki	co	ki
+PFX i   ki	c	ki[^eéèêhiîsy]	# k(i)mint
+PFX i   ki	k	ki[eéèêhiî]	# k(i)hatchî
+PFX i   ki	c	kis[^cs]
+PFX i   kis	c	kiss
+PFX i   kiy	ki	kiy[^iî]
+PFX i   ki	k	kiy[iî]
+PFX i   li	l	li[^y]		# l(i)wè
+PFX i   pi	p	pi[^y]		# p(i)tit
+PFX i   ri	r	ri[^sy]		# r(i)fé
+PFX i   ri	r	ris[^s]
+PFX i   ris	r	riss
+PFX i   riy	ri	riy[^iî]	# riyant/riant
+PFX i   ri	ri	riy[iî]		# riyant/riant
+PFX i   ri	er	ri[^s]		# rixxx/erxxx
+PFX i   ri	er	ris[^s]
+PFX i   ris	er	riss
+PFX i   riy	eri	riy[^iî]
+PFX i   ri	er	riy[iî]
+PFX i   si	s	si[^y]		# s(i)cole
+PFX i   siy	si	siy[^iî]	#
+PFX i   si	s	siy[iî]		# s(i)yince
+PFX i   si	es	si[^y]		# s(i)cole
+PFX i   tchi	tch	tchi[^y]	# tch(i)min
+PFX i   ti	t	ti[^y]		# t(i)ni
+PFX i   vi	v	vi[^y]		# v(i)ni
+#
+PFX i   co	c	co[^hseéèêiî]	# c(o)mere
+PFX i   co	k	co[heéèêiî]	# c(o)hatche
+PFX i   co	c	cos[^cs]
+#PFX i   co	c'	cosch
+PFX i   cos	c	coss
+PFX i   co	ki	co
+PFX i   po	p	po		# p(o)loz
+PFX i   to	t	to
+PFX i   vo	v	vo		# v(o)loz
+PFX i   du	d	du		#
+PFX i   lu	l	lu		#
+PFX i   mu	m	mu		#
+PFX i   pu	p	pu		#
+PFX i   ru	r	ru		# R(u)dû
+PFX i   vu	v	vu		# V(u)nijhe
+PFX i   sch	esch	sch
+
+# ------------------------------------------------------------
+
+# ci drapea chal n' est måy eployî el djivêye di mots; mins est ahessåve
+# po ispell propozer des tchuzes
+
+PFX P Y 8
+PFX P   0	ri	[^aåâeéêèiîoôuûy]
+PFX P   0	r	[^r]
+PFX P   0	ra	[^aåâeéêèiîoôuûy]
+PFX P   0	raca	[^aåâeéêèiîoôuûy]
+PFX P   0	dis	.
+PFX P   0	co	[^aåâeéêèiîoôuûy]
+PFX P   0	ki	[^aåâeéêèiîoôuûy]
+PFX P   0	c	[^ck]
+
+# ------------------------------------------------------------
+
+# suffixes
+
+#
+# Li drapea « j » c' est po des viebes ki polèt fé des nos en -aedje;
+# c' est construt sol fôme di pårticipe erirece do viebe.
+#
+
+SFX j Y 50
+SFX j   é	aedje		[^cku]é
+SFX j   cé	çaedje		cé
+SFX j   ké	caedje		ké
+SFX j   ué	aedje		gué
+SFX j   î	aedje		[^ckuy]î
+SFX j   cî	çaedje		cî
+SFX j   kî	caedje		kî
+SFX j   uî	aedje		guî
+SFX j   yî	iaedje		[^aåâeéêègiîoôuû]yî
+SFX j   yî	yaedje		[aåâeéêèiîoôuû]yî
+SFX j   yî	uiaedje		gyî
+SFX j   i	aedje		[^cku]i
+SFX j   ci	çaedje		ci
+SFX j   ki	caedje		ki
+SFX j   ui	aedje		gui
+SFX j   0	aedje		ixh
+SFX j   ou	aedje		[^h]ou
+SFX j   ou	aedje		[^j]hou
+SFX j   ou	aedje		[^é]jhou
+SFX j   éjhou	ijhaedje	éjhou
+SFX j   t	jhaedje		[^îû]t
+SFX j   ît	ijhaedje	ît
+SFX j   ût	ujhaedje	ût
+SFX j	ez	aedje		ez
+SFX j	oz	aedje		oz
+#
+SFX j   é	aedjes		[^cku]é
+SFX j   cé	çaedjes		cé
+SFX j   ké	caedjes		ké
+SFX j   ué	aedjes		gué
+SFX j   î	aedjes		[^ckuy]î
+SFX j   cî	çaedjes		cî
+SFX j   kî	caedjes		kî
+SFX j   uî	aedjes		guî
+SFX j   yî	iaedjes		[^aåâeéêègiîoôuû]yî
+SFX j   yî	yaedjes		[aåâeéêèiîoôuû]yî
+SFX j   yî	uiaedjes	gyî
+SFX j   i	aedjes		[^cku]i
+SFX j   ci	çaedjes		ci
+SFX j   ki	caedjes		ki
+SFX j   ui	aedjes		gui
+SFX j   0	aedjes		ixh
+SFX j   ou	aedjes		[^h]ou
+SFX j   ou	aedjes		[^j]hou
+SFX j   ou	aedjes		[^é]jhou
+SFX j   éjhou	ijhaedjes	éjhou
+SFX j   t	jhaedjes	[^îû]t
+SFX j   ît	ijhaedjes	ît
+SFX j   ût	ujhaedjes	ût
+SFX j	ez	aedjes		ez
+SFX j	oz	aedjes		oz
+
+#
+# Li drapea « c » c' est po des viebes ki polèt fé des mots en -ance;
+# c' est construt sol fôme di pårticipe erirece do viebe.
+#
+
+SFX c Y 46
+SFX c   é	ance		[^cku]é
+SFX c   cé	çance		cé
+SFX c   ké	cance		ké
+SFX c   ué	ance		gué
+SFX c   î	ance		[^ckuy]î
+SFX c   cî	çance		cî
+SFX c   kî	cance		kî
+SFX c   uî	ance		guî
+SFX c   yî	iance		[^aåâeéêègiîoôuû]yî
+SFX c   yî	yance		[aåâeéêèiîoôuû]yî
+SFX c   yî	uiance		gyî
+SFX c   i	ance		[^cku]i
+SFX c   ci	çance		ci
+SFX c   ki	cance		ki
+SFX c   ui	ance		gui
+SFX c   0	ance		ixh
+SFX c   ou	ance		[^h]ou
+SFX c   ou	ance		[^j]hou
+SFX c   ou	ance		[^é]jhou
+SFX c   éjhou	ijhance		éjhou
+SFX c   t	jhance		[^îû]t
+SFX c   ît	ijhance		ît
+SFX c   ût	ujhance		ût
+#
+SFX c   é	ances		[^cku]é
+SFX c   cé	çances		cé
+SFX c   ké	cances		ké
+SFX c   ué	ances		gué
+SFX c   î	ances		[^ckuy]î
+SFX c   cî	çances		cî
+SFX c   kî	cances		kî
+SFX c   uî	ances		guî
+SFX c   yî	iances		[^aåâeéêègiîoôuû]yî
+SFX c   yî	yances		[aåâeéêèiîoôuû]yî
+SFX c   yî	uiances		gyî
+SFX c   i	ances		[^cku]i
+SFX c   ci	çances		ci
+SFX c   ki	cances		ki
+SFX c   ui	ances		gui
+SFX c   0	ances		ixh
+SFX c   ou	ances		[^h]ou
+SFX c   ou	ances		[^j]hou
+SFX c   ou	ances		[^é]jhou
+SFX c   éjhou	ijhances	éjhou
+SFX c   t	jhances		[^îû]t
+SFX c   ît	ijhances	ît
+SFX c   ût	ujhances	ût
+
+#
+# Li drapea « t » c' est po des viebes ki polèt fé des addjectif en -ant;
+# c' est construt sol fôme di pårticipe erirece do viebe.
+#
+
+SFX t Y 92
+# li fôme omrin singulî on l' a ddja (=pårticpe prezintrece)
+SFX t   é	ants		[^cku]é
+SFX t   cé	çants		cé
+SFX t   ké	cants		ké
+SFX t   ué	ants		gué
+SFX t   î	ants		[^ckuy]î
+SFX t   cî	çants		cî
+SFX t   kî	cants		kî
+SFX t   uî	ants		guî
+SFX t   yî	iants		[^aåâeéêègiîoôuû]yî
+SFX t   yî	yants		[aåâeéêèiîoôuû]yî
+SFX t   yî	uiants		gyî
+SFX t   i	ants		[^cku]i
+SFX t   ci	çants		ci
+SFX t   ki	cants		ki
+SFX t   ui	ants		gui
+SFX t   0	ants		ixh
+SFX t   ou	ants		[^h]ou
+SFX t   ou	ants		[^j]hou
+SFX t   ou	ants		[^é]jhou
+SFX t   éjhou	ijhants		éjhou
+SFX t   t	jhants		[^îû]t
+SFX t   ît	ijhants		ît
+SFX t   ût	ujhants		ût
+#
+SFX t   é	ante		[^cku]é
+SFX t   cé	çante		cé
+SFX t   ké	cante		ké
+SFX t   ué	ante		gué
+SFX t   î	ante		[^ckuy]î
+SFX t   cî	çante		cî
+SFX t   kî	cante		kî
+SFX t   uî	ante		guî
+SFX t   yî	iante		[^aåâeéêègiîoôuû]yî
+SFX t   yî	yante		[aåâeéêèiîoôuû]yî
+SFX t   yî	uiante		gyî
+SFX t   i	ante		[^cku]i
+SFX t   ci	çante		ci
+SFX t   ki	cante		ki
+SFX t   ui	ante		gui
+SFX t   0	ante		ixh
+SFX t   ou	ante		[^h]ou
+SFX t   ou	ante		[^j]hou
+SFX t   ou	ante		[^é]jhou
+SFX t   éjhou	ijhante		éjhou
+SFX t   t	jhante		[^îû]t
+SFX t   ît	ijhante		ît
+SFX t   ût	ujhante		ût
+#
+SFX t   é	antes		[^cku]é
+SFX t   cé	çantes		cé
+SFX t   ké	cantes		ké
+SFX t   ué	antes		gué
+SFX t   î	antes		[^ckuy]î
+SFX t   cî	çantes		cî
+SFX t   kî	cantes		kî
+SFX t   uî	antes		guî
+SFX t   yî	iantes		[^aåâeéêègiîoôuû]yî
+SFX t   yî	yantes		[aåâeéêèiîoôuû]yî
+SFX t   yî	uiantes		gyî
+SFX t   i	antes		[^cku]i
+SFX t   ci	çantes		ci
+SFX t   ki	cantes		ki
+SFX t   ui	antes		gui
+SFX t   0	antes		ixh
+SFX t   ou	antes		[^h]ou
+SFX t   ou	antes		[^j]hou
+SFX t   ou	antes		[^é]jhou
+SFX t   éjhou	ijhantes	éjhou
+SFX t   t	jhantes		[^îû]t
+SFX t   ît	ijhantes	ît
+SFX t   ût	ujhantes	ût
+#
+SFX t   é	antès		[^cku]é
+SFX t   cé	çantès		cé
+SFX t   ké	cantès		ké
+SFX t   ué	antès		gué
+SFX t   î	antès		[^ckuy]î
+SFX t   cî	çantès		cî
+SFX t   kî	cantès		kî
+SFX t   uî	antès		guî
+SFX t   yî	iantès		[^aåâeéêègiîoôuû]yî
+SFX t   yî	yantès		[aåâeéêèiîoôuû]yî
+SFX t   yî	uiantès		gyî			# begyiantès
+SFX t   i	antès		[^cku]i
+SFX t   ci	çantès		ci
+SFX t   ki	cantès		ki
+SFX t   ui	antès		gui
+SFX t   0	antès		ixh
+SFX t   ou	antès		[^h]ou
+SFX t   ou	antès		[^j]hou
+SFX t   ou	antès		[^é]jhou
+SFX t   éjhou	ijhantès	éjhou
+SFX t   t	jhantès		[^îû]t
+SFX t   ît	ijhantès	ît
+SFX t   ût	ujhantès	ût
+
+#
+# Li drapea « m » c' est po des viebes ki polèt fé des nos e -mint;
+# et po les addjectifs ki polèt fé des adviebes e -mint.
+#
+
+SFX m Y 43
+# viebe -> no
+SFX m   es	mint		[^ckosu]es
+SFX m   ces	çmint		ces
+SFX m   kes	cmint		kes
+SFX m   s	mint		oes
+SFX m   es	mint		[^s]ses
+SFX m   ses	mint		sses
+SFX m   ues	mint		ues
+SFX m   s	mint		[^eiuû]s
+SFX m   us	mint		ous
+SFX m   oûs	ômint		oûs
+SFX m   s	mint		[^eo][uû]s
+SFX m   0	mint		ixh
+SFX m   rès	mint		rès
+#
+SFX m   es	mints		[^ckosu]es
+SFX m   ces	çmints		ces
+SFX m   kes	cmints		kes
+SFX m   s	mints		oes
+SFX m   es	mints		[^s]ses
+SFX m   ses	mints		sses
+SFX m   ues	mints		ues
+SFX m   s	mints		[^eiuû]s
+SFX m   us	mints		ous
+SFX m   oûs	ômints		oûs
+SFX m   s	mints		[^eo][uû]s
+SFX m   0	mints		ixh
+SFX m   rès	mints		rès
+# addj -> adviebe
+SFX m   e	mint		[^ckosu]e
+SFX m   ce	çmint		ce
+SFX m   ke	cmint		ke
+SFX m   0	mint		oe
+SFX m   e	mint		[^s]se
+SFX m   se	mint		sse
+SFX m   ue	mint		gue
+SFX m   s	zmint		eus
+SFX m   0	lmint		å
+SFX m   0	nmint		in
+SFX m   f	vmint		f
+SFX m   k	cmint		k
+SFX m   é	êymint		é
+SFX m   î	eymint		î
+SFX m   0	mint		[^åeéfhîknst]
+SFX m   t	mint		ant
+SFX m   0	mint		[^n]t
+
+# ------------------------------------------------------------
+
+#
+# Li drapea « v » c'est po les viebes erîlés. Po tchaeke viebe on done deus
+# fômes, et a pårtî di la on pout construre tot l' resse.
+# Les deus fômes prinduwes sont: 2 djin do prezint, et pårticipe erirece.
+# Pocwè ?
+# Avou l' 2 djin do prézint on a tot d' shûte les erîleyes disrûleyes come
+# netyî/neteyes, tchafter/tchafteyes,... mins ossu: dormî/doimes,....
+# et come cisse fôme finit todi avou on "s" c' est åjhey a eployî avou ispell.
+# Pol 2inme fôme, dj' ava comincî avou l' pårticipe prezint (et poy li 4 djin
+# do prezint, çu ki est a pô près l' minme, djusse ki dj' ava pus åjhey a
+# scrire des djivêyes di -ans k' di -ant); mins poy dj' a veyu l' probleme
+# di cnoxhe li fôme do pårticipe erirece; -î/-eye oudonbén -ou/-owe ?
+# impossibe a saveur si on n' a ki (tchantes,tchantant) (metes,metant).
+# mins avou (tchantes,tchanté) et (metes,metu) c' est ddja pus åjhey :)
+# di pus, li pårticipe erirece permete di rtrover l' infinitif po les viebes
+# do prumî groupe (-é --> -er); come po les viebes des 2inme,3inme et 4inme
+# groupes l' infinitif et l' pårticipe erirece sont parey, c' est cô mî.
+# (et i m' sonle k' i gn a cô des viebes come boere, voere, ôre, clôre,
+# wice k' on pout trover l' infinitif a pårti del fôme del 2 djin do prezint)
+# I m' sonle ossu, ki les pårticipe erirece avou -t corespondèt ås viebes en
+# -ijhant (dit -> dijhant, sicrit -> sicrijhant, interdit -> interdijhant(?),
+# 
+#
+
+SFX v Y 645
+#################
+#  prezintrece  #
+#################
+# 1re djin
+SFX v   s	0		s		 
+SFX v	xh	0		ixh			# dji fini
+# 2inme djin
+SFX v   0	s		ixh			# ti finixhs
+SFX v   xh	s		ixh			# ti finis
+# fôume dimandrece avou -ss
+SFX v   0	s		[^e]s			# ass, vouss,...
+SFX v   0	xh		ss			# finiss
+# 3inme djin
+SFX v   s	t		[^edt]s			# il ôt/pout
+SFX v   s	t		oes			# i boet
+SFX v   xh	t		ixh			# i finit
+# 4inme djin
+SFX v   é	ans		[^cku]é			# nos tchantans
+SFX v   cé	çans		cé			# nos disfaçans
+SFX v   ké	cans		ké			# nos vicans
+SFX v   ué	ans		gué			# nos abagans
+SFX v   î	ans		[^ckuy]î		# nos candjans
+SFX v   cî	çans		cî			# nos cominçans
+SFX v   kî	cans		kî			# nos acoûcans
+SFX v   uî	ans		guî			# 
+SFX v   yî	ians		[^aåâeéêègiîoôuû]yî	# nos netians
+SFX v   yî	yans		[aåâeéêèiîoôuû]yî	# nos sayans
+SFX v   yî	uians		gyî			# nos beguians
+SFX v   i	ans		[^cku]i			# nos sintans
+SFX v   ci	çans		ci			# 
+SFX v   ki	cans		ki			#
+SFX v   ui	ans		gui			#
+SFX v   0	ans		ixh			# nos finixhans
+SFX v   ou	ans		[^h]ou			# nos metans
+SFX v   ou	ans		[^j]hou			# nos crexhans
+SFX v   ou	ans		[^é]jhou
+SFX v   éjhou	ijhans		éjhou			# nos lijhans
+SFX v   t	jhans		[^îû]t			# nos dijhans
+SFX v   ît	ijhans		ît			# 
+SFX v   ût	ujhans		ût			# nos cujhans
+# 5inme djin
+SFX v   é	ez		é			# vos tchantez
+SFX v	0	z		î			# vos candjîz
+SFX v   i	oz		[^cku]i			# vos sintoz
+SFX v   ci	çoz		ci
+SFX v   ki	coz		ki
+SFX v   ui	oz		gui			#
+SFX v   0	oz		ixh			# vos finixhoz
+SFX v   ou	oz		[^h]ou			# vos metaoz
+SFX v   ou	oz		[^j]hou			# vos crexhoz
+SFX v   ou	oz		[^é]jhou
+SFX v   éjhou	ijhoz		éjhou			# vos lijhoz
+SFX v   t	jhoz		[^îû]t			# vos dijhoz
+SFX v   ît	ijhoz		ît			 
+SFX v   ût	ujhoz		ût			
+# 6inme djin (fôme -èt)
+SFX v   é	èt		é			# i tchantèt
+SFX v	î	èt		[^y]î			# i candjèt
+SFX v	yî	ièt		[^aåâeéêègiîoôuû]yî	# i netièt
+SFX v	î	èt		[^aåâeéêèiîoôuû]î	# i sayèt
+SFX v	yî	uièt		gyî			# i beguièt
+SFX v   i	èt		i			# i sintèt
+SFX v   0	èt		ixh			# i finixhèt
+SFX v   ou	èt		[^cçgh]ou		# i metèt
+SFX v   cou	kèt		cou			#
+SFX v   çou	cèt		çou			#
+SFX v   ou	uèt		gou			#
+SFX v   ou	èt		[^j]hou			# i crexhèt
+SFX v   ou	èt		[^é]jhou
+SFX v   éjhou	ijhèt		éjhou			# i lijhèt
+SFX v   t	jhèt		[^îû]t			# i dijhèt
+SFX v   ît	ijhèt		ît			 
+SFX v   ût	ujhèt		ût			
+# 6inme djin (fôme -nut)
+SFX v   es	nut		[^ckosu]es		# i tchantnut
+SFX v   ces	çnut		ces			# i cminçnut
+SFX v   kes	cnut		kes			# i vicnut
+SFX v   es	nut		[^s]ses			# 
+SFX v   ses	nut		sses			# i pasnut
+SFX v   ues	nut		ues			# il abagnut
+SFX v   0	nut		ixh			# i finixhnut
+#SFX v   s	nut		oes			# 3inme fôme chal
+SFX v   s	nut		[dt]s			# i metnut
+SFX v   t	jhnut		[^îû]t			# i dijhnut
+SFX v   ît	ijhnut		ît			 
+SFX v   ût	ujhnut		ût			
+################
+#  futeurrece  #
+################
+# 1ire et 3inme djins
+SFX v   es	rè		[^ckosu]es		# dji/i tchantrè
+SFX v   ces	çrè		ces			# dji/i cminçrè
+SFX v   kes	crè		kes			# dji/i vicrè
+SFX v   s	rè		oes			# dji/i boerès
+SFX v   es	rè		[^s]ses			# 
+SFX v   ses	rè		sses			# dji/i pasrè
+SFX v   ues	rè		ues			# dji/il abagrè
+SFX v	s	rè		[^eîuû]s		# dji/i scrirè
+SFX v   us	rè		ous			# dji/i porè
+SFX v   oûs	ôrè		oûs			# dji/i pôrè
+SFX v   s	rè		[^o]us			# dji/i curè
+SFX v   ûs	urè		[^o]ûs			# dji/i curè
+SFX v   îs	irè		îs			# dji/i scrirè
+SFX v   xh	rè		ixh			# dji/i finirè
+SFX v   0	rè		ixh			# dji/i finixhrè
+# 2inme djin
+SFX v   es	rès		[^ckosu]es		# ti tchantrès
+SFX v   ces	çrès		ces			# ti cminçrès
+SFX v   kes	crès		kes			# ti vicrès
+SFX v   s	rès		oes			# ti boerès
+SFX v   es	rès		[^s]ses			# 
+SFX v   ses	rès		sses			# ti pasrès
+SFX v   ues	rès		ues			# ti abagrès
+SFX v	s	rès		[^eîuû]s		# ti scrirès
+SFX v   us	rès		ous			# ti porès
+SFX v   oûs	ôrès		oûs			# ti pôrès
+SFX v   s	rès		[^o]us			# ti curès
+SFX v   ûs	urès		[^o]ûs			# ti curès
+SFX v   îs	irès		îs			# ti scrirès
+SFX v   xh	rès		ixh			# ti finirès
+SFX v   0	rès		ixh			# ti finixhrès
+# fôume dimandrece avou -ss
+SFX v   es	ress		[^ckosu]es		# tchantress ?
+SFX v   ces	çress		ces			# kiminçress ?
+SFX v   kes	cress		kes			# vicress ?
+SFX v   s	ress		oes			# boeress ?
+SFX v   es	ress		[^s]ses			# 
+SFX v   ses	ress		sses			# pasress ?
+SFX v   ues	ress		ues			# abagress ?
+SFX v	s	ress		[^eîuû]s		# sicriress ?
+SFX v   us	ress		ous			# poress ?
+SFX v   oûs	ôress		oûs			# pôress ?
+SFX v   s	ress		[^o]us			# curess ?
+SFX v   ûs	uress		[^o]ûs			# curess ?
+SFX v   îs	iress		îs			# sicriress ?
+SFX v   xh	ress		ixh			# finiress ?
+SFX v   0	ress		ixh			# finixhress ?
+# 4inme djin
+SFX v   es	rans		[^ckosu]es		# nos tchantrans
+SFX v   ces	çrans		ces			# nos cminçrans
+SFX v   kes	crans		kes			# nos vicrans
+SFX v   s	rans		oes			# nos boerans
+SFX v   es	rans		[^s]ses			# 
+SFX v   ses	rans		sses			# nos pasrans
+SFX v   ues	rans		ues			# nos abagrans
+SFX v	s	rans		[^eîuû]s		# nos scrirans
+SFX v   us	rans		ous			# nos porans
+SFX v   oûs	ôrans		oûs			# nos pôrans
+SFX v   s	rans		[^o]us			# nos curans
+SFX v   ûs	urans		[^o]ûs			# nos curans
+SFX v   îs	irans		îs			# nos scrirans
+SFX v   xh	rans		ixh			# nos finirans
+SFX v   0	rans		ixh			# nos finixhrans
+# 5inme djin
+SFX v   es	roz		[^ckosu]es		# vos tchantroz
+SFX v   ces	çroz		ces			# vos cminçroz
+SFX v   kes	croz		kes			# vos vicroz
+SFX v   s	roz		oes			# vos boeroz
+SFX v   es	roz		[^s]ses			# 
+SFX v   ses	roz		sses			# vos pasroz
+SFX v   ues	roz		ues			# vos abagroz
+SFX v	s	roz		[^eîuû]s		# vos scriroz
+SFX v   us	roz		ous			# vos poroz
+SFX v   oûs	ôroz		oûs			# vos pôroz
+SFX v   s	roz		[^o]us			# vos curoz
+SFX v   ûs	uroz		[^o]ûs			# vos curoz
+SFX v   îs	iroz		îs			# vos scriroz
+SFX v   xh	roz		ixh			# vos finiroz
+SFX v   0	roz		ixh			# vos finixhroz
+# 6inme djin
+SFX v   es	ront		[^ckosu]es		# i tchantront
+SFX v   ces	çront		ces			# i cminçront
+SFX v   kes	cront		kes			# i vicront
+SFX v   s	ront		oes			# i boeront
+SFX v   es	ront		[^s]ses			# 
+SFX v   ses	ront		sses			# i pasront
+SFX v   ues	ront		ues			# il abagront
+SFX v	s	ront		[^eîuû]s		# i scriront
+SFX v   us	ront		ous			# i poront
+SFX v   oûs	ôront		oûs			# i pôront
+SFX v   s	ront		[^o]us			# i curont
+SFX v   ûs	uront		[^o]ûs			# i curont
+SFX v   îs	iront		îs			# i scriront
+SFX v   xh	ront		ixh			# i finiront
+SFX v   0	ront		ixh			# i finixhront
+####################
+#  erirece durant  #
+####################
+# 1ire (et 3inme po les vies en -é/-î) djin
+SFX v	0	ve		é			# dji/i tchantéve
+SFX v	î	ive		î			# dji/i candjive
+SFX v	i	eu		i			# dji sinteu
+SFX v	0	eu		ixh			# dji finixheu
+SFX v	ou	eu		[^cçgh]ou		# dji meteu
+SFX v	cou	keu		cou			#
+SFX v	çou	ceu		çou			#
+SFX v	ou	ueu		gou			#
+SFX v   ou	eu		[^j]hou			# dji crexheu
+SFX v   ou	eu		[^é]jhou
+SFX v   éjhou	ijheu		éjhou			# dji lijheu
+SFX v   t	jheu		[^îû]t			# dji dijheu
+SFX v   ît	ijheu		ît			 
+SFX v   ût	ujheu		ût			
+# 2inme djin
+SFX v	0	ves		é			# ti tchantéves
+SFX v	î	ives		î			# ti candjives
+SFX v	i	eus		i			# ti sinteus
+SFX v	0	eus		ixh			# ti finixheus
+SFX v	ou	eus		[^cçgh]ou		# ti meteus
+SFX v	cou	keus		cou			#
+SFX v	çou	ceus		çou			#
+SFX v	ou	ueus		gou			#
+SFX v   ou	eus		[^j]hou			# ti crexheus
+SFX v   ou	eus		[^é]jhou
+SFX v   éjhou	ijheus		éjhou			# ti lijheus
+SFX v   t	jheus		[^îû]t			# ti dijheus
+SFX v   ît	ijheus		ît			 
+SFX v   ût	ujheus		ût			
+# 3inme djin
+SFX v	i	eut		i			# i sinteut
+SFX v	0	eut		ixh			# i finixheut
+SFX v	ou	eut		[^cçgh]ou		# i meteut
+SFX v	cou	keut		cou			#
+SFX v	çou	ceut		çou			#
+SFX v	ou	ueut		gou			#
+SFX v   ou	eut		[^j]hou			# i crexheut
+SFX v   ou	eut		[^é]jhou
+SFX v   éjhou	ijheut		éjhou			# i lijheut
+SFX v   t	jheut		[^îû]t			# i dijheut
+SFX v   ît	ijheut		ît			 
+SFX v   ût	ujheut		ût			
+# 4inme djin
+SFX v	0	ns		é			# nos tchanténs
+SFX v	î	éns		[^y]î			# nos candjéns
+SFX v	yî	iéns		[^aåâeéêègiîoôuû]yî	# nos netiéns
+SFX v	î	éns		[aåâeéêèiîoôuû]yî	
+SFX v	yî	uiéns		gyî	
+SFX v	i	éns		i			# nos sinténs
+SFX v	0	éns		ixh			# nos finixhéns
+SFX v	ou	éns		[^cçgh]ou		# nos meténs
+SFX v	cou	kéns		cou			#
+SFX v	çou	céns		çou			#
+SFX v	ou	uéns		gou			#
+SFX v   ou	éns		[^j]hou			# nos crexhéns
+SFX v   ou	éns		[^é]jhou
+SFX v   éjhou	ijhéns		éjhou			# nos lijhéns
+SFX v   t	jhéns		[^îû]t			# nos djhéns
+SFX v   ît	ijhéns		ît			 
+SFX v   ût	ujhéns		ût			
+# 5inme djin
+SFX v	é	îz		é			# vos tchantîz
+SFX v	0	z		î			# vos candjîz
+SFX v	i	îz		i			# vos sintîz
+SFX v	0	îz		ixh			# vos finixhîz
+SFX v	ou	îz		[^cçghi]ou		# vos metîz
+SFX v	cou	kîz		cou			#
+SFX v	çou	cîz		çou			#
+SFX v	ou	uîz		gou			#
+SFX v   ou	îz		[^j]hou			# vos crexhîz
+SFX v   ou	îz		[^é]jhou
+SFX v   éjhou	ijhîz		éjhou			# vos lijhîz
+SFX v	iou	îz		iou			# vos rashîz
+SFX v   t	jhîz		[^îû]t			# vos djhîz
+SFX v   ît	ijhîz		ît			 
+SFX v   ût	ujhîz		ût			
+# 6inme djin
+SFX v	0	nt		é			# i tchantént
+SFX v	î	ént		[^y]î			# i candjént
+SFX v	yî	iént		[^aåâeéêègiîoôuû]yî	# i netiént
+SFX v	î	ént		[aåâeéêèiîoôuû]yî	
+SFX v	yî	uiént		gyî	
+SFX v	i	ént		i			# i sintént
+SFX v	0	ént		ixh			# i finixhént
+SFX v	ou	ént		[^cçgh]ou		# i metént
+SFX v	cou	ként		cou			#
+SFX v	çou	cént		çou			#
+SFX v	ou	uént		gou			#
+SFX v   ou	ént		[^j]hou			# i crexhént
+SFX v   ou	ént		[^é]jhou
+SFX v   éjhou	ijhént		éjhou			# i lijhént
+SFX v   t	jhént		[^îû]t			# i djhént
+SFX v   ît	ijhént		ît			 
+SFX v   ût	ujhént		ût			
+#############
+#  erirece  #
+#############
+# 1ire et 3inme djins
+SFX v   é	a		[^cku]é			# dji/i tchanta
+SFX v   cé	ça		cé			# dji/i disfaça
+SFX v   ké	ca		ké			# dji/i vica
+SFX v   ué	a		gué			# dji/i abaga
+SFX v   î	a		[^ckuy]î		# dji/i candja
+SFX v   cî	ça		cî			# dji/i cominça
+SFX v   kî	ca		kî			# dji/i acoûca
+SFX v   uî	a		guî			# 
+SFX v   yî	ia		[^aåâeéêègiîoôuû]yî	# dji/i netia
+SFX v   î	a		[aåâeéêèiîoôuû]yî	# dji/i saya
+SFX v   yî	uia		gyî			# dji/i beguia
+SFX v   i	a		[^cku]i			# dji/i sinta
+SFX v   ci	ça		ci			# 
+SFX v   ki	ca		ki			#
+SFX v   ui	a		gui			#
+SFX v   0	a		ixh			# dji/i finixha
+SFX v   ou	a		[^h]ou			# dji/i meta
+SFX v   ou	a		[^j]hou			# dji/i crexha
+SFX v   ou	a		[^é]jhou
+SFX v   éjhou	ijha		éjhou			# dji/i lijha
+SFX v   t	jha		[^îû]t			# dji/i dijha
+SFX v   ît	ijha		ît			# 
+SFX v   ût	ujha		ût			# dji/i cujha
+# 2inme djin
+SFX v   é	as		[^cku]é			# ti tchantas
+SFX v   cé	ças		cé			# ti disfaças
+SFX v   ké	cas		ké			# ti vicas
+SFX v   ué	as		gué			# ti abagas
+SFX v   î	as		[^ckuy]î		# ti candjas
+SFX v   cî	ças		cî			# ti cominças
+SFX v   kî	cas		kî			# ti acoûcas
+SFX v   uî	as		guî			# 
+SFX v   yî	ias		[^aåâeéêègiîoôuû]yî	# ti netias
+SFX v   î	as		[aåâeéêèiîoôuû]yî	# ti sayas
+SFX v   yî	uias		gyî			# ti beguias
+SFX v   i	as		[^cku]i			# ti sintas
+SFX v   ci	ças		ci			# 
+SFX v   ki	cas		ki			#
+SFX v   ui	as		gui			#
+SFX v   0	as		ixh			# ti finixhas
+SFX v   ou	as		[^h]ou			# ti metas
+SFX v   ou	as		[^j]hou			# ti crexhas
+SFX v   ou	as		[^é]jhou
+SFX v   éjhou	ijhas		éjhou			# ti lijhas
+SFX v   t	jhas		[^îû]t			# ti djhas
+SFX v   ît	ijhas		ît			# 
+SFX v   ût	ujhas		ût			# ti cujhas
+# fôme dimandrece avou -ss
+SFX v   é	ass		[^cku]é			# tchantass ?
+SFX v   cé	çass		cé			# disfaçass ?
+SFX v   ké	cass		ké			# vicass ?
+SFX v   ué	ass		gué			# abagass ?
+SFX v   î	ass		[^ckuy]î		# candjass ?
+SFX v   cî	çass		cî			# cominçass ?
+SFX v   kî	cass		kî			# acoûcass ?
+SFX v   uî	ass		guî			# 
+SFX v   yî	iass		[^aåâeéêègiîoôuû]yî	# netiass ?
+SFX v   î	ass		[aåâeéêèiîoôuû]yî	# sayass ?
+SFX v   yî	uiass		gyî			# beguiass ?
+SFX v   i	ass		[^cku]i			# sintass ?
+SFX v   ci	çass		ci			# 
+SFX v   ki	cass		ki			#
+SFX v   ui	ass		gui			#
+SFX v   0	ass		ixh			# finixhass ?
+SFX v   ou	ass		[^h]ou			# metass ?
+SFX v   ou	ass		[^j]hou			# crexhass ?
+SFX v   ou	ass		[^é]jhou
+SFX v   éjhou	ijhass		éjhou			# lijhass ?
+SFX v   t	jhass		[^îû]t			# djhass ?
+SFX v   ît	ijhass		ît			# 
+SFX v   ût	ujhass		ût			# cujhass ?
+# 4inme djin
+SFX v	é	îs		é			# nos tchantîs
+SFX v	0	s		î			# nos candjîs
+SFX v	i	îs		i			# nos sintîs
+SFX v	0	îs		ixh			# nos finixhîs
+SFX v	ou	îs		[^cçghi]ou		# nos metîs
+SFX v	cou	kîs		cou			#
+SFX v	çou	cîs		çou			#
+SFX v	ou	uîs		gou			#
+SFX v   ou	îs		[^j]hou			# nos crexhîs
+SFX v   ou	îs		[^é]jhou
+SFX v   éjhou	ijhîs		éjhou			# nos lijhîs
+SFX v	iou	îs		iou			# nos rashîs
+SFX v   t	jhîs		[^îû]t			# nos djhîs
+SFX v   ît	ijhîs		ît			 
+SFX v   ût	ujhîs		ût			
+# 5inme djin: minme fôme ki po l' erirece durant
+# 6inme djin
+SFX v	é	ît		é			# i tchantît
+SFX v	0	t		î			# i candjît
+SFX v	i	ît		i			# i sintît
+SFX v	0	ît		ixh			# i finixhît
+SFX v	ou	ît		[^cçghi]ou		# i metît
+SFX v	cou	kît		cou			#
+SFX v	çou	cît		çou			#
+SFX v	ou	uît		gou			#
+SFX v   ou	ît		[^j]hou			# i crexhît
+SFX v   ou	ît		[^é]jhou
+SFX v   éjhou	ijhît		éjhou			# i lijhît
+SFX v	iou	ît		iou			# i rashît
+SFX v   t	jhît		[^îû]t			# i djhît
+SFX v   ît	ijhît		ît			 
+SFX v   ût	ujhît		ût			
+#################
+#  suddjonctif  #
+#################
+# 1ire et 3inme djins
+SFX v	es	e		es			# dji/i tchante
+SFX v	0	e		ixh			# dji/i finixhe
+SFX v	t	xhe		t			# dji/i dixhe
+SFX v	ou	e		[^cçgi]ou		# dji/i boeve
+SFX v	cou	ke		cou			#
+SFX v	çou	ce		çou			#
+SFX v	ou	ue		gou			#
+# 2inme djin
+SFX v	0	es		ixh			# ti finixhes
+SFX v	t	xhes		t			# ti dixhes
+SFX v	ou	es		[^cçgi]ou		# ti boeves
+SFX v	cou	kes		cou			#
+SFX v	çou	ces		çou			#
+SFX v	ou	ues		gou			#
+# 4inme djin
+SFX v   é	anxhe		[^cku]é			# nos tchantanxhe
+SFX v   cé	çanxhe		cé			# nos disfaçanxhe
+SFX v   ké	canxhe		ké			# nos vicanxhe
+SFX v   ué	anxhe		gué			# nos abaganxhe
+SFX v   î	anxhe		[^ckuy]î		# nos candjanxhe
+SFX v   cî	çanxhe		cî			# nos cminçanxhe
+SFX v   kî	canxhe		kî			# nos acoûcanxhe
+SFX v   uî	anxhe		guî			# 
+SFX v   yî	ianxhe		[^aåâeéêègiîoôuû]yî	# nos netianxhe
+SFX v   î	anxhe		[aåâeéêèiîoôuû]yî	# nos sayanxhe
+SFX v   yî	uianxhe		gyî			# nos beguianxhe
+SFX v   i	anxhe		[^cku]i			# nos sintanxhe
+SFX v   ci	çanxhe		ci			# 
+SFX v   ki	canxhe		ki			#
+SFX v   ui	anxhe		gui			#
+SFX v   0	anxhe		ixh			# nos finixhanxhe
+SFX v   ou	anxhe		[^h]ou			# nos metanxhe
+SFX v   ou	anxhe		[^j]hou			# nos crexhanxhe
+SFX v   ou	anxhe		[^é]jhou
+SFX v   éjhou	ijhanxhe	éjhou			# nos lijhanxhe
+SFX v   t	jhanxhe		[^îû]t			# nos djhanxhe
+SFX v   ît	ijhanxhe	ît			# 
+SFX v   ût	ujhanxhe	ût			# nos cujhanxhe
+# 5inme djin
+SFX v   0	xhe		é			# vos tchantéxhe
+SFX v	î	îxhe		î			# vos candjîxhe
+SFX v   i	oxhe		[^cku]i			# vos sintoxhe
+SFX v   ci	çoxhe		ci
+SFX v   ki	coxhe		ki
+SFX v   ui	oxhe		gui			#
+SFX v   0	oxhe		ixh			# vos finixhoxhe
+SFX v   ou	oxhe		[^h]ou			# vos metoxhe
+SFX v   ou	oxhe		[^j]hou			# vos crexhoxhe
+SFX v   ou	oxhe		[^é]jhou
+SFX v   éjhou	ijhoxhe		éjhou			# vos lijhoxhe
+SFX v   t	jhoxhe		[^îû]t			# vos dijhoxhe
+SFX v   ît	ijhoxhe		ît			 
+SFX v   ût	ujhoxhe		ût			
+# 6inme djin (fôme -exhe)
+SFX v   é	exhe		é			# i tchantexhe
+SFX v	î	exhe		[^y]î			# i candjexhe
+SFX v	yî	iexhe		[^aåâeéêègiîoôuû]yî	# i netiexhe
+SFX v	î	exhe		[^aåâeéêèiîoôuû]î	# i sayexhe
+SFX v	yî	uiexhe		gyî			# i beguiexhe
+SFX v   i	exhe		i			# i sintexhe
+SFX v   0	exhe		ixh			# i finixhexhe
+SFX v   ou	exhe		[^cçgh]ou		# i metexhe
+SFX v   cou	kexhe		cou			#
+SFX v   çou	cexhe		çou			#
+SFX v   ou	uexhe		gou			#
+SFX v   ou	exhe		[^j]hou			# i crexhexhe
+SFX v   ou	exhe		[^é]jhou
+SFX v   éjhou	ijhexhe		éjhou			# i lijhexhe
+SFX v   t	jhexhe		[^îû]t			# i dijhexhe
+SFX v   ît	ijhexhe		ît			 
+SFX v   ût	ujhexhe		ût			
+# 6inme djin (fôme -nuxhe)
+SFX v   es	nuxhe		[^ckosu]es		# i tchantnuxhe
+SFX v   ces	çnuxhe		ces			# i cminçnuxhe
+SFX v   kes	cnuxhe		kes			# i vicnuxhe
+SFX v   es	nuxhe		[^s]ses			# 
+SFX v   ses	nuxhe		sses			# i pasnuxhe
+SFX v   ues	nuxhe		ues			# il abagnuxhe
+SFX v   0	nuxhe		ixh			# i finixhnuxhe
+#SFX v   s	nuxhe		oes			# 3inme fôme chal
+SFX v   s	nuxhe		[^dt]s			# i metnuxhe
+SFX v   t	jhnuxhe		[^îû]t			# i dijhnuxhe
+SFX v   ît	ijhnuxhe	ît			 
+SFX v   ût	ujhnuxhe	ût			
+###################
+#  suddj erirece  #
+###################
+# 1ire et 3inme djins
+SFX v   é	axhe		[^cku]é			# dji/i tchantaxhe
+SFX v   cé	çaxhe		cé			# dji/i disfaçaxhe
+SFX v   ké	caxhe		ké			# dji/i vicaxhe
+SFX v   ué	axhe		gué			# dji/i abagaxhe
+SFX v   î	axhe		[^ckuy]î		# dji/i candjaxhe
+SFX v   cî	çaxhe		cî			# dji/i cominçaxhe
+SFX v   kî	caxhe		kî			# dji/i acoûcaxhe
+SFX v   uî	axhe		guî			# 
+SFX v   yî	iaxhe		[^aåâeéêègiîoôuû]yî	# dji/i netiaxhe
+SFX v   î	axhe		[aåâeéêèiîoôuû]yî	# dji/i sayaxhe
+SFX v   yî	uiaxhe		gyî			# dji/i beguiaxhe
+SFX v   i	axhe		[^cku]i			# dji/i sintaxhe
+SFX v   ci	çaxhe		ci			# 
+SFX v   ki	caxhe		ki			#
+SFX v   ui	axhe		gui			#
+SFX v   0	axhe		ixh			# dji/i finixhaxhe
+SFX v   ou	axhe		[^h]ou			# dji/i metaxhe
+SFX v   ou	axhe		[^j]hou			# dji/i crexhaxhe
+SFX v   ou	axhe		[^é]jhou
+SFX v   éjhou	ijhaxhe		éjhou			# dji/i lijhaxhe
+SFX v   t	jhaxhe		[^îû]t			# dji/i djhaxhe
+SFX v   ît	ijhaxhe		ît			# 
+SFX v   ût	ujhaxhe		ût			# dji/i cujhaxhe
+# 2inme djin
+SFX v   é	axhes		[^cku]é			# ti tchantaxhes
+SFX v   cé	çaxhes		cé			# ti disfaçaxhes
+SFX v   ké	caxhes		ké			# ti vicaxhes
+SFX v   ué	axhes		gué			# ti abagaxhes
+SFX v   î	axhes		[^ckuy]î		# ti candjaxhes
+SFX v   cî	çaxhes		cî			# ti cominçaxhes
+SFX v   kî	caxhes		kî			# ti acoûcaxhes
+SFX v   uî	axhes		guî			# 
+SFX v   yî	iaxhes		[^aåâeéêègiîoôuû]yî	# ti netiaxhes
+SFX v   î	axhes		[aåâeéêèiîoôuû]yî	# ti sayaxhes
+SFX v   yî	uiaxhes		gyî			# ti beguiaxhes
+SFX v   i	axhes		[^cku]i			# ti sintaxhes
+SFX v   ci	çaxhes		ci			# 
+SFX v   ki	caxhes		ki			#
+SFX v   ui	axhes		gui			#
+SFX v   0	axhes		ixh			# ti finixhaxhes
+SFX v   ou	axhes		[^h]ou			# ti metaxhes
+SFX v   ou	axhes		[^j]hou			# ti crexhaxhes
+SFX v   ou	axhes		[^é]jhou
+SFX v   éjhou	ijhaxhes	éjhou			# ti lijhaxhes
+SFX v   t	jhaxhes		[^îû]t			# ti djhaxhes
+SFX v   ît	ijhaxhes	ît			# 
+SFX v   ût	ujhaxhes	ût			# ti cujhaxhes
+# 4inme et 6inme djins
+SFX v	0	nxhe		é			# nos/i tchanténxhe
+SFX v	î	énxhe		[^y]î			# nos/i candjénxhe
+SFX v	yî	iénxhe		[^aåâeéêègiîoôuû]yî	# nos/i netiénxhe
+SFX v	î	énxhe		[aåâeéêèiîoôuû]yî	
+SFX v	yî	uiénxhe		gyî	
+SFX v	i	énxhe		i			# nos/i sinténxhe
+SFX v	0	énxhe		ixh			# nos/i finixhénxhe
+SFX v	ou	énxhe		[^cçgh]ou		# nos/i meténxhe
+SFX v	cou	kénxhe		cou			#
+SFX v	çou	cénxhe		çou			#
+SFX v	ou	uénxhe		gou			#
+SFX v   ou	énxhe		[^j]hou			# nos/i crexhénxhe
+SFX v   ou	énxhe		[^é]jhou
+SFX v   éjhou	ijhénxhe	éjhou			# nos/i lijhénxhe
+SFX v   t	jhénxhe		[^îû]t			# nos/i djhénxhe
+SFX v   ît	ijhénxhe	ît			 
+SFX v   ût	ujhénxhe	ût			
+# 5inme djin
+SFX v	é	îxhe		é			# vos tchantîxhe
+SFX v	î	îxhe		î			# vos candjîxhe
+SFX v	i	îxhe		i			# vos sintîxhe
+SFX v	0	îxhe		ixh			# vos finixhîxhe
+SFX v	ou	îxhe		[^cçghi]ou		# vos metîxhe
+SFX v	cou	kîxhe		cou			#
+SFX v	çou	cîxhe		çou			#
+SFX v	ou	uîxhe		gou			#
+SFX v   ou	îxhe		[^j]hou			# vos crexhîxhe
+SFX v   ou	îxhe		[^é]jhou
+SFX v   éjhou	ijhîxhe		éjhou			# vos lijhîxhe
+SFX v	iou	îxhe		iou			# vos rashîxhe
+SFX v   t	jhîxhe		[^îû]t			# vos djhîxhe
+SFX v   ît	ijhîxhe		ît			 
+SFX v   ût	ujhîxhe		ût			
+#################
+#  condicioneu  #
+#################
+# 1ire djin
+SFX v   es	reu		[^ckosu]es		# dji tchantreu
+SFX v   ces	çreu		ces			# dji cminçreu
+SFX v   kes	creu		kes			# dji vicreu
+SFX v   s	reu		oes			# dji boerès
+SFX v   es	reu		[^s]ses			# 
+SFX v   ses	reu		sses			# dji pasreu
+SFX v   ues	reu		ues			# dj' abagreu
+SFX v	s	reu		[^eîuû]s		# dji scrireu
+SFX v   us	reu		ous			# dji poreu
+SFX v   oûs	ôreu		oûs			# dji pôreu
+SFX v   s	reu		[^o]us			# dji cureu
+SFX v   ûs	ureu		[^o]ûs			# dji cureu
+SFX v   îs	ireu		îs			# dji scrireu
+SFX v   xh	reu		ixh			# dji finireu
+SFX v   0	reu		ixh			# dji finixhreu
+# 2inme djin
+SFX v   es	reus		[^ckosu]es		# ti tchantreus
+SFX v   ces	çreus		ces			# ti cminçreus
+SFX v   kes	creus		kes			# ti vicreus
+SFX v   s	reus		oes			# ti boereus
+SFX v   es	reus		[^s]ses			# 
+SFX v   ses	reus		sses			# ti pasreus
+SFX v   ues	reus		ues			# ti abagreus
+SFX v	s	reus		[^eîuû]s		# ti scrireus
+SFX v   us	reus		ous			# ti poreus
+SFX v   oûs	ôreus		oûs			# ti pôreus
+SFX v   s	reus		[^o]us			# ti cureus
+SFX v   ûs	ureus		[^o]ûs			# ti cureus
+SFX v   îs	ireus		îs			# ti scrireus
+SFX v   xh	reus		ixh			# ti finireus
+SFX v   0	reus		ixh			# ti finixhreus
+# fôume dimandrece avou -ss
+SFX v   es	reuss		[^ckosu]es		# tchantreuss ?
+SFX v   ces	çreuss		ces			# kiminçreuss ?
+SFX v   kes	creuss		kes			# vicreuss ?
+SFX v   s	reuss		oes			# boereuss ?
+SFX v   es	reuss		[^s]ses			# 
+SFX v   ses	reuss		sses			# pasreuss ?
+SFX v   ues	reuss		ues			# abagreuss ?
+SFX v	s	reuss		[^eîuû]s		# sicrireuss ?
+SFX v   us	reuss		ous			# poreuss ?
+SFX v   oûs	ôreuss		oûs			# pôreuss ?
+SFX v   s	reuss		[^o]us			# cureuss ?
+SFX v   ûs	ureuss		[^o]ûs			# cureuss ?
+SFX v   îs	ireuss		îs			# sicrireuss ?
+SFX v   xh	reuss		ixh			# finireuss ?
+SFX v   0	reuss		ixh			# finixhreuss ?
+# 3inme djin
+SFX v   es	reut		[^ckosu]es		# i tchantreut
+SFX v   ces	çreut		ces			# i cminçreut
+SFX v   kes	creut		kes			# i vicreut
+SFX v   s	reut		oes			# i boerès
+SFX v   es	reut		[^s]ses			# 
+SFX v   ses	reut		sses			# i pasreut
+SFX v   ues	reut		ues			# il abagreut
+SFX v	s	reut		[^eîuû]s		# i scrireut
+SFX v   us	reut		ous			# i poreut
+SFX v   oûs	ôreut		oûs			# i pôreut
+SFX v   s	reut		[^o]us			# i cureut
+SFX v   ûs	ureut		[^o]ûs			# i cureut
+SFX v   îs	ireut		îs			# i scrireut
+SFX v   xh	reut		ixh			# i finireut
+SFX v   0	reut		ixh			# i finixhreut
+# 4inme 
+SFX v   es	réns		[^ckosu]es		# nos tchantréns
+SFX v   ces	çréns		ces			# nos cminçréns
+SFX v   kes	créns		kes			# nos vicréns
+SFX v   s	réns		oes			# nos boeréns
+SFX v   es	réns		[^s]ses			# 
+SFX v   ses	réns		sses			# nos pasréns
+SFX v   ues	réns		ues			# nos abagréns
+SFX v	s	réns		[^eîuû]s		# nos scriréns
+SFX v   us	réns		ous			# nos poréns
+SFX v   oûs	ôréns		oûs			# nos pôréns
+SFX v   s	réns		[^o]us			# nos curéns
+SFX v   ûs	uréns		[^o]ûs			# nos curéns
+SFX v   îs	iréns		îs			# nos scriréns
+SFX v   xh	réns		ixh			# nos finiréns
+SFX v   0	réns		ixh			# nos finixhréns
+# 5inme djin
+SFX v   es	rîz		[^ckosu]es		# vos tchantrîz
+SFX v   ces	çrîz		ces			# vos cminçrîz
+SFX v   kes	crîz		kes			# vos vicrîz
+SFX v   s	rîz		oes			# vos boerîz
+SFX v   es	rîz		[^s]ses			# 
+SFX v   ses	rîz		sses			# vos pasrîz
+SFX v   ues	rîz		ues			# vos abagrîz
+SFX v	s	rîz		[^eîuû]s		# vos scrirîz
+SFX v   us	rîz		ous			# vos porîz
+SFX v   oûs	ôrîz		oûs			# vos pôrîz
+SFX v   s	rîz		[^o]us			# vos curîz
+SFX v   ûs	urîz		[^o]ûs			# vos curîz
+SFX v   îs	irîz		îs			# vos scrirîz
+SFX v   xh	rîz		ixh			# vos finirîz
+SFX v   0	rîz		ixh			# vos finixhrîz
+# 6inme djin
+SFX v   es	rént		[^ckosu]es		# i tchantrént
+SFX v   ces	çrént		ces			# i cminçrént
+SFX v   kes	crént		kes			# i vicrént
+SFX v   s	rént		oes			# i boerént
+SFX v   es	rént		[^s]ses			# 
+SFX v   ses	rént		sses			# i pasrént
+SFX v   ues	rént		ues			# il abagrént
+SFX v	s	rént		[^eîuû]s		# i scrirént
+SFX v   us	rént		ous			# i porént
+SFX v   oûs	ôrént		oûs			# i pôrént
+SFX v   s	rént		[^o]us			# i curént
+SFX v   ûs	urént		[^o]ûs			# i curént
+SFX v   îs	irént		îs			# i scrirént
+SFX v   xh	rént		ixh			# i finirént
+SFX v   0	rént		ixh			# i finixhrént
+###############
+#  imperatif  #
+###############
+# les fôumes del imperatif sont les minme ki pol prezitrece/suddjonctif;
+######################	
+#  pårticipe prezint #
+######################
+SFX v   é	ant		[^cku]é			# tchantant
+SFX v   cé	çant		cé			# disfaçant
+SFX v   ké	cant		ké			# vicant
+SFX v   ué	ant		gué			# abagant
+SFX v   î	ant		[^ckuy]î		# candjant
+SFX v   cî	çant		cî			# cominçant
+SFX v   kî	cant		kî			# acoûcant
+SFX v   uî	ant		guî			# 
+SFX v   yî	iant		[^aåâeéêègiîoôuû]yî	# netiant
+SFX v   yî	yant		[aåâeéêèiîoôuû]yî	# sayant
+SFX v   yî	uiant		gyî			# beguiant
+SFX v   i	ant		[^cku]i			# sintant
+SFX v   ci	çant		ci			# 
+SFX v   ki	cant		ki			#
+SFX v   ui	ant		gui			#
+SFX v   0	ant		ixh			# finixhant
+SFX v   ou	ant		[^h]ou			# metant
+SFX v   ou	ant		[^j]hou			# crexhant
+SFX v   ou	ant		[^é]jhou
+SFX v   éjhou	ijhant		éjhou			# lijhant
+SFX v   t	jhant		[^îû]t			# dijhant
+SFX v   ît	ijhant		ît			# 
+SFX v   ût	ujhant		ût			# cujhant
+#####################
+# pårticipe erirece #
+#####################
+# on l' a ddja; apus k' po les viebes del sôre -ixh
+SFX v	xh	0		ixh			# fini
+###############
+#  infinitif  #
+###############
+SFX v	é	er		é			# tchanter
+#SFX v	ou	e		ou			# mete (dirîlé)
+SFX v	ou	i		vnou			# vni
+SFX v	s	re		oes			# boere
+SFX v	t	re		[^iîû]t			#
+SFX v	ît	ire		ît			#
+SFX v	ût	ure		ût			# distrure
+SFX v	t	re		[^f]it			# dire
+SFX v	xh	0		ixh			# fini
+
+# --------------------------------------------------
+
+SFX V Y 212
+#
+# 1: prezintrece singulî avou candjmint d' voyale (copiner, diner,...)
+#    => 3 fômes a dner: 2e dj. prez.; 2e dj. fut.; 6e dj. prez. -nut
+#    => eg: copiner => copenes/V, copinrès/V, copinnut/V 
+#
+#################
+#  prezintrece  #
+#################
+# 1re djin
+SFX V   s	0		[^è]s		 	# dji vén, copene
+# 2inme djin
+# fôume dimandrece avou -ss
+SFX V   0	s		[^eè]s			# vénss?
+# 3inme djin
+SFX V   s	t		[^eèdt]s		# i vént
+SFX V   s	t		oes			# i boet
+###############
+#  futurrece  #
+###############
+SFX V   s	0		rès			# dji/i vénrè
+# fôume dimandrece avou -ss
+SFX V   ès	ess		rès			# vénress?
+SFX V   ès	ans		rès			# nos vénrans
+SFX V   ès	oz		rès			# vos vénroz
+SFX V   ès	ont		rès			# i vénront
+#################
+#  condicioneu  #
+#################
+SFX V   ès	eu		rès			# dji vénreu
+SFX V   ès	eus		rès			# ti vénreus
+SFX V   ès	eut		rès			# i vénreut
+SFX V   ès	éns		rès			# nos vénréns
+SFX V   ès	îz		rès			# vos vénrîz
+SFX V   ès	ént		rès			# i vénrént
+#################
+#  suddjonctif  #
+#################
+SFX V   nut	nuxhe		nut			# k' i vegnnuxhe
+#
+# 2: pårticipe erirece foû rîle (vey)
+#    => on dene li 5e dj. prez., li 6e dj. prez. -nut, eyet l' pår.er. tot seu
+#    => eg: voeyoz/V, voeynut/V, veyou
+#
+# 3. viebes del 5inme sôre (aploure)
+#    => 6 fômes a dner: l' infinitif; 2e dj. prez.; 2e dj. fut.;
+#       6e dj. prez. -nut; 5e dj. prez.; et l' pår.er. tot seu
+#       et co, si diferin del prezintrece, li sudjonctif singulî
+#    => eg: aploure, aploûs/V, aplourès/V, aplouvnut/V, aplovoz/V, aplovou
+#       + aplouve/s
+#
+#################
+#  prezintrece  #
+#################
+SFX V   ez	ans		[^cku]ez		# nos alans
+SFX V   cez	çans		cez			# 
+SFX V   kez	cans		kez			# 
+SFX V   uez	ans		guez			# 
+SFX V   îz	ans		[^ckuy]îz		# 
+SFX V   cîz	çans		cîz			# 
+SFX V   kîz	cans		kîz			# 
+SFX V   uîz	ans		guîz			# 
+SFX V   yîz	ians		[^aåâeéêègiîoôuû]yîz	#
+SFX V   yîz	yans		[aåâeéêèiîoôuû]yîz	#
+SFX V   yîz	uians		gyîz			#
+SFX V   oz	ans		oz			# nos voeyans
+# 5e djin on l' a ddja
+SFX V   ez	èt		ez			# 
+SFX V   îz	èt		[^y]îz			# 
+SFX V   yîz	ièt		[^aåâeéêègiîoôuû]yîz	#
+SFX V   yîz	yèt		[aåâeéêèiîoôuû]yîz	#
+SFX V   yîz	uièt		gyîz			#
+SFX V   oz	èt		[^cçg]oz		# i voeyèt
+SFX V	coz	kèt		coz			#
+SFX V	çoz	cèt		çoz			#
+SFX V	oz	uèt		goz			#
+####################
+#  erirece durant  #
+####################
+# 1ire (et 3inme po les vies en -er/-î) djin
+SFX V   ez	éve		ez			# 
+SFX V   îz	ive		îz			# 
+SFX V   oz	eu		[^cçg]oz		# dji voeyeu
+SFX V	coz	keu		coz			#
+SFX V	çoz	ceu		çoz			#
+SFX V	oz	ueu		goz			#
+# 2e djin
+SFX V   ez	éves		ez			# 
+SFX V   îz	ives		îz			# 
+SFX V   oz	eus		[^cçg]oz		# ti voeyeus
+SFX V	coz	keus		coz			#
+SFX V	çoz	ceus		çoz			#
+SFX V	oz	ueus		goz			#
+# 3e djin
+SFX V   oz	eut		[^cçg]oz		# i voeyeut
+SFX V	coz	keut		coz			#
+SFX V	çoz	ceut		çoz			#
+SFX V	oz	ueut		goz			#
+# 4e djin
+SFX V   ez	éns		ez			# 
+SFX V   îz	éns		[^y]îz			# 
+SFX V   yîz	iéns		[^aåâeéêègiîoôuû]yîz	#
+SFX V   yîz	yéns		[aåâeéêèiîoôuû]yîz	#
+SFX V   oz	éns		[^cçg]oz		# nos voeyéns
+SFX V	coz	kéns		coz			#
+SFX V	çoz	céns		çoz			#
+SFX V	oz	uéns		goz			#
+# 5e djin
+SFX V   ez	îz		[^i]ez			# 
+SFX V   iez	yîz		[^u]iez			# 
+SFX V   uiez	yîz		guiez			# 
+SFX V   oz	îz		[^cçgi]oz		# vos voeyîz
+SFX V	coz	kîz		coz			#
+SFX V	çoz	cîz		çoz			#
+SFX V	oz	uîz		goz			#
+SFX V	ioz	yîz		[^u]ioz			#
+SFX V	uioz	yîz		guioz			#
+# 6e djin
+SFX V   ez	ént		ez			# 
+SFX V   îz	ént		[^y]îz			# 
+SFX V   yîz	iént		[^aåâeéêègiîoôuû]yîz	#
+SFX V   yîz	yént		[aåâeéêèiîoôuû]yîz	#
+SFX V   oz	ént		[^cçgi]oz		# i voeyént
+SFX V	coz	ként		coz			#
+SFX V	çoz	cént		çoz			#
+SFX V	oz	uént		goz			#
+#############
+#  erirece  #
+#############
+# 1ire et 3inme djins
+SFX V   ez	a		[^cku]ez		# 
+SFX V   cez	ça		cez			# 
+SFX V   kez	ca		kez			# 
+SFX V   uez	a		guez			# 
+SFX V   îz	a		[^ckuy]îz		# 
+SFX V   cîz	ça		cîz			# 
+SFX V   kîz	ca		kîz			# 
+SFX V   uîz	a		guîz			# 
+SFX V   yîz	ia		[^aåâeéêègiîoôuû]yîz	#
+SFX V   yîz	ya		[aåâeéêèiîoôuû]yîz	#
+SFX V   yîz	uia		gyîz			#
+SFX V   oz	a		oz			# dji/i voeya
+# 2inme djin
+SFX V   ez	as		[^cku]ez		# 
+SFX V   cez	ças		cez			# 
+SFX V   kez	cas		kez			# 
+SFX V   uez	as		guez			# 
+SFX V   îz	as		[^ckuy]îz		# 
+SFX V   cîz	ças		cîz			# 
+SFX V   kîz	cas		kîz			# 
+SFX V   uîz	as		guîz			# 
+SFX V   yîz	ias		[^aåâeéêègiîoôuû]yîz	#
+SFX V   yîz	yas		[aåâeéêèiîoôuû]yîz	#
+SFX V   yîz	uias		gyîz			#
+SFX V   oz	as		oz			# ti voeyas
+# fôme dimandrece avou -ss
+SFX V   ez	ass		[^cku]ez		# 
+SFX V   cez	çass		cez			# 
+SFX V   kez	cass		kez			# 
+SFX V   uez	ass		guez			# 
+SFX V   îz	ass		[^ckuy]îz		# 
+SFX V   cîz	çass		cîz			# 
+SFX V   kîz	cass		kîz			# 
+SFX V   uîz	ass		guîz			# 
+SFX V   yîz	iass		[^aåâeéêègiîoôuû]yîz	#
+SFX V   yîz	yass		[aåâeéêèiîoôuû]yîz	#
+SFX V   yîz	uiass		gyîz			#
+SFX V   oz	ass		oz			# ti voeyas
+# 4inme djin
+SFX V   ez	îs		[^i]ez			# 
+SFX V   iez	yîs		[^u]iez			# 
+SFX V   uiez	yîs		guiez			# 
+SFX V   îz	îs		îz			# 
+SFX V   oz	îs		[^cçgi]oz		# nos voeyîs
+SFX V	coz	kîs		coz			#
+SFX V	çoz	cîs		çoz			#
+SFX V	oz	uîs		goz			#
+SFX V	ioz	yîs		[^u]ioz			#
+SFX V	uioz	yîs		guioz			#
+# 5inme djin: minme fôme ki po l' erirece durant
+# 6inme djin
+SFX V   ez	ît		[^i]ez			# 
+SFX V   iez	yît		[^u]iez			# 
+SFX V   uiez	yît		guiez			# 
+SFX V   îz	ît		îz			# 
+SFX V   oz	ît		[^cçgi]oz		# i voeyît
+SFX V	coz	kît		coz			#
+SFX V	çoz	cît		çoz			#
+SFX V	oz	uît		goz			#
+SFX V	ioz	yît		[^u]ioz			#
+SFX V	uioz	yît		guioz			#
+#################
+#  suddjonctif  #
+#################
+# 4inme djin
+SFX V   ez	anxhe		[^cku]ez		# 
+SFX V   cez	çanxhe		cez			# 
+SFX V   kez	canxhe		kez			# 
+SFX V   uez	anxhe		guez			# 
+SFX V   îz	anxhe		[^ckuy]îz		# 
+SFX V   cîz	çanxhe		cîz			# 
+SFX V   kîz	canxhe		kîz			# 
+SFX V   uîz	anxhe		guîz			# 
+SFX V   yîz	ianxhe		[^aåâeéêègiîoôuû]yîz	#
+SFX V   yîz	yanxhe		[aåâeéêèiîoôuû]yîz	#
+SFX V   yîz	uianxhe		gyîz			#
+SFX V   oz	anxhe		oz			# nos voeyanxhe
+# 5inme djin
+SFX V   ez	éxhe		ez			# 
+SFX V   îz	îxhe		îz			# 
+SFX V   oz	oxhe		oz			# vos voeyoxhe
+# 6inme djin (fôme -èt)
+SFX V   ez	exhe		ez			# 
+SFX V   îz	exhe		[^y]îz			# 
+SFX V   yîz	iexhe		[^aåâeéêègiîoôuû]yîz	#
+SFX V   yîz	yexhe		[aåâeéêèiîoôuû]yîz	#
+SFX V   yîz	uiexhe		gyîz			#
+SFX V   oz	exhe		[^cçg]oz		# i voeyexhe
+SFX V	coz	kexhe		coz			#
+SFX V	çoz	cexhe		çoz			#
+SFX V	oz	uexhe		goz			#
+#########################
+#  suddjonctif erirece  #
+#########################
+# 1re et 3inme djins
+SFX V   ez	axhe		[^cku]ez		# 
+SFX V   cez	çaxhe		cez			# 
+SFX V   kez	caxhe		kez			# 
+SFX V   uez	axhe		guez			# 
+SFX V   îz	axhe		[^ckuy]îz		# 
+SFX V   cîz	çaxhe		cîz			# 
+SFX V   kîz	caxhe		kîz			# 
+SFX V   uîz	axhe		guîz			# 
+SFX V   yîz	iaxhe		[^aåâeéêègiîoôuû]yîz	#
+SFX V   yîz	yaxhe		[aåâeéêèiîoôuû]yîz	#
+SFX V   yîz	uiaxhe		gyîz			#
+SFX V   oz	axhe		oz			# dji/i voeyaxhe
+# 2inme djin
+SFX V   ez	axhes		[^cku]ez		# 
+SFX V   cez	çaxhes		cez			# 
+SFX V   kez	caxhes		kez			# 
+SFX V   uez	axhes		guez			# 
+SFX V   îz	axhes		[^ckuy]îz		# 
+SFX V   cîz	çaxhes		cîz			# 
+SFX V   kîz	caxhes		kîz			# 
+SFX V   uîz	axhes		guîz			# 
+SFX V   yîz	iaxhes		[^aåâeéêègiîoôuû]yîz	#
+SFX V   yîz	yaxhes		[aåâeéêèiîoôuû]yîz	#
+SFX V   yîz	uiaxhes		gyîz			#
+SFX V   oz	axhes		oz			# ti voeyaxhes
+# 4inme et 6inme djins
+SFX V   ez	énxhe		ez			# 
+SFX V   îz	énxhe		[^y]îz			# 
+SFX V   yîz	iénxhe		[^aåâeéêègiîoôuû]yîz	#
+SFX V   yîz	yénxhe		[aåâeéêèiîoôuû]yîz	#
+SFX V   yîz	uiénxhe		gyîz			#
+SFX V   oz	énxhe		[^cçg]oz		# nos/i voeyénxhe
+SFX V	coz	kénxhe		coz			#
+SFX V	çoz	cénxhe		çoz			#
+SFX V	oz	uénxhe		goz			#
+# 5inme djin
+SFX V   ez	îxhe		[^i]ez			# 
+SFX V   iez	îxhe		[^u]iez			# 
+SFX V   uiez	yîxhe		guiez			# 
+#SFX V   îz	îxhe		îz			# 
+SFX V   oz	îxhe		[^cçgi]oz		# vos voeyîxhe
+SFX V	coz	kîxhe		coz			#
+SFX V	çoz	cîxhe		çoz			#
+SFX V	oz	uîxhe		goz			#
+SFX V	ioz	yîxhe		[^u]ioz			#
+SFX V	uioz	yîxhe		guioz			#
+###########################
+#  pårticipe prezintrece  #
+###########################
+SFX V   ez	ant		[^cku]ez		# alant
+SFX V   cez	çant		cez			# 
+SFX V   kez	cant		kez			# 
+SFX V   uez	ant		guez			# 
+SFX V   îz	ant		[^ckuy]îz		# 
+SFX V   cîz	çant		cîz			# 
+SFX V   kîz	cant		kîz			# 
+SFX V   uîz	ant		guîz			# 
+SFX V   yîz	iant		[^aåâeéêègiîoôuû]yîz	#
+SFX V   yîz	yant		[aåâeéêèiîoôuû]yîz	#
+SFX V   yîz	uiant		gyîz			#
+SFX V   oz	ant		oz			# voeyant
+
+# --------------------------------------------------
+
+SFX n Y 37
+# plurial
+SFX n	0	s	[^s]
+# femrin
+SFX n	0	e	[^åceéfgiîsnu]
+SFX n	0	le	å
+SFX n	c	ke	c
+SFX n	é	êye	é
+SFX n	f	ve	f
+SFX n	0	ue	g
+SFX n	i	eye	i
+SFX n	î	eye	[^y]î
+SFX n	yî	ieye	[^aåâeéêègiîoôuû]yî
+SFX n	î	eye	[aåâeéêèiîoôuû]yî
+SFX n	yî	uieye	gyî
+SFX n	0	e	[^éi]n
+SFX n	én	ene	én
+SFX n	0	ne	in
+SFX n	0	se	[^u]s
+SFX n	0	we	[^eo]u
+SFX n	0	se	eu
+SFX n	u	we	ou
+# femrin plurial
+SFX n	0	es	[^åceéfgiîsnu]
+SFX n	0	les	å
+SFX n	c	kes	c
+SFX n	é	êyes	é
+SFX n	f	ves	f
+SFX n	0	ues	g
+SFX n	i	eyes	i
+SFX n	î	eyes	[^y]î
+SFX n	yî	ieyes	[^aåâeéêègiîoôuû]yî
+SFX n	î	eyes	[aåâeéêèiîoôuû]yî
+SFX n	yî	uieyes	gyî
+SFX n	0	es	[^éi]n
+SFX n	én	enes	én
+SFX n	0	nes	in
+SFX n	0	ses	[^u]s
+SFX n	0	wes	[^eo]u
+SFX n	0	ses	eu
+SFX n	u	wes	ou
+
+# --------------------------------------------------
+
+SFX a Y 99
+SFX a	xh	0	ixh
+# plurial
+SFX a	0	s	[^sh]
+SFX a	0	s	[^x]h
+SFX a	xh	s	ixh
+SFX a	0	s	[^i]xh
+# femrin
+SFX a	0	e	[^aåcdeéèfghiînstu]
+SFX a	a	le	ea			# novele
+SFX a	0	le	å			# normåle
+SFX a	c	ke	c			# blanke
+SFX a	é	êye	é
+SFX a	f	ve	f
+SFX a	0	ue	g
+SFX a	0	e	[^x]h
+SFX a	ixh	eye	ixh			# fineye
+SFX a	0	e	[^i]xh
+SFX a	i	eye	i
+SFX a	î	eye	[^y]î
+SFX a	yî	ieye	[^aåâeéêègiîoôuû]yî
+SFX a	î	eye	[aåâeéêèiîoôuû]yî
+SFX a	yî	uieye	gyî
+SFX a	0	e	[^éi]n
+SFX a	én	ene	én
+SFX a	0	ne	in
+SFX a	rt	te	oirt			# foite
+SFX a	urt	ûte	urt			#
+SFX a	rt	te	[^u]rt			#
+SFX a	rd	de	[åu]rd			#
+SFX a	0	e	[^r][dt]
+SFX a	0	se	[^èiu]s
+SFX a	ès	esse	ès
+SFX a	s	jhe	is
+SFX a	0	e	eus
+SFX a	0	we	[^eo]u
+SFX a	0	se	eu
+SFX a	r	re	eur
+SFX a	u	we	ou
+# femrin plurial
+SFX a	0	es	[^aåcdeéèfghiînstu]
+SFX a	a	les	ea			# noveles
+SFX a	0	les	å			# normåles
+SFX a	c	kes	c			# blankes
+SFX a	é	êyes	é
+SFX a	f	ves	f
+SFX a	0	ues	g
+SFX a	0	es	[^x]h
+SFX a	ixh	eyes	ixh			# fineyes
+SFX a	0	es	[^i]xh
+SFX a	i	eyes	i
+SFX a	î	eyes	[^y]î
+SFX a	yî	ieyes	[^aåâeéêègiîoôuû]yî
+SFX a	î	eyes	[aåâeéêèiîoôuû]yî
+SFX a	yî	uieyes	gyî
+SFX a	0	es	[^éi]n
+SFX a	én	enes	én
+SFX a	0	nes	in
+SFX a	rt	tes	oirt			# foites
+SFX a	urt	ûtes	urt			#
+SFX a	rt	tes	[^u]rt			#
+SFX a	rd	des	[åu]rd			#
+SFX a	0	es	[^r][dt]
+SFX a	0	ses	[^èiu]s
+SFX a	ès	esses	ès
+SFX a	s	jhes	is
+SFX a	0	es	eus
+SFX a	0	wes	[^eo]u
+SFX a	0	ses	eu
+SFX a	r	res	eur
+SFX a	u	wes	ou
+# femrin plurial divant l' no (-ès)
+SFX a	0	ès	[^aåcdeéèfghiînstu]
+SFX a	a	lès	ea			# novelès
+SFX a	0	lès	å			# normålès
+SFX a	c	kès	c			# blankès
+SFX a	e	ès	e			# frissès
+SFX a	é	êyès	é
+SFX a	f	vès	f
+SFX a	0	uès	g
+SFX a	0	ès	[^x]h
+SFX a	ixh	eyès	ixh			# fineyès
+SFX a	0	ès	[^i]xh
+SFX a	i	eyès	i
+SFX a	î	eyès	[^y]î
+SFX a	yî	ieyès	[^aåâeéêègiîoôuû]yî
+SFX a	î	eyès	[aåâeéêèiîoôuû]yî
+SFX a	yî	uieyès	gyî
+SFX a	0	ès	[^éi]n
+SFX a	én	enès	én
+SFX a	0	nès	in
+SFX a	rt	tès	oirt			# foitès
+SFX a	urt	ûtès	urt			#
+SFX a	rt	tès	[^u]rt			#
+SFX a	rd	dès	[åu]rd			#
+SFX a	0	ès	[^r][dt]
+SFX a	0	sès	[^èiu]s
+SFX a	ès	essès	ès
+SFX a	s	jhès	is
+SFX a	0	ès	eus
+SFX a	0	wès	[^eo]u
+SFX a	0	sès	eu
+SFX a	r	rès	eur
+SFX a	u	wès	ou
+
+# ------------------------------------------------------------
+
+SFX s Y 1
+SFX s	0	s		[^s]
+
+SFX r Y 85
+# omrin plurial
+SFX r	0	s		[^s]
+# -î -> -resse
+SFX r	î	resse		[^cklnru]î
+SFX r	cî	çresse		cî
+SFX r	kî	cresse		kî
+SFX r	lî	elresse		[^aåâeéêèiîoôuûçcg]lî
+SFX r	î	resse		[aåâeéêèiîoôuû]lî
+SFX r	clî	kelresse	clî
+SFX r	çlî	celresse	çlî
+SFX r	glî	guelresse	glî
+SFX r	î	resse		[^r]nî
+SFX r	î	eyresse		rnî
+SFX r	î	iresse		[^aeioôu]rî
+SFX r	î	resse		[aeioôu]rî
+SFX r	î	resse		[^g]uî
+SFX r	uî	resse		guî
+# -î -> -resses
+SFX r	î	resses		[^cklnru]î
+SFX r	cî	çresses		cî
+SFX r	kî	cresses		kî
+SFX r	lî	elresses	[^aåâeéêèiîoôuûçcg]lî
+SFX r	î	resses		[aåâeéêèiîoôuû]lî
+SFX r	clî	kelresses	clî
+SFX r	çlî	celresses	çlî
+SFX r	glî	guelresses	glî
+SFX r	î	resses		[^r]nî
+SFX r	î	eyresses	rnî
+SFX r	î	iresses		[^aeioôu]rî
+SFX r	î	resses		[aeioôu]rî
+SFX r	î	resses		[^g]uî
+SFX r	uî	resses		guî
+# -eu -> -resse
+SFX r	eu	resse		[^ciklrsuy]eu
+SFX r	ceu	çresse		ceu
+SFX r	ieu	eyresse		ieu
+SFX r	keu	cresse		keu
+SFX r	leu	elresse		[^aåâeéêèiîoôuûçcg]leu
+SFX r	eu	resse		[aåâeéêèiîoôuû]leu
+SFX r	cleu	kelresse	cleu
+SFX r	çleu	celresse	çleu
+SFX r	gleu	guelresse	gleu
+SFX r	reu	erresse		[^aåâeéêèiîoôuûny]reu
+SFX r	eu	resse		[aåâeéêèiîoôuûny]reu
+SFX r	seu	resse		sseu
+SFX r	eu	resse		[^s]seu
+SFX r	eu	resse		[^g]ueu
+SFX r	ueu	resse		gueu
+SFX r	iyeu	eyresse		iyeu			# riyeu, reyresse
+SFX r	eu	resse		[^aåâeéêèiîôuû]yeu
+# -eu -> -resses
+SFX r	eu	resses		[^ciklrsuy]eu
+SFX r	ceu	çresses		ceu
+SFX r	ieu	eyresses	ieu
+SFX r	keu	cresses		keu
+SFX r	leu	elresses	[^aåâeéêèiîoôuûçcg]leu
+SFX r	eu	resses		[aåâeéêèiîoôuû]leu
+SFX r	cleu	kelresses	cleu
+SFX r	çleu	celresses	çleu
+SFX r	gleu	guelresses	gleu
+SFX r	reu	erresses	[^aåâeéêèiîoôuûny]reu
+SFX r	eu	resses		[aåâeéêèiîoôuûny]reu
+SFX r	seu	resses		sseu
+SFX r	eu	resses		[^s]seu
+SFX r	eu	resses		[^g]ueu
+SFX r	ueu	resses		gueu
+SFX r	iyeu	eyresses	iyeu			# riyeu, reyresse
+SFX r	eu	resses		[^aåâeéêèiîôuû]yeu
+# ôtes -> -resse
+SFX r	0	resse		[^eîlru]
+SFX r	e	resse		[^cu]e
+SFX r	ue	resse		gue
+SFX r	ce	çresse		ce
+SFX r	eur	oresse		[^cku]eur
+SFX r	ceur	çoresse		ceur
+SFX r	keur	coresse		keur
+SFX r	eur	oresse		[^g]ueur
+SFX r	ueur	oresse		gueur
+SFX r	0	iresse		[^u]r
+SFX r	0	iresse		l
+# ôtes -> -resses
+SFX r	0	resses		[^eîlru]
+SFX r	e	resses		[^cu]e
+SFX r	ue	resses		gue
+SFX r	ce	çresse		ce
+SFX r	eur	oresses		[^cku]eur
+SFX r	ceur	çoresses	ceur
+SFX r	keur	coresses	keur
+SFX r	eur	oresses		[^g]ueur
+SFX r	ueur	oresses		gueur
+SFX r	0	iresses		[^u]r
+SFX r	0	iresses		l
+
+# ------------------------------------------------------------
+
+SFX l Y 3
+SFX l   ci	cial		ci
+SFX l   ci	chal		ci
+SFX l   ci	la		ci
+
+# ------------------------------------------------------------
+
+SFX S Y 6
+SFX S	0	-t		[aåâeéêèiîoôuû]	# a-t i schouté?
+SFX S	0	-st		[^s][^t]	# dj' a-st aresté
+SFX S	e	rece		[^cku]e
+SFX S	ce	çrece		ce
+SFX S	ke	crece		ke
+SFX S	ue	rece		ue
+
+# ------------------------------------------------------------
+
+REP 57
+REP a ae
+REP à a
+REP â å
+REP aî ai
+REP au å
+REP au ô
+REP ch xh
+REP ch sch
+REP cha cea
+REP cha xhea
+REP csi cci
+REP dja dia
+REP djè die
+REP dju diu
+REP è e
+REP è ae
+REP ê ea
+REP ê ai
+REP eû oe
+REP eû eu
+REP eûs éves
+REP eus éves
+REP eût éve
+REP eut éve
+REP éve eu
+REP èy ey
+REP éy êy
+REP h jh
+REP h xh
+REP h sch
+REP ia ea
+REP in én
+REP îr ir
+REP îy iy
+REP îy ey
+REP j jh
+REP j dj
+REP ja jhea
+REP ka ca
+REP kr cr
+REP o å
+REP ô oi
+REP on oen
+REP oû ô
+REP oû oi
+REP qu k
+REP qw cw
+REP sk sch
+REP tcha tia
+REP tchè tie
+REP tcho tio
+REP tchu tiu
+REP wâ oi
+REP wè oe
+REP wè oi
+REP wé oi
+REP win oen
