@@ -1,7 +1,7 @@
 Name: hunspell-wa
 Summary: Walloon hunspell dictionaries
 Version: 0.4.15
-Release: 8%{?dist}
+Release: 9%{?dist}
 Source0: http://chanae.walon.org/walon/aspell-wa-%{version}.tar.bz2
 Group: Applications/Text
 URL: http://chanae.walon.org/walon/aspell.php
@@ -47,6 +47,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.4.15-9
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.4.15-8
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
