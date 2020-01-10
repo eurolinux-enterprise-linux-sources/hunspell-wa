@@ -1,0 +1,93 @@
+On coridjeu d' ortografeye e walon po ispell/aspell/myspell;
+shuvant l' ortografeye do rfondou walon.
+
+Dj' a dvant tot tuzé sol manire di trover les diferinnes fômes codjowêyes
+des viebes, gråce a l' aidance da Lucyin Mahin; et poy dj' a metou
+les prumirès pådjes di l' esplicant motî walon.
+
+Li tot est so licince libe bén seur.
+
+A FÉ: 
+* verifyî ki les fômes dinêyes po les viebes sont les bounes (li motî dene,
+  come tos les motîs, l' infinitif; dji n' so nén foirt seur po des viebes
+  k' i gn a d' aveur prindou li boune fôme)
+* verifyî l' algorite di codjowaedje eployî et sayî d' voere s' i pout
+  bén covri tos les viebes erîlés, et si dji n' a pont rovyî des sacwès.
+
+
+KIMINT L' EPLOYÎ
+
+1) ispell
+=========
+On fwait l' fitchî *.hash tot tapant "make ispell", et copyî les deus
+fitchîs walon.aff et walon.hash dins /usr/lib/ispell
+(ou fé "make ispell_install") 
+
+Asteure si vos vloz verifyî on fitchî "foo.txt" e walon, i fåt fé:
+	ispell -d walon foo.txt
+
+asteme! ça n' rote bén k' en iso-8859-1/15, nén en utf-8
+
+2) aspell
+=========
+On fwait les fitchîs k' i fåt tot tapant "make aspell", et copyî les
+fitchîs *.rsw, *.dat et *.multi dins /usr/lib/aspell-0.60/ 
+(ou fé "make aspell_install")
+
+3) myspell
+==========
+On fwait "make wa_dic" po-z aveur li fitchî wa.dic; pol wa.aff,
+i sufixh di copyî wa_affix.dat tot l' rilomant.
+Dji n' kinoxhe ki OpenOffice.org a-z eployî ç' drole di sistinme la;
+eyet i n' ricnoxhe nén des noveas motîs :-( mins on côp ki OOo riconoxhrè
+l' walon, i sufixhrè di copyî wa.dic et wa.aff dins
+/usr/lib/ooo-2.0/share/dict/ooo/
+(ou fé "make myspell_install")
+
+
+KIMINT L' RAMIDRER
+
+dins l' ridant mots/ dj' a metou sacwants fitchîs, les nos des fitchîs sont
+assez simpes po comprinde i m' shonne :) vos î ploz radjouter des novelès
+intrêyes, mots, viebes,...
+tchaeke intrêye pout aveur onk ou des drapeas (separés do mot par on "/").
+Les drapeas sont:
+a: addjectif (çoula vout dire a pårti del fôme omrinne dinêye on pout aveur
+	les fômes pluriales, et femrinne). eg: "blanc/a" çoula va covri
+	les mots "blanc", "blancs", "blanke", "blankes", "blankès"
+s: li mot pout prinde on s po fé on plurial
+n: drapea po les nos (fwait des fômes femrin et omrin, singulî et plurial;
+	c' est cåzu come "a", mins sins l' fôme -ès )
+i: sititchåve voyale. eg: "sicole/is" ki covere "sicole", "scole", "sicoles"
+	et "scoles"
+v: viebe erîlé. po les viebes i fåt dner deus fômes: li cene pol schoûtant
+	di l' indicatif prezintrece, et li pårticipe erirece omrin;
+	a pårti di ces deus fômes, li resse est fwait.
+	eg: "tådjes/v" et "tårdjî/v" oudonbén "boes/v" et "boevou/v"
+j: li viebe pout fé on mot en -aedje, eg: "sicrît/jvi" -> s(i)crijhaedje
+	li drapea "j" si mete sol fôme pårticipe erirece do viebe
+r: po les mots ki fjhèt ene fôme femrinne e -resse; eg:
+	"cinsî/r" --> "cinsî", "cinsîs", "cinsresse", "cinsresses"
+	on pot mete les drapeas "n" et "r" po les mots ki ont deus fômes
+	femrinnes, eg: "abateu/nr" -> abateu, abateus, abateuse, abateuses,
+	abatresse, abatresses 
+t: po les viebes ki polèt fé on addj. en -ant; eg: ahåyî/vt --> ahåyant,
+	ahåyants, ahåyante, ahåyantes, ahåyantès
+	li drapea si mete sol fôme pårticipe erirece do viebe  
+c: po les viebes ki fjhèt on mot en -ance; eg: amidré/vjtc --> 
+	amidrance, amidrances (et ossu amidraedje, cåze do "j", et
+	amidrant{,s,e,es,ès} cåze do "t")
+m: - po les nos: fwait on adviebe e -mint; eg: awoureus/am --> awoureuzmint
+   - po les viebes: fwait on mot e -mint; eg: abayes/vm --> abaymint(s)
+    atincion ki po les viebes li drapea  si mete al fôme do schoûtant di
+    l' indicatif erirece, dismetant ki tos les ôtes drapeas (ôtes ki "v" et "i")
+    si metèt sol fôme pårticipe erirece.
+<rén>: ci mot la et rén d' ôte, nou derivé est fwait (eg: "alans")
+
+Loukîz dvins les fitchîs di mots/* po des egzimpes.
+
+
+
+Vola, amuzez vs bén et dijhoz mu çou k' vos è pinsez.
+
+

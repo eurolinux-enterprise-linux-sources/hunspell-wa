@@ -1,0 +1,458 @@
+#01# Les drapeas sont:
+#02#
+#03# a: po les addjectifs (eg: blanc -> blancs, blanke, blankes, blankès)
+#04# s: po les mots d' on seu djinre k' ont on pluriel (eg: mot -> mots)
+#05# n: po les femrins èt omrins nos, avou pluriel (come "a" mins sin -ès)
+#06# r: fwait on femrin avour -resse (eg: politkî -> politicresse)
+#07#    atincion k' les fômes come -r-C-eu/-C-resse, ou -C-C-eu/-C-e-C-resse
+#08#    ni sont nén rcovrous pa ci drapea, i les fåt dner esplicitmint
+#09# i: pol sititchåve voyale (eg: sicole -> scole)
+#10# m: po les addjectifs ki fjhèt des adviebes è -mint
+#11# rén po les mots invariåbes ou disrûlés
+djubet/s		..MS.
+swè-dijhant		..MS.
+addjudicåcion/s		..MS.
+adjustumint/s		..MS.
+addjudant/s		..MS.
+abolicion/s		..MS.
+abtinince/s		..MS.
+abandmint/s		..MS.
+abandon/s		..MS.
+sipot/si		..MS.
+visse/s			..MS. (fr: vis)
+covisse/a		..MS. (des oûs nén covisses)
+vraiymint		.?MS. (H: vraimint?)
+muchete/s		.HMS. (catchete)
+cours			...S.
+cour/s			.H.S.	(M: ene coû a Rmicoû)
+court/a			.H.S.	(M: trop coût)
+contecse/s		.H.S.	(M: cont- ou cot- ?)
+wây			.H.S. (M: way)
+douwåne/s		.HxS.	(M: dwane, dwanî, dwanaedje; disdwaner, disdwanaedje, edwaner)
+cor			.HMS.
+copurade		.xMS.	(H: co purade)
+tîxhonde/s		.xMS. (H: tîxhonde ossi? M: tîxhondje ossi?)
+aile/s			.HxS. (M: aiye)
+lanawaire		.xMS. (H: douvént? M: etrocla diferin di enawaire)
+catoize			.?MS. (H: catwaze)
+catoirze		.?MS. (H: catwarze) (li roister ttafwait?)
+cwatrè-vint		.HxS. (M: cwatru-vint)	
+segonde/si		.HxS. (M: sigonde)
+sieke/s			.HxS. (M: sîke?)
+afrontieye/s		..MS.
+agayan/s		...S.
+Alowine			.HxS. (M: Alowene)
+céncweme		..MS.
+meyzeure		..MS.
+veur			..MS.
+tos			...S.
+tote/a			...S.
+loumrote/s		...S.
+dimegne/s		...S.
+dilon			...S. (londi)
+dimår			...S. (mårdi)
+dimiek			...S. (mierkidi)
+diyou			...S. (djudi)
+grand/a			...S.
+grandeu/s		...S.
+grand-pere/s		..MS.
+grand-mere/s		..MS.
+grandissime/a		...S.
+tribunå/s		...S.
+advocåt/s		...S.
+egzimpe/s		...S.
+egzimplaire/s		...S.
+shûte/s			...S.
+shuvant/am		...S.
+martchî/s		...S.
+mashale/s		...S.
+azår			...S.
+måjhinete/s		...S.
+måjhon/s		...S.
+måjhone/s		...S.
+catåre/s		...S.
+cåve/s			...S.
+cåzu			...S.
+cåzumint		...S.
+coirbå/s		...S.
+fåte/s			...S.
+difåte/si		...S.
+fåve/s			...S.
+nute/s			...S.
+nut/s			...S. (nute, mins omrin)
+nuteye/s		...S.
+bounute			...S.
+enute			...S.
+cwè			...S.
+sacwè/s			...S.
+pocwè			...S.
+hamtea/s		...S.
+hamea/s			...S.
+corti/s			...S.
+porea/s			...S.
+plin/am			...S.
+betchetî/r		...S.
+betchetrin/a		...S.
+betchoteu/nr		...S.
+betchtåd/n		...S.
+betchteu/na		...S.
+betchtreye/s		...S.
+havet/s			...S.
+araegnreye/s		...S.
+daegn			...S.
+daegnrece/a		...S.
+bordjoes/a		...S.
+coshet/s		...S.
+rinåd/si		...S.
+bwès			...S.
+bwejhleu/s		...S.
+bwejhlî/sr		...S.
+bos			...S.
+boskiyon/s		...S.
+må-d'-panse		...S.
+må-d'-vinte		...S.
+målaweure/s		...S.
+måleur/s		...S.
+målureus/am		...S.
+honteus/a		...S.
+måhonteus/a		...S.
+minte/s			...S.
+minteu/a		...S.
+moudreu/a		...S.
+touweu/a		...S.
+touwe-tchén		...S.
+boird/s			...S.
+sambwezî/s		...S.
+saizi/a			...S.
+docteur/r		...S.
+doctorat/s		...S.
+abôrd			...S.
+wilicome		...S.
+piron			...S.
+oufti			...S.
+bleu/a			...S.
+bleuw/a			...S.
+chitroumfe/si		...S.
+chitroumfete/si		...S.
+peu/s			...S.	(pawe)
+pawou/s			...S.
+pawoureus/a		...S.
+pawe/s			...S.
+spawta/s		...S.
+måy			..MS.
+djourmåy		...S.
+djamåy			..MS.
+jamwais			...S.
+tård			...S.
+tårdjou/a		...S.
+cloke/s			...S.
+clokî/s			...S.
+clokete/s		...S.
+clotche/s		...S.
+clotchî/s		...S.
+clotchete/s		...S.
+midi			...S.
+après			...S.
+nonnêye/s		...S.
+tiesse/s		...S.
+tiestou/a		...S.
+conte/s			...S.	(istwere)
+disconte		...S.
+siconte/i		...S.
+floriconte/s		...S.
+årmwere/s		...S.
+årmå/s			...S.
+årmeure/s		...S.
+baston/s		...S.
+vîxhe/a		.HMS. (??? wårdeye ou nén?)
+caroyåd/s	.H.S.
+djoye/s
+djoyeus/am
+lamproye/s	..MS.
+oye/s		..MS.
+oyot/s		..MS.
+halene/s	.HMS. (holene? houline?)
+hagnon/s	.H.S.
+dabôrd		.HMS.
+covite		.HMS.
+corade		.HMS.
+codabôrd	.HMS.
+
+croejh		...S.
+cwate-pîs	.H.S.
+cwate-peces	.H.S.
+trawe-pî/s	.H.S.
+pînote/s	.H.S.
+pî-risse	..MS.
+bea-parint/s	.HMS. (H: ou beaparint/s ? (minme kesse po ls ôtes)
+belès-djins	.HMS.
+bea-fré/s	.HMS.
+bele-sour/s	.HMS.
+bea-pere/s	.HMS. (candjmint pére -> pere)
+bele-mere/s	.HMS.
+påt		.HMS. ("ôte påt")
+sene/s		.HMS. (des senes: F. des signes)
+pluzieurs	.HMS.
+pluzieures	.HMS.
+pluzieurès	.HMS.
+eturcompurdaedje	.HxS. (M: eturcomprindaedje)
+ôrteye/s	.HxS.	(M: oirteye (disfondowe bambwès "wârtîye")
+acsegna/s	.H.S.
+racsegne/s	.H.S.
+racsegnmint/s	.H.S.
+ôclete/s	.H.S. (åwlete)
+ôclî/s		.H.S. 
+ôclire/s	.H.S. 
+ôkelresse/s	.H.S. 
+ôle/s		.H.S. 
+toirt/s		.H.S. 
+bout/s		.H.S. 
+dibout/i	.H.S. (å dbout)
+boute-po-rén	.H.S. 
+boutåde/s	.H.S. 
+boutåjhe/s	.H.S. 
+peta/s		.H.S. 
+petchî/s	.H.S. 
+candje/s	.H.S. 
+candjlete/s	.H.S. 
+candjeu/n	.H.S. 
+candjisse/s	.H.S. 
+candjåve/a	.H.S. 
+passe/s		.H.S. 
+passete/s	.H.S. 
+passet/s	.H.S. 
+passeu/nr	.H.S. 
+passaedjî/sr	.H.S. 
+passaedje/s	.H.S. 
+vizaedje/s	.H.S. 
+fås-vizaedje/s	.H.S. 
+fås/a		.H.S. 	(nén vraiy)
+få/s		.H.S. 	(l' usteye)
+djåzeu/n	.H.S. 
+djårgon/s	.H.S. 
+djårgonrece/a	.H.S. 
+djår/s		.H.S. 	(li biesse)
+djårdén/s	.H.S.
+djårdinî/nr	.H.S. 
+djårdinet/s	.H.S. 
+djårdinea/s	.H.S. 
+binddimådje/s	..MS. (Fr: BD)
+dujhance/s	..MS.
+sipanixh/vij	..MS.
+sipanixheu/nri	..MS.
+sipanixheure/si	..MS.
+sipanixhant/ai	..MS.
+sipanixhåve/ai	..MS.
+sipanixhmint/si	..MS.
+sipite/si	..MS.
+sipiteure/si	..MS.
+sipita/si	..MS.
+sipitåd/si	..MS.
+sipitêye/si	..MS.
+sipiton/si	..MS.
+sipiteu/nri	..MS.
+sipitrea/is	..MS.
+sipitron/si	..MS.
+sipitroûle/si	..MS.
+sipitroûlêye/si	..MS.
+sipiturî/nri	..MS.	(martchand di spiteures di linne)
+rispita/s	..MS.	(mannixhaedje des cis ki sont aloyîs a ene sacwè d' måhonteus)
+sipornî/isr	..MS.	(fijheu di sporons)
+siporon/is	..MS.
+sipritche/is	..MS.
+askepieu/nr	..MS.
+noûskepyî/n	..MS.	(novea-né)
+novea-né/n	..MS.
+coca		..MS.
+hachich		..MS.
+emay/s		..MS.	(F: émail)
+prandjire/s	..MS.
+prandjiron/s	..MS.
+prandjirêye/s	..MS.
+prandjrece/a	..MS.
+prandjloe/s	..MS.
+prandjlåjhe/s	..MS.
+prandjleu/nr	..MS.
+aprandjire/s	..MS.
+divant-prandjire/si	..MS.
+prandjlåd/n	..MS.
+bonmartchî/a	..MS.
+bonmartchîsté/s	..MS.
+meyeumartchî/a	..MS.
+mårtcheu/n	..MS.
+måtchresse/s	..MS.
+måtche/s	..MS.
+måtournêyisté/n	..MS.
+ratourneure/s	..MS.
+tuzeu/sr	..MS.
+tuzåd/n		..MS.
+atuze/s		..MS.
+atuzlêye/s	..MS.
+cotuzreye/s	..MS.
+cotuzeu/nr	..MS.
+cotuza/s	..MS.
+cotuzrece/s	..MS.
+cotuze/s	..MS.
+catuzreye/s	..MS.
+racatuzance/s	..MS.
+atuzêye/s	..MS.
+tuzea/s		..MS.
+tuzanmint	..MS.
+tuzêye/s	..MS.
+tuza/s		..MS.
+tuzance/s	..MS.
+teyoreye/s	..MS.
+teyorike/am	..MS.
+teyåte/s	..MS.
+tiene/s		..MS.
+tier/s		..MS.
+vocåcion/s	..MS.
+piou/s		..MS.
+riclame/is	.H.S.
+bezaece/s	.H.S.
+veritåve/a	.H.S.
+årmonak/s	.H.S.
+essegne/s	.H.S.
+essegnrece/a	.H.S.
+segneu/nr	.H.S.	(onk ki werit avou des segnes)
+singneye/s	.H.S.	(accion do méde ki singne ene sakî)
+vef/s		.H.S.
+veve/s		.H.S.
+mantche/s	.H.S.
+emantcheure/s	.H.S.
+frote-mantche/s	.H.S.
+frote/s		.H.S.
+froteu/nr	.H.S.
+frotåjhe/s	.H.S.
+frotêye/s	.H.S.
+frotoe/s	.H.S.
+frotreye/s	.H.S.
+froti-frota	.H.S.
+cafroteu/nr	.H.S.
+cafrota/s	.H.S.
+cafrotant/s	.H.S.
+Mareye-frote-frote	.H.S.
+erire-såjhon/s	.H.S.
+tombe/s		.H.S.
+notåre/sr
+martchand/n	.H.S.
+capitåle/s	.H.S.
+nokete/s	.H.S.
+potêye/s	.H.S.
+kerton/s	.H.S.
+froed/a		.H.S.
+froedeur/s	.H.S.
+deur/a		.H.S.
+durté/s		. MST
+duristé/s	.H.S.
+pavêye/s	.H.S.
+vigreus/a	.H.S.
+sitåve/si	.H.S.
+four/s		.H.S.
+tåve/s		.H.S.
+tåvleu/s	.H.S.	(come Excell)
+baståd/n	.H.S.
+
+dignité/s	.HMS.	
+degne/a		..MS.	(H: dene)
+
+ricwereu/nr	(ou ricwerrece?)
+acwereu/nr	(ou acwirrece?)
+
+
+societé/s	.H.S. (M: sôcieté)	
+sociå/a		.H.S.	
+socialisse/a	.H.S.
+
+#========
+plouve/s		.H.S.
+plovinete/s		.H.S.
+plovineus/a		.H.S.
+plovinreye/s		.H.S.
+drache/s		.H.S.
+walêye/s		.H.S.
+bårire/s		.H.S.
+bår/s		.H.S.		("bår ås usteyes")
+båre/s		...S.	(H: ??)
+mwaistresse/s		.?.S.	(femrin di mwaisse)	(H: mwaisse/maisse ?)
+ver/s		.H.S.		(sillabe, e l' powezeye)
+pasteure/s		.H.S.	(paxhi)
+praireye/s		.H.S.	(paxhi)
+gåre/s		.H.S.		(eståcion)
+esté/s		.H.S.		(såjhon)
+veleuse/s		.H.S.	(éndjin po veler) (H: vêler ? si pont d' opozucion, accepté)
+botnire/s		.H.S.
+cezaryinne/s		.H.S.
+prezince/s		[f.n.]
+prezint/a		.H.S.
+prezintrece/s		.H.S.	(eg: "suddjonctif prezintrece)
+prezintåcion/s		.H.S.
+riprezintåcion/si		.H.S.
+prezidint/n		.H.S.
+linwete/s		.H.S.	(fr: "onglet", en: "tab")
+erî		.H.S.
+erî/n		..... (come nos, "erî", "erire" ??)
+erirece/a		.H.S.
+bak/s		.H.S. (=erire al fotbale)
+suddjonctif/a		.H.S.
+durant/a		.H.S.
+lecsinme/s		.H.S.
+linwincieus/r		.H.S.
+djivion/s		.H.S.
+foninme/s		.H.S.
+morfinme/s		.H.S.
+pire		.H.S.		(pé, eg: "co pire")
+pire/s		.H.S.
+pirire/s		.H.S.	(???)
+pirete/s		.H.S.	(pitit nawea des fruts)
+pirreye/s		.H.S.	(cårire)
+catalogue/s		.H.S.
+schaye/s		..MS.
+schayeye/s		..MS.	(pitite cour schayeye)
+schayî/s		..MS.	(trotwer schayî)
+schayire/s		..MS.
+schayeu/r		..MS.
+priyire/s		.H.S.
+dos		.H.S.			(pa drî do coir)
+frileus/a		.x.?.	(H: frîleus)
+plope/s		.H.S.			(sôre d' åbe)
+siteule/si		.H.S.		(çou ki dmeure cwand on a côpé les dinrêyes)
+rustea/s		.H.S.
+bierdjî/r		.H.S.
+vitolet/s		.H.S.
+for/s		.H.S.		(for a pwin, a micro-waches)
+fornêye/s		.H.S.
+forni/s		.H.S.
+fornea/s		.H.S.
+hôt-fornea/s		.H.S.
+bas-fornea/s		.H.S.
+efornoe/s		.?.S. (
+eforneuse/s		.H.S.
+efornoûle/s		.?.S. (H: cwè)
+rayixhoe/s		.H.S.
+avaloe/s		.H.S.	(fr: oesophage)
+piramide/s		.H.S.
+taviene/s		.H.S.
+dijhêye/is		.H.S.	(spot, ratourneure)
+pôfoirt		.H.S.		(pô + foirt, come pômagne)
+vôsseure/s		.H.S.
+vôssé/a
+årmêye/s		.H.S.
+sitatistike/ami		.H.S.
+educåcion/s		.H.S.
+aplicåcion/s		.H.S.
+populåcion/s		.H.S.
+contrêye/s		.H.S.	(payis, coine)
+lignaedje/s		.H.S.
+administråcion/s		.H.S.
+administratif/a
+sovrin/a		.?.S. (H: soverin ?)
+soumis/a		.H.S.
+esclåve/si		.H.S.
+torteure/s		.H.S.
+cruwél/a		.x.S. (H: cruwél)
+linçoû/s		.H.S.
+fligote/s		.H.S.
+bal/s		.H.S.		(danse)
+danse/s		.H.S.
+dansreye/s		.H.S.

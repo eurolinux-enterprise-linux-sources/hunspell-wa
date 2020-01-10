@@ -1,0 +1,287 @@
+version wa 0.000000001
+
+# en nén disfafloter; c' est foir impôrtant di nel nén fé po "å"
+# po "ç" (sins cwè "ça" et "ca" srént veyous l' minme!) et po les e/è/é
+# al fén des mots (vôte = VOT, mins vôté = VOTE)
+remove_accents 0
+
+#
+# les rîles fonetikes èn sont nén åjheyes a comprinde!
+# mins dj' a fini pa comprinde tot l' minme ene miete.
+#
+# po on patron ki cmince pa les minmès letes, i fåt
+# mete d' aprume li patron ki cwire après l' fén do mot (eg: CE$)
+# poy li ci avou ene fortchete (eg: C(EI)- ); et do pus longou å pus court
+#
+# Eyet on n' pout nén mete des rîles ki cmincèt avou ene ôte lete
+# å etur des rîles ki cmincèt avou ene lete dinêye, ôtrumint li boket
+# k' est pus lon èn sereut måy eployî.
+#
+# cwand i gn a pus d' ene rîle pol minme patron, seulmint l' prumire
+# est eployeye.
+# po les rîles fonetikes des betchfessîs, dj' a metou les diferinnès
+# rîles possibes; i sufixh di candjî leu-z ôre (ou d' disfacer les cenes
+# ki n' siervèt a rén) po-z adapter l' fitchî a on pårler walon dné.
+#
+# Si vos vloz fé on fitchî d' fonetike po do Feller *deur* avou des
+# moyas "e" tot avå dins les mots, cweroz après 'wa-feller-e' eyet
+# metoz en alaedje cisse roye la.
+# Mins adon tos les "e" do rfondou (ki, zels, si prononcèt) divénront "moyas"
+# pol cweraedje des suddjestions... a vos d' vey si ça vs ahesse ou nén.
+#
+# Rîles po les pårlers:
+# wa-ae-e: "ae" si prononce "è"
+# wa-ae-a: "ae" si prononce "a"
+# wa-aa-a: "å" si prononce "â"
+# wa-aa-o: "å/au" si prononce "ô"
+# wa-aajh-a: "å" di "åjh" si prononce "â"
+# wa-aajh-o: "å" di "åjh" si prononce "ô"
+# wa-aacion-a: "å" di "åcion" si prononce "â"
+# wa-aacion-o: "å" di "åcion" si prononce "ô"
+# wa-ea-ya: "ea" si prononce "ya"
+# wa-ea-e: "ea" si prononce "ê"
+# wa-ey-iy: "ey" si prononce "iy/îy"
+# wa-ey-ey: "ey" si prononce "èy/êy"
+# wa-oen-on: "oen" si prononce "on"
+# wa-oen-win: "oen" si prononce "win"
+# wa-oe-eu: "oe" si prononce "eû"
+# wa-oe-we: "oe" si prononce "wè"
+# wa-oi-we: "oi" si prononce "wè"
+# wa-oi-wa: "oi" si prononce "wâ"
+# wa-oi-o: "oi" si prononce "ô"
+# wa-sch-sk: "sch" si prononce "sk"
+# wa-sch-ch: "sch" si prononce "ch"
+# wa-sch-h: "sch" si prononce "h"
+# wa-sh-ch: "sh" si prononce "ch"
+# wa-sh-ss: "sh" si prononce "ss"
+# wa-h-h: "h" si prononce "h"
+# wa-h-_: "h" èn si prononce nén
+# wa-jh-j: "jh" si prononce "j"
+# wa-jh-h: "jh" si prononce "h"
+# wa-xh-ch: "xh" si prononce "ch"
+# wa-xh-h: "xh" si prononce "h"
+# wa-owe-uwe: "-ou/-owe" si prononce "-u/-uwe"
+# wa-u-ou: les "u" si prononcèt come des "ou"
+# wa-u-u: les "u" si prononcèt come des "u"
+
+# fellerisses
+QU(EIÈÉÊÎ)-	K
+QU(AOUÅ)-	KW
+QW		KW
+Q		K
+
+# li lete "x"
+X(ABCDEÈÉÊÎFGIÎJKLMNOPRSTUVWYZ)	KS
+XH	X	#:wa-xh-ch
+XH	H	#:wa-xh-h
+
+# li lete "c"
+CH		X
+CW		KW
+CE$		S
+CES$		S
+CEA		XA  #:wa-ea-ya
+C(EÉÈÊÎ)-	S
+CI(AEOUÅÉ)-	X
+CI		SI
+CY(AEOUÅÉ)-	X
+CY		SY
+C$		_
+C		K
+Ç		S
+
+# li lete "g"
+GNGN		NN
+GN.GN		NN
+GN		NY
+GUE$		K
+GUES$		K
+GU(EIÉÈÊÎ)-	G
+G(EIÉÈÊÎ)-	J
+G$		K
+G		G
+
+# lete "d"
+DE$	T
+DES$	T
+#DI(AEOUÅÉ)-	DJ
+#DY(AEOUÅÉ)-	DJ
+DJN	NN
+DJV	TXV
+DJE$	TX
+DJES$	TX
+DJ$	TX
+DJ	DJ
+DM	NM
+DN	NN
+D$	_
+D	D
+
+# lete "t"
+TCHF	TXV
+TCH	TX
+TE$	T
+TES$	T
+#TI(AEOUÅÉ)-	TX
+#TY(AEOUÅÉ)-	TX
+T$	_
+T	T
+
+# lete "o"
+OEN			ON	#:wa-oen-on
+OEN			WIN	#:wa-oen-win
+OES$			@	#:wa-oe-eu
+OES$			WE	#:wa-oe-we
+OE			@	#:wa-oe-eu
+OE			WE	#:wa-oe-we
+OI			WE	#:wa-oi-we
+OI			WA	#:wa-oi-wa
+OI			O	#:wa-oi-o
+OS(AEIOUYÂÅÉÈÊÎÔÛ)-<	OZ
+OU$			U	#:wa-owe-uwe
+OUS$			U	#:wa-owe-uwe
+OWE$			UW	#:wa-owe-uwe
+OWES$			UW	#:wa-owe-uwe
+O(UÛ)			O
+O			O
+# èn rotèt nén pol moumint
+ÔS(AEIOUYÂÅÉÈÊÎÔÛ)-<	OZ
+Ô			O
+Ö			O
+
+
+# lete "s"
+SCH			SK	#:wa-sch-sk
+SCH			X	#:wa-sch-ch
+SCH			H	#:wa-sch-h
+SE$			S
+SES$			S
+SH			X	#:wa-sh-ch
+SH			S	#:wa-sh-ss
+SI(AEOUÅÉ)-		X
+SY(AEOUÅÉ)-		X
+SSE$			S
+SSES$			S
+SS			S
+S$			_
+S			S
+
+# voyales eyet lete "s"
+AE			E	#:wa-ae-e
+AE			A	#:wa-ae-a
+AI			E
+AS(AEIOUYÂÅÉÈÊÎÔÛ)-<	AZ
+AUXON$			AXON	#:wa-aacion-a
+AUXON$			OXON	#:wa-aacion-o
+AU			O	#:wa-aa-o
+AU			A	#:wa-aa-a
+# chal cåze ki "å" n' est nén veyou
+AJH<			OJ	#:wa-aajh-o #:wa-jh-j
+AJH<			OH	#:wa-aajh-o #:wa-jh-h
+AJH<			AJ	#:wa-aajh-a #:wa-jh-j
+AJH(AIÎMNRTÛ)-<		AH	#:wa-aajh-a #:wa-jh-h
+AJHE$			AX	#:wa-aajh-a #:wa-jh-h #:wa-xh-ch
+AJHES$			AX	#:wa-aajh-a #:wa-jh-h #:wa-xh-ch
+ACION$			AXON	#:wa-aacion-a
+ACION$			OXON	#:wa-aacion-o
+A			A
+# èn rotèt nén pol moumint
+ÂS(AEIOUYÂÅÉÈÊÎÔÛ)-<	AZ
+Â			A
+ÅS(AEIOUYÂÅÉÈÊÎÔÛ)-<	AZ
+ÅCION$			AXON	#:wa-aacion-a
+ÅCION$			OXON	#:wa-aacion-o
+ÅJH<			OJ	#:wa-aajh-o #:wa-jh-j
+ÅJH<			OH	#:wa-aajh-o #:wa-jh-h
+ÅJH<			AJ	#:wa-aajh-a #:wa-jh-j
+ÅJH(AÉÈIÎMNRTÛ)-<	AH	#:wa-aajh-a #:wa-jh-h
+ÅJHE$			AX	#:wa-aajh-a #:wa-jh-h #:wa-xh-ch
+ÅJHES$			AX	#:wa-aajh-a #:wa-jh-h #:wa-xh-ch
+Å			A	#:wa-aa-a
+Å			O	#:wa-aa-o
+À			A
+EA			YA	#:wa-ea-ya	
+EA			E	#:wa-ea-e	
+ES(AEIOUYÂÅÉÈÊÎÔÛ)-<	EZ
+EY			IY	#:wa-ey-iy
+EY			EY	#:wa-ey-ey
+E$			_
+ER$			E
+ES$			_
+E(UÛ)			@	# eu
+#E			_	#:wa-feller-e
+E			E
+# èn va nén co
+ÉS(AEIOUYÂÅÉÈÊÎÔÛ)-<	EZ
+ÉN			IN
+É			E
+ÈS(AEIOUYÂÅÉÈÊÎÔÛ)-<	EZ
+È			E
+ÊS(AEIOUYÂÅÉÈÊÎÔÛ)-<	EZ
+ÊY			EY
+Ê			E
+Ë			I
+I(AEOUÅÉ)-		Y
+IS(AEIOUYÂÅÉÈÊÎÔÛ)-<	IZ
+I			I
+# èn va nén co
+ÎS(AEIOUYÂÅÉÈÊÎÔÛ)-<	IZ
+Î			I
+US(AEIOUYÂÅÉÈÊÎÔÛ)-<	UZ
+U			U #:wa-u-u
+U			O #:wa-u-ou
+# èn va nén co
+ÛS(AEIOUYÂÅÉÈÊÎÔÛ)-<	UZ
+Û			U
+Ù			U
+
+BE$	P
+BES$	P
+B$	P
+B	B
+FWAI	FE
+F	F
+H	H	#:wa-h-h
+H	_	#:wa-h-_
+JHE$	X	#:wa-jh-j
+JHE$	X	#:wa-jh-h #:wa-xh-ch
+JHE$	H	#:wa-jh-h
+JHE$	H	#:wa-jh-h #:wa-xh-h
+JHES$	X	#:wa-jh-j
+JHES$	X	#:wa-jh-h #:wa-xh-ch
+JHES$	H	#:wa-jh-h #:wa-xh-h
+JH$	X	#:wa-jh-j
+JH$	X	#:wa-jh-h #:wa-xh-ch
+JH$	H	#:wa-jh-h #:wa-xh-h
+JH	J	#:wa-jh-j
+JH	H	#:wa-jh-h
+JE$	X
+JES$	X
+J$	X
+J	J
+K	K
+L	L
+MWAISS(E)-	MES
+MWAIST	MEST
+MWIN$	MIN
+MWINS$	MIN
+M	M
+N	N
+PH	F
+P	P
+R	R
+VGN	MNY
+VN	MN
+VE$	F
+VES$	F
+V$	F
+V	V
+W	W
+Y	Y
+ZE$	S
+ZES$	S
+#ZI(AEOUÅÉ)-	J
+#ZY(AEOUÅÉ)-	J
+Z$	_
+Z	Z
+

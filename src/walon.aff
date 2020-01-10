@@ -1,0 +1,1691 @@
+# Copyright 2000, Pablo Saratxaga <pablo@mandraiva.com>
+#		  Lucyin Mahin <lucyin@walon.org>
+
+# Ispell file for walon linguage (new unified ortography)
+
+nroffchars      ().\\*
+texchars        ()\[]{}<\>\\$*.%
+
+allaffixes on
+
+# Definixha des caracteres
+
+defstringtype "latin1" "tex" "nroff" ".list" ".txt" ".mm" ".ms" ".me" ".man"
+".tex" ".bib" ".html" ".latex"
+
+boundarychars	[-]
+#boundarychars	'
+boundarychars	[.]
+boundarychars	[,]
+boundarychars	@
+wordchars	_	_
+wordchars	'	'
+wordchars	a	A
+#stringchar	à	À
+stringchar	â	Â
+stringchar	ä	Ä
+stringchar	å	Å
+wordchars	[b-c]	[B-C]
+stringchar	ç	Ç
+wordchars	[d-e]	[D-E]
+stringchar	è	È
+stringchar	é	É
+stringchar	ê	Ê
+stringchar	ë	Ë
+wordchars	[f-i]	[F-I]
+stringchar	î	Î
+#stringchar	ï	Ï
+wordchars	[j-o]	[J-O]
+stringchar	ô	Ô
+#stringchar	ö	Ö
+wordchars	[p-u]	[P-U]
+#stringchar	ù	Ù
+stringchar	û	Û
+stringchar	ü	Ü
+wordchars	[v-z]	[V-Z]
+# sipeciås
+wordchars	º	º
+#wordchars	°	°
+
+#
+# TeX
+#
+altstringtype "latex" "tex" ".tex" ".bib" ".latex"
+
+#altstringchar	\\`a		à
+#altstringchar	\\`A		À
+altstringchar	\\^a		â
+altstringchar	\\^A		Â
+altstringchar	\\\"a		ä
+altstringchar	\\\"A		Ä
+altstringchar	"\\aa{}"	å
+altstringchar	"\\AA{}"	Å
+altstringchar	"\\c{c}"	ç
+altstringchar	"\\c{C}"	Ç
+altstringchar	\\`e		è
+altstringchar	\\`E		È
+altstringchar	\\'e		é
+altstringchar	\\'E		É
+altstringchar	\\^e		ê
+altstringchar	\\^E		Ê
+altstringchar	\\\"e		ë
+altstringchar	\\\"E		Ë
+altstringchar	\\^\\i		î
+altstringchar	\\^\\I		Î
+#altstringchar	\\\"\\i		ï
+#altstringchar	\\\"\\I		Ï
+altstringchar	\\^o		ô
+altstringchar	\\^O		Ô
+#altstringchar	\\\"o		ö
+#altstringchar	\\\"O		Ö
+#altstringchar	\\`u		ù
+#altstringchar	\\`U		Ù
+altstringchar	\\^u		û
+altstringchar	\\^U		Û
+altstringchar	\\\"u		ü
+altstringchar	\\\"U		Ü
+
+##
+## UTF-8
+##
+#altstringtype "utf8" "tex" ".uni" ".utf" ".utf8" ".html"
+#
+##altstringchar   "\xc3\xa0"	à
+##altstringchar   "\xc3\x80"	À
+#altstringchar   "\xc3\xa2"	â
+#altstringchar   "\xc3\x82"	Â
+#altstringchar   "\xc3\xa4"	Ä
+#altstringchar   "\xc3\x84"	ä
+#altstringchar	"\xc3\xa5"	å
+#altstringchar   "\xc3\x85"	Å
+#altstringchar   "\xc3\xa7"	ç
+#altstringchar   "\xc3\x87"	Ç
+#altstringchar   "\xc3\xa8"	è
+#altstringchar   "\xc3\x88"	È
+#altstringchar   "\xc3\xa9"	é
+#altstringchar   "\xc3\x89"	É
+#altstringchar   "\xc3\xaa"	ê
+#altstringchar   "\xc3\x8a"	Ê
+#altstringchar   "\xc3\xab"	ë
+#altstringchar   "\xc3\x8b"	Ë
+#altstringchar   "\xc3\xae"	î
+#altstringchar   "\xc3\x8e"	Î
+##altstringchar   "\xc3\xaf"	ï
+##altstringchar   "\xc3\x8f"	Ï
+#altstringchar   "\xc3\xb4"	ô
+#altstringchar   "\xc3\x94"	Ô
+##altstringchar   "\xc3\xb6"	ö
+##altstringchar   "\xc3\x96"	Ö
+##altstringchar   "\xc3\xb9"	ù
+##altstringchar   "\xc3\x99"	Ù
+#altstringchar   "\xc3\xbb"	û
+#altstringchar   "\xc3\x9b"	Û
+#altstringchar   "\xc3\xbc"	ü
+#altstringchar   "\xc3\x9c"	Ü
+
+#
+# HTML
+#
+altstringtype "html" "nroff" ".html" ".htm" ".HTM"
+
+#altstringchar   "\&agrave;"	à
+#altstringchar   "\&Agrave;"	À
+altstringchar   "\&acirc;"	â
+altstringchar   "\&Acirc;"	Â
+altstringchar   "\&Auml;"	Ä
+altstringchar   "\&auml;"	ä
+altstringchar	"\&aring;"      å
+altstringchar   "\&Aring;"	Å
+altstringchar   "\&ccedil;"	ç
+altstringchar   "\&Ccedil;"	Ç
+altstringchar   "\&egrave;"	è
+altstringchar   "\&Egrave;"	È
+altstringchar   "\&eacute;"	é
+altstringchar   "\&Eacute;"	É
+altstringchar   "\&ecirc;"	ê
+altstringchar   "\&Ecirc;"	Ê
+altstringchar   "\&euml;"	ë
+altstringchar   "\&Euml;"	Ë
+altstringchar   "\&icirc;"	î
+altstringchar   "\&Icirc;"	Î
+#altstringchar   "\&iuml;"	ï
+#altstringchar   "\&Iuml;"	Ï
+altstringchar   "\&ocirc;"	ô
+altstringchar   "\&Ocirc;"	Ô
+#altstringchar   "\&ouml;"	ö
+#altstringchar   "\&Ouml;"	Ö
+#altstringchar   "\&ugrave;"	ù
+#altstringchar   "\&Ugrave;"	Ù
+altstringchar   "\&ucirc;"	û
+altstringchar   "\&Ucirc;"	Û
+altstringchar   "\&uuml;"	ü
+altstringchar   "\&Uuml;"	Ü
+
+
+altstringtype "latin1" "tex" ".tex" ".bib" ".latex" ".html"
+altstringchar	â	Â
+altstringchar	ä	Ä
+altstringchar	å	Å
+altstringchar	ç	Ç
+altstringchar	è	È
+altstringchar	é	É
+altstringchar	ê	Ê
+altstringchar	ë	Ë
+altstringchar	î	Î
+#altstringchar	ï	Ï
+altstringchar	ô	Ô
+#altstringchar	ö	Ö
+#altstringchar	ù	Ù
+altstringchar	û	Û
+altstringchar	ü	Ü
+
+
+
+# Drapeas po les viebes:
+# ======================
+#
+# v: bodje A des viebes (cogne do pårticipe erirece)
+# v: bodjes B et C des viebes (cogne atôtchî prezintrece)
+# V: bodje B des viebes avou B != C (cogne atôtchî futurrece)
+# V: bodje C des viebes avou B != C (cogne riwaitants namurwesse)
+# V: bodje (B ou C) po les 3 djins singulî (cogne atôtchî prezintrece)
+# j: on pout fé on mot avou -aedje a pårti do viebe
+# i: stitchåve voyale
+
+# Drapeas po les nos:
+# ==================
+#
+# n: no (femrin sing -> omrin sing, -> omrin plur, -> femrin plur)
+# a: adjectif (come li drapea "n" avou ossu -ès)
+# s: no (sing -> pluriel)
+# i: stitchåve voyale
+# r: pout fé on femrin avou -resse 
+
+# ------------------------------------------------------------
+
+prefixes
+
+flag	*i:
+	E R			>	-ER,R
+	E R			>	-ER,RI
+	E S			>	-ES,S
+	E S			>	-ES,SI
+
+	D E			>	-DE,D		
+	L E			>	-LE,L		
+	M E			>	-ME,M		# m(e)zurer, b(e)zogne
+	S E			>	-SE,S		# s(e)reut
+	V E			>	-VE,V
+
+	C H I [^Y]		>	-CHI,CH
+	D I [^GSY]		>	-DI,D		
+#	D I G N			>	-DI,GN
+	D I G N			>	-DI,D
+	D I S [^S]		>	-DI,D		
+	D I S S			>	-DIS,D		
+#	D I Y [^Iî]		>	-DIY,DI		# diyaleke/dialeke
+	D I Y [Iî]		>	-DI,D		 
+#	D J I G N		>	-DJI,GN
+#	D J I N			>	-DJIN,GNGN
+	D J I 			>	-DJI,DJ
+	F I [^Y]		>	-FI,F		# f(i)jhans
+	G N I [^Y]		>	-GNI,GN		# 
+	K I			>	-KI,CO
+	K I [^EéèêHIîSY]	>	-KI,C		# k(i)mint
+	K I [EéèêHIî]		>	-KI,K		# k(i)hatchî
+	K I S [^CS]		>	-KI,C
+#	K I S C H		>	-KI,C'
+	K I S S			>	-KIS,C
+	K I Y [^Iî]		>	-KIY,KI
+	K I Y [Iî]		>	-KI,K
+	L I [^Y]		>	-LI,L		# l(i)wè
+#	L I Y [^Iî]		>	-LIY,LI		# liyårds/liårds
+	P I [^Y]		>	-PI,P		# p(i)tit
+	R I [^SY]		>	-RI,R		# r(i)fé
+	R I S [^S]		>	-RI,R		
+	R I S S			>	-RIS,R		
+	R I Y [^Iî]		>	-RIY,RI		# riyant/riant
+	R I Y [Iî]		>	-RI,R		# riyant/riant
+	R I [^S]		>	-RI,ER		# rixxx/erxxx
+	R I S [^S]		>	-RI,ER		
+	R I S S			>	-RIS,ER		
+	R I Y [^Iî]		>	-RIY,ERI
+	R I Y [Iî]		>	-RI,ER
+	S I [^Y]		>	-SI,S		# s(i)cole
+	S I Y [^Iî]		>	-SIY,SI		# 
+	S I Y [Iî]		>	-SI,S		# s(i)yince
+	S I [^Y]		>	-SI,ES		# s(i)cole
+	T C H I	[^Y]		>	-TCHI,TCH	# tch(i)min
+	T I [^Y]		>	-TI,T		# t(i)ni
+	V I [^Y]		>	-VI,V		# v(i)nant
+#	V I Y [^Iî]		>	-VIY,VI		# viyaedje/viaedje
+
+	C O [^CHSXEéèêIî]	>	-CO,C		# c(o)mere
+	C O [CHX]		>	-CO,K		# c(o)hatche
+	C O [EéèêIî]		>	-CO,K
+	C O S [^CS]		>	-CO,C
+#	C O S C H		>	-CO,C'
+	C O S S			>	-COS,C
+	C O			>	-CO,KI
+
+	P O			>	-PO,P		# p(o)loz
+	T O			>	-TO,T
+	V O			>	-VO,V		# v(o)loz
+
+	D U			>	-DU,D		# 
+	L U			>	-LU,L		# 
+	M U			>	-MU,M		# 
+	P U			>	-PU,P		# 
+	R U			>	-RU,R		# R(u)dû
+	V U			>	-VU,V		# V(u)nijhe
+
+	S C H			>	-SCH,ESCH	# schô/eschô
+
+# ------------------------------------------------------------
+
+# ci drapea chal n' est måy eployî el djivêye di mots; mins est ahessåve
+# po ispell propozer des tchuzes
+
+flag *P:
+	[^AåâEéêèIîOôUûY]	>	RI
+	[^R]			>	R
+	[^AååâEéêèIîOôUûY]	>	RA
+	[^AååâEéêèIîOôUûY]	>	RACA
+	.			>	DIS
+	[^AåâEéêèIîOôUûY]	>	CO
+	[^AåâEéêèIîOôUûY]	>	KI
+	[^CK]			>	C
+
+# ------------------------------------------------------------
+
+suffixes
+
+#
+# Li drapea « j » c' est po des viebes ki polèt fé des nos en -aedje;
+# c' est construt sol fôme di pårticipe erirece do viebe.
+#
+
+flag *j:
+	[^CKU] é		>	-é,AEDJE	
+	C é			>	-Cé,çAEDJE
+	K é			>	-Ké,CAEDJE
+	G U é			>	-Ué,AEDJE
+	[^CKUY] î		>	-î,AEDJE
+	C î			>	-Cî,çAEDJE
+	K î			>	-Kî,CAEDJE
+	G U î			>	-Uî,AEDJE
+	[^AåâEéêèGIîOôUû] Y î	>	-Yî,IAEDJE
+	[AåâEéêèIîOôUû] Y î	>	-Yî,YAEDJE
+	G Y î			>	-Yî,UIAEDJE
+	[^CKU] I		>	-I,AEDJE
+	C I			>	-CI,çAEDJE
+	K I			>	-KI,CAEDJE
+	G U I			>	-UI,AEDJE
+	I X H			>	-IXH,IXHAEDJE
+	[^H] O U		>	-OU,AEDJE
+	[^J] H O U		>	-OU,AEDJE
+	[^é] J H O U		>	-OU,AEDJE
+	é J H O U		>	-éJHOU,IJHAEDJE
+	[^îû] T			>	-T,JHAEDJE
+	î T			>	-îT,IJHAEDJE
+	û T			>	-ûT,UJHAEDJE
+
+	[^CKU] é		>	-é,AEDJES
+	C é			>	-Cé,çAEDJES
+	K é			>	-Ké,CAEDJES
+	G U é			>	-Ué,AEDJES
+	[^CKUY] î		>	-î,AEDJES
+	C î			>	-Cî,çAEDJES
+	K î			>	-Kî,CAEDJES
+	G U î			>	-Uî,AEDJES
+	[^AåâEéêèGIîOôUû] Y î	>	-Yî,IAEDJES
+	[AåâEéêèIîOôUû] Y î	>	-Yî,YAEDJES
+	G Y î			>	-Yî,UIAEDJES
+	[^CKU] I		>	-I,AEDJES
+	C I			>	-CI,çAEDJES
+	K I			>	-KI,CAEDJES
+	G U I			>	-UI,AEDJES
+	I X H			>	-IXH,IXHAEDJES
+	[^H] O U		>	-OU,AEDJES
+	[^J] H O U		>	-OU,AEDJES
+	[^é] J H O U		>	-OU,AEDJES
+	é J H O U		>	-éJHOU,IJHAEDJES
+	[^îû] T			>	-T,JHAEDJES
+	î T			>	-îT,IJHAEDJES
+	û T			>	-ûT,UJHAEDJES
+
+#
+# Li drapea « c » c' est po des viebes ki polèt fé des mots en -ance;
+# c' est construt sol fôme di pårticipe erirece do viebe.
+#
+
+flag *c:
+	[^CKU] é		>	-é,ANCE
+	C é			>	-Cé,çANCE
+	K é			>	-Ké,CANCE
+	G U é			>	-Ué,ANCE
+	[^CKUY] î		>	-î,ANCE
+	C î			>	-Cî,çANCE
+	K î			>	-Kî,CANCE
+	G U î			>	-Uî,ANCE
+	[^AåâEéêèGIîOôUû] Y î	>	-Yî,IANCE
+	[AåâEéêèIîOôUû] Y î	>	-Yî,YANCE
+	G Y î			>	-Yî,UIANCE
+	[^CKU] I		>	-I,ANCE
+	C I			>	-CI,çANCE
+	K I			>	-KI,CANCE
+	G U I			>	-UI,ANCE
+	I X H			>	-IXH,IXHANCE
+	[^H] O U		>	-OU,ANCE
+	[^J] H O U		>	-OU,ANCE
+	[^é] J H O U		>	-OU,ANCE
+	é J H O U		>	-éJHOU,IJHANCE
+	[^îû] T			>	-T,JHANCE
+	î T			>	-îT,IJHANCE
+	û T			>	-ûT,UJHANCE
+
+	[^CKU] é		>	-é,ANCES
+	C é			>	-Cé,çANCES
+	K é			>	-Ké,CANCES
+	G U é			>	-Ué,ANCES
+	[^CKUY] î		>	-î,ANCES
+	C î			>	-Cî,çANCES
+	K î			>	-Kî,CANCES
+	G U î			>	-Uî,ANCES
+	[^AåâEéêèGIîOôUû] Y î	>	-Yî,IANCES
+	[AåâEéêèIîOôUû] Y î	>	-Yî,YANCES
+	G Y î			>	-Yî,UIANCES
+	[^CKU] I		>	-I,ANCES
+	C I			>	-CI,çANCES
+	K I			>	-KI,CANCES
+	G U I			>	-UI,ANCES
+	I X H			>	-IXH,IXHANCES
+	[^H] O U		>	-OU,ANCES
+	[^J] H O U		>	-OU,ANCES
+	[^é] J H O U		>	-OU,ANCES
+	é J H O U		>	-éJHOU,IJHANCES
+	[^îû] T			>	-T,JHANCES
+	î T			>	-îT,IJHANCES
+	û T			>	-ûT,UJHANCES
+
+#
+# Li drapea « t » c' est po des viebes ki polèt fé des addjectif en -ant;
+# c' est construt sol fôme di pårticipe erirece do viebe.
+#
+
+flag *t:
+	# li fôme omrin singulier on l' a ddja (=pårticpe prezintrece)
+
+	[^CKU] é		>	-é,ANTS
+	C é			>	-Cé,çANTS
+	K é			>	-Ké,CANTS
+	G U é			>	-Ué,ANTS
+	[^CKUY] î		>	-î,ANTS
+	C î			>	-Cî,çANTS
+	K î			>	-Kî,CANTS
+	G U î			>	-Uî,ANTS
+	[^AåâEéêèGIîOôUû] Y î	>	-Yî,IANTS
+	[AåâEéêèIîOôUû] Y î	>	-Yî,YANTS
+	G Y î			>	-Yî,UIANTS
+	[^CKU] I		>	-I,ANTS
+	C I			>	-CI,çANTS
+	K I			>	-KI,CANTS
+	G U I			>	-UI,ANTS
+	I X H			>	-IXH,IXHANTS
+	[^H] O U		>	-OU,ANTS
+	[^J] H O U		>	-OU,ANTS
+	[^é] J H O U		>	-OU,ANTS
+	é J H O U		>	-éJHOU,IJHANTS
+	[^îû] T			>	-T,JHANTS
+	î T			>	-îT,IJHANTS
+	û T			>	-ûT,UJHANTS
+
+	[^CKU] é		>	-é,ANTE
+	C é			>	-Cé,çANTE
+	K é			>	-Ké,CANTE
+	G U é			>	-Ué,ANTE
+	[^CKUY] î		>	-î,ANTE
+	C î			>	-Cî,çANTE
+	K î			>	-Kî,CANTE
+	G U î			>	-Uî,ANTE
+	[^AåâEéêèGIîOôUû] Y î	>	-Yî,IANTE
+	[AåâEéêèIîOôUû] Y î	>	-Yî,YANTE
+	G Y î			>	-Yî,UIANTE
+	[^CKU] I		>	-I,ANTE
+	C I			>	-CI,çANTE
+	K I			>	-KI,CANTE
+	G U I			>	-UI,ANTE
+	I X H			>	-IXH,IXHANTE
+	[^H] O U		>	-OU,ANTE
+	[^J] H O U		>	-OU,ANTE
+	[^é] J H O U		>	-OU,ANTE
+	é J H O U		>	-éJHOU,IJHANTE
+	[^îû] T			>	-T,JHANTE
+	î T			>	-îT,IJHANTE
+	û T			>	-ûT,UJHANTE
+
+	[^CKU] é		>	-é,ANTES
+	C é			>	-Cé,çANTES
+	K é			>	-Ké,CANTES
+	G U é			>	-Ué,ANTES
+	[^CKUY] î		>	-î,ANTES
+	C î			>	-Cî,çANTES
+	K î			>	-Kî,CANTES
+	G U î			>	-Uî,ANTES
+	[^AåâEéêèGIîOôUû] Y î	>	-Yî,IANTES
+	[AåâEéêèIîOôUû] Y î	>	-Yî,YANTES
+	G Y î			>	-Yî,UIANTES
+	[^CKU] I		>	-I,ANTES
+	C I			>	-CI,çANTES
+	K I			>	-KI,CANTES
+	G U I			>	-UI,ANTES
+	I X H			>	-IXH,IXHANTES
+	[^H] O U		>	-OU,ANTES
+	[^J] H O U		>	-OU,ANTES
+	[^é] J H O U		>	-OU,ANTES
+	é J H O U		>	-éJHOU,IJHANTES
+	[^îû] T			>	-T,JHANTES
+	î T			>	-îT,UJHANTES
+	û T			>	-ûT,UJHANTES
+
+	[^CKU] é		>	-é,ANTèS
+	C é			>	-Cé,çANTèS
+	K é			>	-Ké,CANTèS
+	G U é			>	-Ué,ANTèS
+	[^CKUY] î		>	-î,ANTèS
+	C î			>	-Cî,çANTèS
+	K î			>	-Kî,CANTèS
+	G U î			>	-Uî,ANTèS
+	[^AåâEéêèGIîOôUû] Y î	>	-Yî,IANTèS
+	[AåâEéêèIîOôUû] Y î	>	-Yî,YANTèS
+	G Y î			>	-Yî,UIANTèS	# beguiantès
+	[^CKU] I		>	-I,ANTèS
+	C I			>	-CI,çANTèS
+	K I			>	-KI,CANTèS
+	G U I			>	-UI,ANTèS
+	I X H			>	-IXH,IXHANTèS
+	[^H] O U		>	-OU,ANTèS
+	[^J] H O U		>	-OU,ANTèS
+	[^é] J H O U		>	-OU,ANTèS
+	é J H O U		>	-éJHOU,IJHANTèS
+	[^îû] T			>	-T,JHANTèS
+	î T			>	-îT,UJHANTèS
+	û T			>	-ûT,UJHANTèS
+
+#
+# Li drapea « m » c' est po des viebes ki polèt fé des nos e -mint;
+# et po les addjectifs ki polèt fé des adviebes e -mint.
+#
+
+flag *m:
+# viebe -> no
+	[^CKOSU] E S		>	-ES,MINT
+	C E S			>	-CES,çMINT
+	K E S			>	-KES,CMINT
+	O E S			>	-S,MINT
+	[^S] S E S		>	-ES,MINT 
+	S S E S			>	-SES,MINT
+	U E S			>	-UES,MINT
+	[^EIUû] S		>	-S,MINT
+	O U S			>	-US,MINT
+	O û S			>	-OûS,ôMINT
+	[^EO] [Uû] S		>	-S,MINT
+	I X H			>	-XH,XHMINT
+	R è S			>	-RèS,MINT
+
+	[^CKOSU] E S		>	-ES,MINTS
+	C E S			>	-CES,çMINTS
+	K E S			>	-KES,CMINTS
+	O E S			>	-S,MINTS
+	[^S] S E S		>	-ES,MINTS 
+	S S E S			>	-SES,MINTS
+	U E S			>	-UES,MINTS
+	[^EIUû] S		>	-S,MINTS
+	O U S			>	-US,MINTS
+	O û S			>	-OûS,ôMINTS
+	[^EO] [Uû] S		>	-S,MINTS
+	I X H			>	-XH,XHMINTS
+	R è S			>	-RèS,MINTS
+
+# addj -> adviebe
+	[^CKOSU] E 		>	-E,MINT
+	C E 			>	-CE,çMINT
+	K E 			>	-KE,CMINT
+	O E 			>	MINT
+	[^S] S E 		>	-E,MINT 
+	S S E 			>	-SE,MINT
+	G U E			>	-UE,MINT
+	E U S			>	-S,ZMINT
+	å			>	LMINT
+	I N			>	NMINT
+	F			>	-F,VMINT
+	K			>	-K,CMINT
+	é			>	-é,êYMINT
+	î			>	-î,EYMINT
+	[^åEéFHîKNST]		>	MINT
+	A N T			>	-T,MINT
+	[^N] T			>	MINT
+
+# ------------------------------------------------------------
+
+#
+# Li drapea « v » c'est po les viebes erîlés. Po tchaeke viebe on done deus
+# fômes, et a pårtî di la on pout construre tot l' resse.
+# Les deus fômes prinduwes sont: 2 djin do prezint, et pårticipe erirece.
+# Pocwè ?
+# Avou l' 2 djin do prézint on a tot d' shûte les erîleyes disrûleyes come
+# netyî/neteyes, tchafter/tchafteyes,... mins ossu: dormî/doimes,....
+# et come cisse fôme finit todi avou on "s" c' est åjhey a eployî avou ispell.
+# Pol 2inme fôme, dj' ava comincî avou l' pårticipe prezint (et poy li 4 djin
+# do prezint, çu ki est a pô près l' minme, djusse ki dj' ava pus åjhey a
+# scrire des djivêyes di -ans k' di -ant); mins poy dj' a veyu l' probleme
+# di cnoxhe li fôme do pårticipe erirece; -î/-eye oudonbén -ou/-owe ?
+# impossibe a saveur si on n' a ki (tchantes,tchantant) (metes,metant).
+# mins avou (tchantes,tchanté) et (metes,metu) c' est ddja pus åjhey :)
+# di pus, li pårticipe erirece permete di rtrover l' infinitif po les viebes
+# do prumî groupe (-é --> -er); come po les viebes des 2inme,3inme et 4inme
+# groupes l' infinitif et l' pårticipe erirece sont parey, c' est cô mî.
+# (et i m' sonle k' i gn a cô des viebes come boere, voere, ôre, clôre,
+# wice k' on pout trover l' infinitif a pårti del fôme del 2 djin do prezint)
+# I m' sonle ossu, ki les pårticipe erirece avou -t corespondèt ås viebes en
+# -ijhant (dit -> dijhant, sicrit -> sicrijhant, interdit -> interdijhant(?),
+# 
+#
+
+flag *v:
+	#################
+	#  prezintrece  #
+	#################
+	# atincion, ispell ni vout nén k' on prindaxhe foû des letes
+	# sin mete des ôtes el plaece; damadje, dji voleve
+	# mete "[^E] S		>	-S"
+	A S			>	-AS,A		# dji va
+	å S			>	-åS,å		# dji vå
+	D S			>	-DS,D		# dji comprind
+	E S			>	-ES,E		# dji/i tchante
+	é S			>	-éS,é		# dji lé
+	I S			>	-IS,I		# 
+	î S			>	-îS,î		# dji scrî
+	I X H			>	-IXH,I		# dji fini
+	O S			>	-OS,O		# ????
+	ô S			>	-ôS,ô		# dj' ô
+	N S			>	-NS,N		# dji vén
+	T S			>	-TS,T		# dj' aparet
+	U S			>	-US,U		# dji pou
+	û S			>	-ûS,û		# dji cû
+	R S			>	-RS,R		# dji cwir
+	# cawete dju (eg: vou dju ?)
+#	E N E S			>	-ENES,"INE-DJU" # copine dju
+	# fôume dimandrece avou -ss
+	[^E] S			>	S		# ass, vouss,...
+	I X H			>	-XH,SS		# finiss
+	# ti
+	I X H			>	S		# ti finixhs
+	I X H			>	-XH,S		# ti finis
+	# i
+	[^EDT] S		>	-S,T		# i ôt/pout
+	O E S			>	-S,T		# i boet
+	I X H			>	-XH,T		# i finit
+	
+	[^CKU] é		>	-é,ANS		# nos tchantans
+	C é			>	-Cé,çANS	# nos disfaçans
+	K é			>	-Ké,CANS	# nos vicans
+	G U é			>	-Ué,ANS		# nos abagans
+	[^CKUY] î		>	-î,ANS		# nos candjans
+	C î			>	-Cî,çANS	# nos cominçans
+	K î			>	-Kî,CANS	# nos acoûcans
+	G U î			>	-Uî,ANS		#
+	[^AåâEéêèGIîOôUû] Y î	>	-Yî,IANS	# nos netians
+	[AåâEéêèIîOôUû] Y î	>	-Yî,YANS	# nos sayans
+	G Y î			>	-Yî,UIANS	# nos beguians
+	[^CKU] I		>	-I,ANS		# nos sintans
+	C I			>	-CI,çANS	
+	K I			>	-KI,CANS
+	G U I			>	-UI,ANS		
+	I X H			>	-IXH,IXHANS	# nos finixhans
+	[^H] O U		>	-OU,ANS		# nos metans
+	[^J] H O U		>	-OU,ANS		# nos crexhans
+	[^é] J H O U		>	-OU,ANS
+	é J H O U		>	-éJHOU,IJHANS	# nos lijhans
+	[^îû] T			>	-T,JHANS	# nos dijhans
+	î T			>	-îT,IJHANS	
+	û T			>	-ûT,UJHANS	
+	é			>	-é,EZ		# vos tchantez
+	î			>	-î,îZ		# vos candjîz
+	[^CKU] I		>	-I,OZ		# vos sintoz
+	C I			>	-CI,çOZ
+	K I			>	-KI,COZ
+	G U I			>	-UI,OZ		#
+	I X H			>	-IXH,IXHOZ	# vos finixhoz
+	[^H] O U		>	-OU,OZ		# vos metoz
+	[^J] H O U		>	-OU,OZ		# vos crexhoz
+	[^é] J H O U		>	-OU,OZ
+	é J H O U		>	-éJHOU,IJHOZ	# vos lijhoz
+	[^îû] T			>	-T,JHOZ		# vos dijhoz
+	î T			>	-îT,IJHOZ 
+	û T			>	-ûT,UJHOZ 
+	é			>	-é,èT		# i tchantèt
+	[^Y] î			>	-î,èT		# i candjèt
+	[^AåâEéêèGIîOôUû] Y î	>	-Yî,IèT		# i netièt
+	[AåâEéêèIîOôUû] Y î	>	-Yî,YèT		# i sayèt
+	G Y î			>	-Yî,UIèT	# i beguièt
+	I			>	-I,èT		# i sintèt
+	I X H			>	-IXH,IXHèT	# i finixhèt
+	[^CçGH] O U		>	-OU,èT		# i metèt
+	C O U			>	-COU,KèT	# 
+	ç O U			>	-çOU,CèT	# 
+	g O U			>	-GOU,GUèT	# 
+	[^J] H O U		>	-OU,èT		# i crexhèt
+	[^é] J H O U		>	-OU,èT
+	é J H O U		>	-éJHOU,IJHèT	# i lijhèt
+	[^îû] T			>	-T,JHèT		# i dijhèt
+	î T			>	-îT,IJHèT 
+	û T			>	-ûT,UJHèT 
+	# -nut
+	[^CKNOSU] E S		>	-ES,NUT		# i tchantnut
+	C E S			>	-CES,çNUT	# i cminçnut
+	K E S			>	-KES,CNUT	# i vicnut
+	[^E] N E S		>	-ES,NUT		# i dmannut
+	E N E S			>	-ENES,INNUT	# i copinnut
+	[^S] S E S		>	-ES,NUT		# 
+	S S E S			>	-SES,NUT	# i pasnut
+	U E S			>	-UES,NUT	# i abagnut
+	I X H			>	-XH,XHNUT	# i finixhnut
+#	O E S			>	-S,T		# 3 fôme chal
+ 	[DT] S			>	-S,NUT		# i metnut
+	[^îû] T			>	-T,JHNUT	# i dijhnut
+	î T			>	-îT,IJHNUT 
+	û T			>	-ûT,UJHNUT 
+	###############
+	#  futurrece  #
+	###############
+	[^CKNOSU] E S		>	-ES,Rè		# dji/i tchantrè
+	C E S			>	-CES,çRè	
+	K E S			>	-KES,CRè	# dji/i vicrè
+	[^E] N E S		>	-ES,Rè		# dji/i dmanrè
+	E N E S			>	-ENES,INRè	# dji/i copinrè
+	O E S			>	-S,Rè		# dji/i boerè
+	[^S] S E S		>	-ES,Rè		# 
+	S S E S			>	-SES,Rè		# dji/i pasrè
+	U E S			>	-UES,Rè		# dji/i abagrè
+	[^EîUû] S		>	-S,Rè		# dji/i scrirè
+	O U S			>	-US,Rè		# dji/i porè
+	O û S			>	-OûS,ôRè	# dji/i pôrè
+	[^O] U S		>	-S,Rè		# dji/i curè
+	[^O] û S		>	-ûS,URè		# dji/i curè
+	î S			>	-îS,IRè		# dji/i scrirè
+	I X H 			>	-XH,XHRè	# dji/i finixhrè
+	I X H 			>	-XH,Rè		# dji/i finirè
+	[^CKNOSU] E S		>	-ES,RèS		# ti tchantrès
+	C E S			>	-CES,çRèS
+	K E S			>	-KES,CRèS	# ti vicrès
+	[^E] N E S		>	-ES,RèS		# ti dmanrès
+	E N E S			>	-ENES,INRèS	# ti copinrès
+	O E S			>	-S,RèS		# ti boerès
+	[^S] S E S		>	-ES,RèS		# 
+	S S E S			>	-SES,RèS	# ti pasrès
+	U E S			>	-UES,RèS	# ti abagrès
+	[^EîUû] S		>	-S,RèS		# ti scrirès
+	O U S			>	-US,RèS		# ti porès
+	O û S			>	-OûS,ôRèS	# ti pôrès
+	[^O] U S		>	-S,RèS		# ti curès
+	[^O] û S		>	-ûS,URèS	# ti curès
+	î S			>	-îS,IRèS	# ti scrirès
+	I X H			>	-XH,XHRèS	# ti finixhrès
+	I X H			>	-XH,RèS		# ti finirès
+	# fôume dimandrece avou -ss
+	[^CKNOSU] E S		>	-ES,RESS	# tchantress ?
+	C E S			>	-CES,çRESS
+	K E S			>	-KES,CRESS	# vicress ?
+	[^E] N E S		>	-ES,RESS	# dimanress ?
+	E N E S			>	-ENES,INRESS	# copinress ?
+	O E S			>	-S,RESS		# boeress ?
+	[^S] S E S		>	-ES,RESS	# 
+	S S E S			>	-SES,RESS	# pasress
+	U E S			>	-UES,RESS	# abagress
+	[^EîUû] S		>	-S,RESS		# scriress
+	O U S			>	-US,RESS	# poress
+	O û S			>	-OûS,ôRESS	# pôress
+	[^O] U S		>	-S,RESS		# curess
+	[^O] û S		>	-ûS,URESS	# curess
+	î S			>	-îS,IRESS	# sicriress
+	I X H 			>	-XH,XHRESS	# finixhress
+	I X H 			>	-XH,RESS	# finiress
+	[^CKNOSU] E S		>	-ES,RANS	# nos tchantrans
+	C E S			>	-CES,çRANS
+	K E S			>	-KES,CRANS	# nos vicrans
+	[^E] N E S		>	-ES,RANS	# nos dmanrans
+	E N E S			>	-ENES,INRANS	# nos copinrans
+	O E S			>	-S,RANS		# nos boerans
+	[^S] S E S		>	-ES,RANS	# 
+	S S E S			>	-SES,RANS	# nos pasrans
+	U E S			>	-UES,RANS	# nos abagrans
+	[^EîUû] S		>	-S,RANS		# nos scrirans
+	O U S			>	-US,RANS	# nos porans
+	O û S			>	-OûS,ôRANS	# nos pôrans
+	[^O] U S		>	-S,RANS		# nos curans
+	[^O] û S		>	-ûS,URANS	# nos curans
+	î S			>	-îS,IRANS	# nos scrirans
+	I X H 			>	-XH,XHRANS	# nos finixhrans
+	I X H 			>	-XH,RANS	# nos finirans
+	[^CKNOSU] E S		>	-ES,ROZ		# vos tchantroz
+	C E S			>	-CES,çROZ
+	K E S			>	-KES,CROZ	# vos vicroz
+	[^E] N E S		>	-ES,ROZ		# vos dmanroz
+	E N E S			>	-ENES,INROZ	# vos copinroz
+	O E S			>	-S,ROZ		# vos boeroz
+	[^S] S E S		>	-ES,ROZ		# 
+	S S E S			>	-SES,ROZ	# vos pasroz
+	U E S			>	-UES,ROZ	# vos abagroz
+	[^EîUû] S		>	-S,ROZ		# vos scriroz
+	O U S			>	-US,ROZ		# vos poroz
+	O û S			>	-OûS,ôROZ	# vos pôroz
+	[^O] U S		>	-S,ROZ		# vos curoz
+	[^O] û S		>	-ûS,UROZ	# vos curoz
+	î S			>	-îS,IROZ	# vos scriroz
+	I X H 			>	-XH,XHROZ	# vos finixhroz
+	I X H 			>	-XH,ROZ		# vos finiroz
+	[^CKNOSU] E S		>	-ES,RONT	# i tchantront
+	C E S			>	-CES,çRONT
+	K E S			>	-KES,CRONT	# i vicront
+	[^E] N E S		>	-ES,RONT	# i dmanront
+#========= ??? ti denes -> i dinront ??
+	E N E S			>	-ENES,INRONT	# i copinront
+	O E S			>	-S,RONT		# i boeront
+	[^S] S E S		>	-ES,RONT	# 
+	S S E S			>	-SES,RONT	# i pasront
+	U E S			>	-UES,RONT	# i abagront
+	[^EîUû] S		>	-S,RONT		# i scriront
+	O U S			>	-US,RONT	# i poront
+	O û S			>	-OûS,ôRONT	# i pôront
+	[^O] U S		>	-S,RONT		# i curont
+	[^O] û S		>	-ûS,URONT	# i curont
+	î S			>	-îS,IRONT	# i scriront
+	I X H 			>	-XH,XHRONT	# i finixhront
+	I X H 			>	-XH,RONT	# i finiront
+	####################
+	#  erirece durant  #
+	####################
+#
+#
+#
+# tot -eu
+#lax#é	>	-é,EU
+#lax#î	>	-î,EU
+#lax#é	>	-é,EUS
+#lax#î	>	-î,EUS
+#lax#é	>	-é,EUT
+#lax#î	>	-î,EUT
+# tot -éve
+#lax#î	>	-î,éVE
+#lax#I X H	>	-IXH,IXHéVE
+#lax#[^CçGH] O U	>	-OU,éVE
+#lax#C O U	>	-COU,KéVE 
+#lax#ç O U	>	-çOU,CéVE
+#lax#G O U	>	-GOU,GUéVE 
+#lax#[^îû] T	>	-T,JHéVE
+#lax#î T	>	-îT,IJHéVE 
+#lax#û T	>	-ûT,UJHéVE 
+#lax#î	>	-î,éVES
+#lax#I X H	>	-IXH,IXHéVES
+#lax#[^CçgH] O U	>	-OU,éVES
+#lax#C O U	>	-COU,KéVES 
+#lax#ç O U	>	-çOU,CéVES
+#lax#g O U	>	-GOU,GUéVES 
+#lax#[^îû] T	>	-T,JHéVES
+#lax#î T	>	-îT,IJHéVES 
+#lax#û T	>	-ûT,UJHéVES 
+#
+#
+#
+	é			>	-é,éVE		# dji/i tchantéve
+	î			>	-î,IVE		# dji/i candjive
+	I			>	-I,EU		# dji sinteu
+	I X H			>	-IXH,IXHEU	# dji finixheu 
+	[^CçGH] O U		>	-OU,EU		# dji meteu 
+	C O U			>	-COU,KEU	# 
+	ç O U			>	-çOU,CEU	# 
+	G O U			>	-GOU,GUEU	# 
+	[^J] H O U		>	-OU,EU		# dji crexheu
+	[^é] J H O U		>	-OU,EU
+	é J H O U		>	-éJHOU,IJHEU	# dji lijheu
+	[^îû] T			>	-T,JHEU		# dji dijheu
+	î T			>	-îT,IJHEU 
+	û T			>	-ûT,UJHEU 
+	é			>	-é,éVES		# ti tchantéves
+	î			>	-î,IVES		# ti candjives
+	I			>	-I,EUS		# ti sinteus
+	I X H			>	-IXH,IXHEUS	# ti finixheus 
+	[^CçGH] O U		>	-OU,EUS		# ti meteus 
+	C O U			>	-COU,KEUS	# 
+	ç O U			>	-çOU,CEUS	# 
+	G O U			>	-GOU,GUEUS	# 
+	[^J] H O U		>	-OU,EUS		# ti crexheus
+	[^é] J H O U		>	-OU,EUS
+	é J H O U		>	-éJHOU,IJHEUS	# ti lijheus
+	[^îû] T			>	-T,JHEUS	# ti dijheus
+	î T			>	-îT,IJHEUS 
+	û T			>	-ûT,UJHEUS
+	I			>	-I,EUT		# i sinteut 
+	I X H			>	-IXH,IXHEUT	# i finixheut 
+	[^CçGH] O U		>	-OU,EUT		# i meteut 
+	C O U			>	-COU,KEUT	# 
+	ç O U			>	-çOU,CEUT	# 
+	G O U			>	-GOU,GUEUT	# 
+	[^J] H O U		>	-OU,EUT		# i crexheut
+	[^é] J H O U		>	-OU,EUT
+	é J H O U		>	-éJHOU,IJHEUT	# i lijheut
+	[^îû] T			>	-T,JHEUT	# i dijheut
+	î T			>	-îT,IJHEUT
+	û T			>	-ûT,UJHEUT
+	é			>	-é,éNS		# nos tchanténs
+	[^Y] î			>	-î,éNS		# nos candjéns
+	[^AåâEéêèGIîOôUû] Y î	>	-Yî,IéNS	# nos netiéns
+	[AåâEéêèIîOôUû] Y î	>	-Yî,YéNS
+	G Y î			>	-Yî,UIéNS
+	I			>	-I,éNS		# nos sinténs
+	I X H			>	-IXH,IXHéNS	# nos finixhéns
+	[^CçGH] O U		>	-OU,éNS		# nos meténs
+	C O U			>	-COU,KéNS	# 
+	ç O U			>	-çOU,CéNS	# 
+	G O U			>	-GOU,GUéNS	# 
+	[^J] H O U		>	-OU,éNS		# nos crexhéns
+	[^é] J H O U		>	-OU,éNS
+	é J H O U		>	-éJHOU,IJHéNS	# nos lijhéns
+	[^îû] T			>	-T,JHéNS	# nos dijhéns
+	î T			>	-îT,IJHéNS
+	û T			>	-ûT,UJHéNS
+	é			>	-é,îZ		# vos tchantîz
+	[^Y] î			>	-î,îZ		# vos candjîz
+	Y î			>	-Yî,YîZ		# vos netyîz
+	I			>	-I,îZ		# vos sintîz
+	I X H			>	-IXH,IXHîZ	# vos finixhîz
+	[^CçGHI] O U		>	-OU,îZ		# vos metîz
+	C O U			>	-COU,KîZ	# 
+	ç O U			>	-çOU,CîZ	# 
+	G O U			>	-GOU,GUîZ	# 
+	[^J] H O U		>	-OU,îZ		# vos crexhîz
+	[^é] J H O U		>	-OU,îZ
+	é J H O U		>	-éJHOU,IJHîZ	# vos lijhîz
+	I O U			>	-IOU,îZ		# vos rashîz
+	[^îû] T			>	-T,JHîZ		# vos dijhîz
+	î T			>	-îT,IJHîZ
+	û T			>	-ûT,UJHîZ
+	é			>	-é,éNT		# i tchantént
+	[^Y] î			>	-î,éNT		# i candjént
+	[^AåâEéêèGIîOôUû] Y î	>	-Yî,IéNT	# i netiént
+	[AåâEéêèIîOôUû] Y î	>	-Yî,YéNT
+	G Y î			>	-Yî,UIéNT
+	I			>	-I,éNT		# i sintént
+	I X H			>	-IXH,IXHéNT	# i finixhént
+	[^CçGH] O U		>	-OU,éNT		# i metént
+	C O U			>	-COU,KéNT	# 
+	ç O U			>	-çOU,CéNT	# 
+	G O U			>	-GOU,GUéNT	# 
+	[^J] H O U		>	-OU,éNT		# i crexhént
+	[^é] J H O U		>	-OU,éNT
+	é J H O U		>	-éJHOU,IJHéNT	# i lijhént
+	[^îû] T			>	-T,JHéNT	# i dijhént
+	î T			>	-îT,IJHéNT
+	û T			>	-ûT,UJHéNT
+	#############
+	#  erirece  #
+	#############
+	[^CKU] é		>	-é,A		# dji/i tchanta
+	C é			>	-Cé,çA		# dji/i disfaça
+	K é			>	-Ké,CA		# dji/i vica
+	G U é			>	-Ué,A		# dji/i abaga
+	[^CKUY] î		>	-î,A		# dji/i candja
+	C î			>	-Cî,çA		# dji/i cominça
+	K î			>	-Kî,CA		# dji/i acoûca
+	G U î			>	-Uî,A		# 
+	[^AåâEéêèGIîOôUû] Y î	>	-Yî,IA		# dji/i netia
+	[AåâEéêèIîOôUû] Y î	>	-Yî,YA		# dji/i saya
+	G Y î			>	-Yî,UIA		# dji/i beguia
+	[^CKU] I		>	-I,A		# dji/i sinta
+	C I			>	-CI,çA		
+	K I			>	-KI,CA		
+	G U I			>	-UI,A		# 
+	I X H			>	-IXH,IXHA	# dji/i finixha
+	[^H] O U		>	-OU,A		# dji/i meta
+	[^J] H O U		>	-OU,A		# dji/i crexha
+	[^é] J H O U		>	-OU,A
+	é J H O U		>	-éJHOU,IJHA	# dji/i lijha
+	[^îû] T			>	-T,JHA		# dji/i dijha
+	î T			>	-îT,IJHA
+	û T			>	-ûT,UJHA
+	[^CKU] é		>	-é,AS		# ti tchantas
+	C é			>	-Cé,çAS		# ti disfaças
+	K é			>	-Ké,CAS		# ti vicas
+	G U é			>	-Ué,AS		# ti abagas 
+	[^CKUY] î		>	-î,AS		# ti candjas
+	C î			>	-Cî,çAS		# ti cominças
+	K î			>	-Kî,CAS		# ti acoûcas
+	G U î			>	-Uî,AS		# 
+	[^AåâEéêèGIîOôUû] Y î	>	-Yî,IAS		# ti netias
+	[AåâEéêèIîOôUû] Y î	>	-Yî,YAS		# ti sayas
+	G Y î			>	-Yî,UIAS	# ti beguias
+	[^CKU] I		>	-I,AS		# ti sintas
+	C I			>	-CI,çAS		
+	K I			>	-KI,CAS		
+	G U I			>	-UI,AS		# 
+	I X H			>	-IXH,IXHAS	# ti finixhas
+	[^H] O U		>	-OU,AS		# ti metas
+	[^J] H O U		>	-OU,AS		# ti crexhas
+	[^é] J H O U		>	-OU,AS
+	é J H O U		>	-éJHOU,IJHAS	# ti lijhas
+	[^îû] T			>	-T,JHAS		# ti dijhas
+	î T			>	-îT,IJHAS
+	û T			>	-ûT,UJHAS
+	# fôme dimandrece avou -ss
+	[^CKU] é		>	-é,ASS		# tchantass ?
+	C é			>	-Cé,çASS	# disfaçass ?
+	K é			>	-Ké,CASS	# vicass ?
+	G U é			>	-Ué,ASS		# abagass ? 
+	[^CKUY] î		>	-î,ASS		# candjass ?
+	C î			>	-Cî,çASS	# cominçass ?
+	K î			>	-Kî,CASS	# acoûcass ?
+	G U î			>	-Uî,ASS		# 
+	[^AåâEéêèGIîOôUû] Y î	>	-Yî,IASS	# netiass ?
+	[AåâEéêèIîOôUû] Y î	>	-Yî,YASS	# sayass ?
+	G Y î			>	-Yî,UIASS	# beguiass ?
+	[^CKU] I		>	-I,ASS		# sintass ?
+	C I			>	-CI,çASS		
+	K I			>	-KI,CASS		
+	G U I			>	-UI,ASS		# 
+	I X H			>	-IXH,IXHASS	# finixhass ?
+	[^H] O U		>	-OU,ASS		# metass ?
+	[^J] H O U		>	-OU,ASS		# crexhass ?
+	[^é] J H O U		>	-OU,ASS
+	é J H O U		>	-éJHOU,IJHASS	# lijhass ?
+	[^îû] T			>	-T,JHASS	# dijhass ?
+	î T			>	-îT,IJHASS
+	û T			>	-ûT,UJHASS
+	é			>	-é,îS		# nos tchantîs
+	[^Y] î			>	-î,îS		# nos candjîs
+	Y î			>	-Yî,YîS		# nos netyîs
+	I			>	-I,îS		# nos sintîs
+	I X H			>	-IXH,IXHîS	# nos finixhîs
+	[^CçGHI] O U		>	-OU,îS		# nos metîs
+	C O U			>	-COU,KîS	# 
+	ç O U			>	-çOU,CîS	# 
+	G O U			>	-GOU,GUîS	# 
+	[^J] H O U		>	-OU,îS		# nos crexhîs
+	[^é] J H O U		>	-OU,îS
+	é J H O U		>	-éJHOU,IJHîS	# nos lijhîs
+	I O U			>	-IOU,îS		# nos rashîs
+	[^îû] T			>	-T,JHîS		# nos dijhîs
+	î T			>	-îT,IJHîS
+	û T			>	-ûT,UJHîS
+	# vos: minme fôme ki po l' erirece durant
+	é			>	-é,îT		# i tchantît
+	[^Y] î			>	-î,îT		# i candjît
+	Y î			>	-Yî,YîT		# i netyît
+	I			>	-I,îT		# i sintît
+	I X H			>	-IXH,IXHîT	# i finixhît
+	[^CçGHI] O U		>	-OU,îT		# i metît
+	C O U			>	-COU,KîT	# 
+	ç O U			>	-çOU,CîT	# 
+	G O U			>	-GOU,GUîT	# 
+	[^J] H O U		>	-OU,îT		# i crexhît
+	[^é] J H O U		>	-OU,îT
+	é J H O U		>	-éJHOU,IJHîT	# i lijhît
+	I O U			>	-IOU,îT		# i rashît
+	[^îû] T			>	-T,JHîT		# i dijhît
+	î T			>	-îT,IJHîT
+	û T			>	-ûT,UJHîT
+	#################
+	#  suddjonctif  #
+	#################
+	E S			>	-ES,E		# dji/i tchante
+	I X H			>	-IXH,IXHE	# dji/i finixhe
+	I X H 			>	-IXH,IXHES	# ti finixhes
+	T			>	-T,XHE		# dji/i dixhe
+	T			>	-T,XHES		# ti dixhes
+	[^CçGI] O U		>	-OU,E		# dji/i boeve
+	C O U			>	-COU,KE		# 
+	ç O U			>	-çOU,CE		# 
+	G O U			>	-GOU,GUE	# 
+	[^CçGI] O U		>	-OU,ES		# ti boeves
+	C O U			>	-COU,KES	# 
+	ç O U			>	-çOU,CES	# 
+	G O U			>	-GOU,GUES	# 
+	[^CKU] é		>	-é,ANXHE	# nos tchantanxhe
+	C é			>	-Cé,çANXHE	# nos disfaçanxhe
+	K é			>	-Ké,CANXHE	# nos vicanxhe
+	G U é			>	-Ué,ANXHE	# 
+	[^CKUY] î		>	-î,ANXHE	# nos candjanxhe
+	C î			>	-Cî,çANXHE	# nos cominçanxhe
+	K î			>	-Kî,CANXHE	# nos acoûcanxhe
+	G U î			>	-Uî,ANXHE	# 
+	[^AåâEéêèGIîOôUû] Y î	>	-Yî,IANXHE	# nos netianxhe
+	[AåâEéêèIîOôUû] Y î	>	-Yî,YANXHE	# nos sayanxhe
+	G Y î			>	-Yî,UIANXHE	# nos beguianxhe
+	[^CKUY] I		>	-I,ANXHE	# nos sintanxhe
+	C I			>	-CI,çANXHE	# 
+	K I			>	-KI,CANXHE	# 
+	G U I			>	-UI,ANXHE	# 
+	I X H			>	-IXH,IXHANXHE	# nos finixhanxhe
+	[^H] O U		>	-OU,ANXHE	# nos metanxhe
+	[^J] H O U		>	-OU,ANXHE	# nos crexhanxhe
+	[^é] J H O U		>	-OU,ANXHE
+	é J H O U		>	-éJHOU,IJHANXHE	# nos lijhanxhe
+	[^îû] T			>	-T,JHANXHE	# nos dijhanxhe
+	î T			>	-îT,IJHANXHE
+	û T			>	-ûT,UJHANXHE
+	é			>	-é,éXHE		# vos tchantéxhe
+	î			>	-î,îXHE		# vos candjîxhe
+	[^CKU] I		>	-I,OXHE		# vos sintoxhe
+	C I			>	-CI,çOXHE	# 
+	K I			>	-KI,COXHE	# 
+	G U I			>	-UI,OXHE	# 
+	I X H			>	-IXH,IXHOXHE	# vos finixhoxhe
+	[^H] O U		>	-OU,OXHE	# vos metoxhe
+	[^J] H O U		>	-OU,OXHE	# vos crexhoxhe
+	[^é] J H O U		>	-OU,OXHE
+	é J H O U		>	-éJHOU,IJHOXHE	# vos lijhoxhe
+	[^îû] T			>	-T,JHOXHE	# vos dijhoxhe
+	î T			>	-îT,IJHOXHE
+	û T			>	-ûT,UJHOXHE
+	é			>	-é,EXHE		# i tchantexhe
+	[^Y] î			>	-î,EXHE		# i candjexhe
+	[^AåâEéêèGIîOôUû] Y î	>	-Yî,IEXHE	# i netiexhe
+	[AåâEéêèIîOôUû] Y î	>	-Yî,YEXHE	# i sayexhe
+	G Y î			>	-Yî,UIEXHE	# i beguiexhe
+	I			>	-I,EXHE		# i sintexhe
+	I X H			>	-IXH,IXHEXHE	# i finixhexhe
+	[^CçGH] O U		>	-OU,EXHE	# i metexhe
+	C O U			>	-COU,KEXHE	# 
+	ç O U			>	-çOU,CEXHE	# 
+	G O U			>	-GOU,GUEXHE	# 
+	[^J] H O U		>	-OU,EXHE	# i crexhexhe
+	[^é] J H O U		>	-OU,EXHE
+	é J H O U		>	-éJHOU,IJHEXHE	# i lijhexhe
+	[^îû] T			>	-T,JHEXHE	# i dijhexhe
+	î T			>	-îT,IJHEXHE
+	û T			>	-ûT,UJHEXHE
+	# -nuxhe
+	[^CKNOSU] E S		>	-ES,NUXHE	# i tchantnuxhe
+	C E S			>	-CES,çNUXHE	# i cminçnuxhe
+	K E S			>	-KES,CNUXHE	# i vicnuxhe
+	[^E] N E S		>	-ES,NUXHE	# i dmannuxhe
+	E N E S			>	-ENES,INNUXHE	# i copinnuxhe
+	[^S] S E S		>	-ES,NUXHE	# 
+	S S E S			>	-SES,NUXHE	# i pasnuxhe
+	U E S			>	-UES,NUXHE	# i abagnuxhe
+	I X H			>	-XH,XHNUXHE	# i finixhnuxhe
+	###################
+	#  suddj erirece  #
+	###################
+	[^CKU] é		>	-é,AXHE		# dji/i tchantaxhe
+	C é			>	-Cé,çAXHE	# dji/i disfaçaxhe
+	K é			>	-Ké,CAXHE	# dji/i vicaxhe
+	G U é			>	-Ué,AXHE	# dji/i abagaxhe
+	[^CKUY] î		>	-î,AXHE		# dji/i candjaxhe
+	C î			>	-Cî,çAXHE	# dji/i cominçaxhe
+	K î			>	-Kî,CAXHE	# dji/i acoûcaxhe
+	G U î			>	-Uî,AXHE	# 
+	[^AåâEéêèGIîOôUû] Y î	>	-Yî,IAXHE	# dji/i netiaxhe
+	[AåâEéêèIîOôUû] Y î	>	-Yî,YAXHE	# dji/i sayaxhe
+	G Y î			>	-Yî,UIAXHE	# dji/i beguiaxhe
+	[^CKU] I		>	-I,AXHE		# dji/i sintaxhe
+	C I			>	-CI,çAXHE	# 
+	K I			>	-KI,CAXHE	# 
+	G U I			>	-UI,AXHE	# 
+	I X H			>	-IXH,IXHAXHE	# dji/i finixhaxhe
+	[^H] O U		>	-OU,AXHE	# dji/i metaxhe
+	[^J] H O U		>	-OU,AXHE	# dji/i crexhaxhe
+	[^é] J H O U		>	-OU,AXHE
+	é J H O U		>	-éJHOU,IJHAXHE	# dji/i lijhaxhe
+	[^îû] T			>	-T,JHAXHE	# dji/i dijhaxhe
+	î T			>	-îT,IJHAXHE
+	û T			>	-ûT,UJHAXHE
+	[^CKU] é		>	-é,AXHES	# ti tchantaxhes
+	C é			>	-Cé,çAXHES	# ti disfaçaxhes
+	K é			>	-Ké,CAXHES	# ti vicaxhes
+	G U é			>	-Ué,AXHES	# ti abagaxhes
+	[^CKUY] î		>	-î,AXHES	# ti candjaxhes
+	C î			>	-Cî,çAXHES	# ti cominçaxhes
+	K î			>	-Kî,CAXHES	# ti acoûcaxhes
+	G U î			>	-Uî,AXHES	#
+	[^AåâEéêèGIîOôUû] Y î	>	-Yî,IAXHES	# ti netiaxhes
+	[AåâEéêèIîOôUû] Y î	>	-Yî,YAXHES	# ti sayaxhes
+	G Y î			>	-Yî,UIAXHES	# ti beguiaxhes
+	[^CKU] I		>	-I,AXHES	# ti sintaxhes
+	C I			>	-CI,çAXHES	# 
+	K I			>	-KI,CAXHES	# 
+	G U I			>	-UI,AXHES	# 
+	I X H			>	-IXH,IXHAXHES	# ti finixhaxhes
+	[^H] O U		>	-OU,AXHES	# ti metaxhes
+	[^J] H O U		>	-OU,AXHES	# ti crexhaxhes
+	[^é] J H O U		>	-OU,AXHES
+	é J H O U		>	-éJHOU,IJHAXHES	# ti lijhaxhes
+	[^îû] T			>	-T,JHAXHES	# ti dijhaxhes
+	î T			>	-îT,IJHAXHES
+	û T			>	-ûT,UJHAXHES
+	é			>	-é,éNXHE	# nos/i tchanténxhe
+	[^Y] î			>	-î,éNXHE	# nos/i candjénxhe
+	[^AåâEéêèGIîOôUû] Y î	>	-Yî,IéNXHE	# nos/i netiénxhe
+	[AåâEéêèIîOôUû] Y î	>	-Yî,YéNXHE
+	G Y î			>	-Yî,UIéNXHE
+	I			>	-I,éNXHE	# nos/i sinténxhe
+	I X H			>	-IXH,IXHéNXHE	# nos/i finixhénxhe
+	[^CçGH] O U		>	-OU,éNXHE	# nos/i meténxhe
+	C O U			>	-COU,KéNXHE	# 
+	ç O U			>	-çOU,CéNXHE	# 
+	G O U			>	-GOU,GUéNXHE	# 
+	[^J] H O U		>	-OU,éNXHE	# nos/i crexhénxhe
+	[^é] J H O U		>	-OU,éNXHE
+	é J H O U		>	-éJHOU,IJHéNXHE	# nos/i lijhénxhe
+	[^îû] T			>	-T,JHéNXHE	# nos/i dijhénxhe
+	î T			>	-îT,IJHéNXHE
+	û T			>	-ûT,UJHéNXHE
+	é			>	-é,îXHE		# vos tchantîxhe
+	[^Y] î			>	-î,îXHE		# vos candjîxhe
+	Y î			>	-Yî,YîXHE	# vos netyîxhe
+	I			>	-I,îXHE		# vos sintîxhe
+	I X H			>	-IXH,IXHîXHE	# vos finixhîxhe
+	[^CçGHI] O U		>	-OU,îXHE	# vos metîxhe
+	C O U			>	-COU,KîXHE	# 
+	ç O U			>	-çOU,CîXHE	# 
+	G O U			>	-GOU,GUîXHE	# 
+	[^J] H O U		>	-OU,îXHE	# vos crexhîxhe
+	[^é] J H O U		>	-OU,îXHE
+	é J H O U		>	-éJHOU,IJHîXHE	# vos lijhîxhe
+	I O U			>	-IOU,îXHE	# vos rashîxhe
+	[^îû] T			>	-T,JHîXHE	# vos dijhîxhe
+	î T			>	-îT,IJHîXHE
+	û T			>	-ûT,UJHîXHE
+	#################
+	#  condicioneu  #
+	#################
+	[^CKNOSU] E S		>	-ES,REU		# dji tchantreu
+	C E S			>	-CES,çREU
+	K E S			>	-KES,CREU	# dji vicreu
+	[^E] N E S		>	-ES,REU		# dji dmanreu
+	E N E S			>	-ENES,INREU	# dji copinreu
+	O E S			>	-S,REU		# dji boereu
+	[^S] S E S		>	-ES,REU		# 
+	S S E S			>	-SES,REU	# dji pasreu
+	U E S			>	-UES,REU	# dji abagreu
+	[^EîUû] S		>	-S,REU		# dji 
+	O U S			>	-US,REU		# dji poreu
+	O û S			>	-OûS,ôREU	# dji pôreu
+	[^O] U S		>	-S,REU		# dji cureu
+	[^O] û S		>	-ûS,UREU	# dji cureu
+	î S			>	-îS,IREU	# dji scrireu
+	I X H			>	-XH,XHREU	# dji finixhreu
+	I X H			>	-XH,REU		# dji finireu
+	[^CKNOSU] E S		>	-ES,REUS	# ti tchantreus
+	C E S			>	-CES,çREUS
+	K E S			>	-KES,CREUS	# ti vicreus
+	[^E] N E S		>	-ES,REUS	# ti dmanreus
+	E N E S			>	-ENES,INREUS	# ti copinreus
+	O E S			>	-S,REUS		# ti boereus
+	[^S] S E S		>	-ES,REUS	# 
+	S S E S			>	-SES,REUS	# ti pasreus
+	U E S			>	-UES,REUS	# ti abagreus
+	[^EîUû] S		>	-S,REUS		# ti 
+	O U S			>	-US,REUS	# ti poreus
+	O û S			>	-OûS,ôREUS	# ti pôreus
+	[^O] U S		>	-S,REUS		# ti cureus
+	[^O] û S		>	-ûS,UREUS	# ti cureus
+	î S			>	-îS,IREUS	# ti scrireus
+	I X H			>	-XH,XHREUS	# ti finixhreu
+	I X H			>	-XH,REUS	# ti finireu
+	[^CKNOSU] E S		>	-ES,REUT	# i tchantreut
+	C E S			>	-CES,çREUT
+	K E S			>	-KES,CREUT	# i vicreut
+	[^E] N E S		>	-ES,REUT	# i dmanreut
+	E N E S			>	-ENES,INREUT	# i copinreut
+	O E S			>	-S,REUT		# i boereut
+	[^S] S E S		>	-ES,REUT	# 
+	S S E S			>	-SES,REUT	# i pasreut
+	U E S			>	-UES,REUT	# i abagreut
+	[^EîUû] S		>	-S,REUT		# 
+	O U S			>	-US,REUT	# i poreut
+	O û S			>	-OûS,ôREUT	# i pôreut
+	[^O] U S		>	-S,REUT		# i cureut
+	[^O] û S		>	-ûS,UREUT	# i cureut
+	î S			>	-îS,IREUT	# i scrireut
+	I X H			>	-XH,XHREUT	# i finixhreut
+	I X H			>	-XH,REUT	# i finireut
+	[^CKNOSU] E S		>	-ES,RéNS	# nos tchantréns
+	C E S			>	-CES,çRéNS
+	K E S			>	-KES,CRéNS	# nos vicréns
+	[^E] N E S		>	-ES,RéNS	# nos dmanréns
+	E N E S			>	-ENES,INRéNS	# nos copinréns
+	O E S			>	-S,RéNS		# nos boeréns
+	[^S] S E S		>	-ES,RéNS	# 
+	S S E S			>	-SES,RéNS	# nos pasréns
+	U E S			>	-UES,RéNS	# nos abagréns
+	[^EîUû] S		>	-S,RéNS		# nos 
+	O U S			>	-US,RéNS	# nos poréns
+	O û S			>	-OûS,ôRéNS	# nos pôréns
+	[^O] U S		>	-S,RéNS		# nos curéns
+	[^O] û S		>	-ûS,URéNS	# nos curéns
+	î S			>	-îS,IRéNS	# nos scriréns
+	I X H			>	-XH,XHRéNS	# nos finixhréns
+	I X H			>	-XH,RéNS	# nos finiréns
+	[^CKNOSU] E S		>	-ES,RîZ		# vos tchantrîz
+	C E S			>	-CES,çRîZ
+	K E S			>	-KES,CRîZ	# vos vicrîz
+	[^E] N E S		>	-ES,RîZ		# vos dmanrîz
+	E N E S			>	-ENES,INRîZ	# vos copinrîz
+	O E S			>	-S,RîZ		# vos boerîz
+	[^S] S E S		>	-ES,RîZ		# 
+	S S E S			>	-SES,RîZ	# vos pasrîz
+	U E S			>	-UES,RîZ	# vos abagrîz
+	[^EîUû] S		>	-S,RîZ		# vos 
+	O U S			>	-US,RîZ		# vos porîz
+	O û S			>	-OûS,ôRîZ	# vos pôrîz
+	[^O] U S		>	-S,RîZ		# vos curîz
+	[^O] û S		>	-ûS,URîZ	# vos curîz
+	û S			>	-îS,IRîZ	# vos scrirîz
+	I X H			>	-XH,XHRîZ	# vos finixhrîz
+	I X H			>	-XH,RîZ		# vos finirîz
+	[^CKNOSU] E S		>	-ES,RéNT	# i tchantrént
+	C E S			>	-CES,çRéNT
+	K E S			>	-KES,CRéNT	# i vicrént
+	[^E] N E S		>	-ES,RéNT	# i dmanrént
+	E N E S			>	-ENES,INRéNT	# i copinrént
+	O E S			>	-S,RéNT		# i boerént
+	[^S] S E S		>	-ES,RéNT	# 
+	S S E S			>	-SES,RéNT	# i pasrént
+	U E S			>	-UES,RéNT	# i abagrént
+	[^EîUû] S		>	-S,RéNT		# i 
+	O U S			>	-US,RéNT	# i porént
+	O û S			>	-OûS,ôRéNT	# i pôrént
+	[^O] U S		>	-S,RéNT		# i curént
+	[^O] û S		>	-ûS,URéNT	# i curént
+	î S			>	-îS,IRéNT	# i scrirént
+	I X H			>	-XH,XHRéNT	# i finixhrént
+	I X H			>	-XH,RéNT	# i finirént
+	###############
+	#  imperatif  #
+	###############
+	# les fôumes del imperatif sont les minme ki pol prezitrece/suddjonctif;
+	######################	
+	#  pårticipe prezint #
+	######################
+	[^CKU] é		>	-é,ANT		# tchantant
+	C é			>	-Cé,çANT	# disfaçant
+	K é			>	-Ké,CANT	# vicant
+	G U é			>	-Ué,ANT		# abaguant
+	[^CKUY] î		>	-î,ANT		# candjant
+	C î			>	-Cî,çANT	# cominçant
+	K î			>	-Kî,CANT	# acoûcant
+	G U î			>	-Uî,ANT		#
+	[^AåâEéêèGIîOôUû] Y î	>	-Yî,IANT	# netiant
+	[AåâEéêèIîOôUû] Y î	>	-Yî,YANT	# sayant
+	G Y î			>	-Yî,UIANT	# beguiant
+	[^CKU] I		>	-I,ANT		# sintant
+	C I			>	-CI,çANT	# 
+	K I			>	-KI,CANT	# 
+	G U I			>	-UI,ANT		#
+	I X H			>	-IXH,IXHANT	# finixhant
+	[^H] O U		>	-OU,ANT		# metant
+	[^J] H O U		>	-OU,ANT		# crexhant
+	[^é] J H O U		>	-OU,ANT
+	é J H O U		>	-éJHOU,IJHANT	# lijhant
+	[^îû] T			>	-T,JHANT	# dijhant
+	î T			>	-îT,IJHANT
+	û T			>	-ûT,UJHANT
+	#####################
+	# pårticipe erirece #
+	#####################
+	# on l' a ddja
+	I X H			>	-IXH,I		# fini
+
+	###############
+	#  infinitif  #
+	###############
+	é			>	-é,ER		# tchanter
+	#O U			>	-OU,E		# mete (disrûlé)
+	V N O U			>	-OU,I		# vni
+	O E S			>	-S,RE		# boere
+	ô S			>	-S,RE		# ôre
+	[^îIû] T		>	-T,RE		# 
+	î T			>	-îT,IRE		# dire
+	û T			>	-ûT,URE		# distrure
+	[^F] I T		>	-T,RE		# dire
+	I X H			>	-IXH,I		# fini
+
+# --------------------------------------------------
+
+# viebes a troes bodjes + sôre copiner
+flag *V:
+	#################
+	#  prezintrece  #
+	#################
+	# atincion, ispell ni vout nén k' on prindaxhe foû des letes
+	# sin mete des ôtes el plaece; damadje, dji voleve
+	# mete "[^è] S		>	-S"
+	A S			>	-AS,A		# dji va
+	å S			>	-åS,å		# dji vå
+	D S			>	-DS,D		# dji comprind
+	E S			>	-ES,E		# dji/i tchante
+	é S			>	-éS,é		# dji lé
+	I S			>	-IS,I		# 
+	î S			>	-îS,î		# dji scrî
+	O S			>	-OS,O		# ????
+	ô S			>	-ôS,ô		# dj' ô
+	N S			>	-NS,N		# dji vén
+	T S			>	-TS,T		# dj' aparet
+	U S			>	-US,U		# dji pou
+	û S			>	-ûS,û		# dji cû
+	R S			>	-RS,R		# dji cwir
+	# on l' a ddja:					# ti véns, copenes
+	[^Eè] S			> -S,SS			# vénss?
+	# on l' a ddja: E S	> -S			# i copene
+	[^EèDT] S		> -S,T			# i vént
+	O E S			> -S,T			# i boet
+	# -nut: on l' a ddja
+	###############
+	#  futurrece  #
+	###############
+	R è S			>	-RèS,Rè		# dji/i vénrè
+	# on l' a ddja:					# ti vénrès
+	# fôume dimandrece avou -ss
+	R è S			>	-èS,ESS		# vénress ?
+	R è S			>	-èS,ANS		# nos vénrans
+	R è S			>	-èS,OZ		# vos vénroz
+	R è S			>	-èS,ONT		# i vénront
+	#################
+	#  condicioneu  #
+	#################
+	R è S			>	-èS,EU		# dji vénreu
+	R è S			>	-èS,EUS		# ti vénreus
+	R è S			>	-èS,EUT		# i vénreut
+	R è S			>	-èS,ONT		# i vénront
+	R è S			>	-èS,éNS		# i vénréns
+	R è S			>	-èS,îz		# i vénrîz
+	R è S			>	-èS,éNT		# i vénrént
+	#################
+	#  suddjonctif  #
+	#################
+	# si les fômes singulî sont diferinnes del prezintrece,
+	# elzès fåt dner ene a ene
+	N U T			> -NUT,NUXHE		# k' i vegnnuxhe
+
+
+# --------------------------------------------------
+
+flag *n:
+	# pluriel
+	[^S] 			>	S
+
+	# femrin
+	[^åCEéFGIîSNU]		>	E
+	å			>	LE
+	C			>	-C,KE
+	é			>	-é,êYE
+	F			>	-F,VE
+	G			>	UE
+	I			>	-I,EYE
+	[^Y] î			>	-î,EYE
+	[^AåâEéêèGIîOôUû] Y î	>	-Yî,IEYE
+	[AåâEéêèIîOôUû] Y î	>	-Yî,YEYE
+	G Y î			>	-Yî,UIEYE
+	[^éI] N			>	E
+	é N			>	-éN,ENE
+	I N			>	NE
+	[^U] S			>	SE
+	[^EO] U			>	WE
+	E U			>	SE
+	O U			>	-OU,OWE
+	
+	# femrin pluriel
+	[^åCEéFGIîSNU]		>	ES
+	å			>	LES
+	C			>	-C,KES
+	é			>	-é,êYES
+	F			>	-F,VES
+	G			>	UES
+	I			>	-I,EYES
+	[^Y] î			>	-î,EYES
+	[^AåâEéêèGIîOôUû] Y î	>	-Yî,IEYE
+	[AåâEéêèIîOôUû] Y î	>	-Yî,YEYE
+	G Y î			>	-Yî,UIEYES
+	[^éI] N			>	ES
+	é N			>	-éN,ENES
+	I N			>	NES
+	[^U] S			>	SES
+	[^EO] U			>	WES
+	E U			>	SES
+	O U			>	-OU,OWES
+
+# --------------------------------------------------
+
+flag *a:
+	#å			>	L
+	I X H			>	-IXH,I
+
+	# pluriel
+	[^SH] 			>	S
+	[^X] H			>	S
+	#å			>	LS
+	I X H			>	-IXH,IS
+	[^I] X H		>	S
+
+	# femrin
+	[^AåCDEéèFGHIîNSTU]	>	E
+	E A			>	-EA,ELE
+	å			>	LE
+	C			>	-C,KE
+	é			>	-é,êYE
+	F			>	-F,VE
+	G			>	UE
+	I			>	-I,EYE
+	[^X] H			>	E
+	I X H			>	-IXH,EYE
+	[^I] X H		>	E
+	[^Y] î			>	-î,EYE
+	[^AåâEéêèGIîOôUû] Y î	>	-Yî,IEYE
+	[AåâEéêèIîOôUû] Y î	>	-Yî,YEYE
+	G Y î			>	-Yî,UIEYE
+	[^éI] N			>	E
+	é N			>	-éN,ENE
+	I N			>	NE
+	O I R T			>	-OIRT,OITE
+	U R T			>	-URT,ûTE
+	[^U] R T		>	-RT,TE
+	[åU] R D		>	-RD,DE
+	[^R] [DT]		>	E
+	[^UIè] S		>	SE
+	è S			>	-èS,ESSE
+	I S			>	-S,JHE
+	E U S			>	E
+	[^EO] U			>	WE
+	E U			>	SE
+	E U R			>	-R,RE
+	O U			>	-OU,OWE
+	
+	# femrin pluriel
+	[^AåCDEéèFGHIîNSTU]	>	ES
+	E A			>	-EA,ELES
+	å			>	LES
+	C			>	-C,KES
+	é			>	-é,êYES
+	F			>	-F,VES
+	G			>	UES
+	I			>	-I,EYES
+	[^X] H			>	ES
+	I X H			>	-IXH,EYES
+	[^I] X H		>	ES
+	[^Y] î			>	-î,EYES
+	[^AåâEéêèGIîOôUû] Y î	>	-Yî,IEYES
+	[AåâEéêèIîOôUû] Y î	>	-Yî,YEYES
+	G Y î			>	-Yî,UIEYES
+	[^éI] N			>	ES
+	é N			>	-éN,ENES
+	I N			>	NES
+	O I R T			>	-OIRT,OITES
+	U R T			>	-URT,ûTES
+	[^U] R T		>	-RT,TES
+	U R D			>	-URD,UDES
+	[^R] [DT]		>	ES
+	[^UIè] S		>	SES
+	è S			>	-èS,ESSES
+	I S			>	-S,JHES
+	E U S			>	ES
+	[^EO] U			>	WES
+	E U			>	SES
+	E U R			>	-R,RES
+	O U			>	-OU,OWES
+
+	# femrin pluriel divant l' no (-ès)
+	[^AåCDEéèFGHIîNSTU]	>	èS
+	E A			>	-EA,ELèS
+	å			>	LèS
+	C			>	-C,KèS
+	E			>	-E,èS
+	é			>	-é,êYèS
+	F			>	-F,VèS
+	G			>	UèS
+	I			>	-I,EYèS
+	[^X] H			>	èS
+	I X H			>	-IXH,EYèS
+	[^I] X H		>	èS
+	[^Y] î			>	-î,EYèS
+	[^AåâEéêèGIîOôUû] Y î	>	-Yî,IEYèS
+	[AåâEéêèIîOôUû] Y î	>	-Yî,YEYèS
+	G Y î			>	-Yî,UIEYèS
+	[^éI] N			>	èS
+	é N			>	-éN,ENèS
+	I N			>	NèS
+	O I R T			>	-OIRT,OITèS
+	U R T			>	-URT,ûTèS
+	[^U] R T		>	-RT,TèS
+	U R D			>	-URD,UDèS
+	[^R] [DT]		>	èS
+	[^UIè] S		>	SèS
+	è S			>	-èS,ESSèS
+	I S			>	-S,JHèS
+	E U S			>	èS
+	[^EO] U			>	WèS
+	E U			>	SèS
+	E U R			>	-EUR,URèS
+	O U			>	-OU,OWèS
+
+# ------------------------------------------------------------
+
+flag *s:
+	[^S]			>	S
+
+flag *r:
+	# omrin pluriel
+	[^S]			>	S
+	# -î -> -resse
+	[^CKLNRU] î		>	-î,RESSE
+	C î			>	-Cî,çRESSE
+	K î			>	-Kî,CRESSE
+	[^AåâEéêèIîOôUûçCG] L Î	>	-Lî,ELRESSE
+	[AåâEéêèIîOôUû] L Î	>	-î,RESSE
+	C L Î			>	-CLî,KELRESSE
+	ç L Î			>	-çLî,CELRESSE
+	G L Î			>	-GLî,GUELRESSE
+	[^R] N î		>	-î,RESSE
+	R N î			>	-î,EYRESSE
+	[^aeioôu] R î		>	-Rî,RIRESSE
+	[aeioôu] R î		>	-î,RESSE
+	[^G] U î		>	-î,RESSE
+	G U î			>	-Uî,RESSE
+	# -î -> -resses
+	[^CKLNRU] î		>	-î,RESSES
+	C î			>	-Cî,çRESSES
+	K î			>	-Kî,CRESSES
+	[^AåâEéêèIîOôUûçCG] L Î	>	-Lî,ELRESSES
+	[AåâEéêèIîOôUû] L Î	>	-î,RESSES
+	C L Î			>	-CLî,KELRESSES
+	ç L Î			>	-çLî,CELRESSES
+	G L Î			>	-GLî,GUELRESSES
+	[^R] N î		>	-î,RESSES
+	R N î			>	-î,EYRESSES
+	[^aeioôu] R î		>	-Rî,RIRESSES
+	[aeioôu] R î		>	-î,RESSES
+	[^G] U î		>	-î,RESSES
+	G U î			>	-Uî,RESSES
+	# -eu -> -resse
+	[^CIKLRSUY] E U		>	-EU,RESSE
+	C E U			>	-CEU,çRESSE
+	I E U			>	-IEU,EYRESSE
+	K E U			>	-KEU,CRESSE
+	[^AåâEéêèIîOôUûçCG] L E U >	-LEU,ELRESSE
+	[AåâEéêèIîOôUû] L E U	>	-EU,RESSE
+	C L E U			>	-CLEU,KELRESSE
+	ç L E U			>	-çLEU,CELRESSE
+	G L E U			>	-GLEU,GUELRESSE
+	[^AåâEéêèIîOôUûNY] R E U >	-REU,ERRESSE
+	[AåâEéêèIîOôUûNY] R E U	>	-EU,RESSE
+	S S E U			>	-SEU,RESSE
+	[^S] S E U		>	-EU,RESSE
+	[^G] U E U		>	-EU,RESSE
+	G U E U			>	-UEU,RESSE
+#	[AåâEéêèIîôUû] Y E U	>	-[AåâEéêèIîôUû]YEU,EYRESSE
+	I Y E U			>	-IYEU,EYRESSE	# riyeu, reyresse
+	[^AåâEéêèIîôUû] Y E U	>	-EU,RESSE
+	# -eu -> -resses
+	[^CIKLRSUY] E U		>	-EU,RESSES
+	C E U			>	-CEU,çRESSES
+	I E U			>	-IEU,EYRESSES
+	K E U			>	-KEU,CRESSES
+	[^AåâEéêèIîOôUûçCG] L E U >	-LEU,ELRESSES
+	[AåâEéêèIîOôUû] L E U	>	-EU,RESSES
+	C L E U			>	-CLEU,KELRESSES
+	ç L E U			>	-çLEU,CELRESSES
+	G L E U			>	-GLEU,GUELRESSES
+	[^AåâEéêèIîOôUûNY] R E U >	-REU,ERRESSES
+	[AåâEéêèIîOôUûNY] R E U	>	-EU,RESSES
+	S S E U			>	-SEU,RESSES
+	[^S] S E U		>	-EU,RESSES
+	[^G] U E U		>	-EU,RESSES
+	G U E U			>	-UEU,RESSES
+#	[AåâEéêèIîôUû] Y E U	>	-[AåâEéêèIîôUû]YEU,EYRESSES
+	I Y E U			>	-IYEU,EYRESSES	# riyeu, reyresses
+	[^AåâEéêèIîôUû] Y E U	>	-EU,RESSES
+	# ôtes -> -resse
+	[^EîLRU]		>	RESSE
+	[^CU] E			>	-E,RESSE
+	C E			>	-CE,çRESSE
+	G U E			>	-UE,RESSE
+	[^CKU] E U R		>	-EUR,ORESSE
+	C E U R			>	-CEUR,çORESSE
+	K E U R			>	-KEUR,CORESSE
+	[^G] U E U R		>	-EUR,ORESSE
+	G U E U R		>	-UEUR,ORESSE
+	[^U] R			>	IRESSE
+	L			>	IRESSE
+	[^EîLRU]		>	RESSES
+	[^CU] E			>	-E,RESSES
+	C E			>	-CE,çRESSES
+	G U E			>	-UE,RESSES
+	[^CKU] E U R		>	-EUR,ORESSES
+	C E U R			>	-CEUR,çORESSES
+	K E U R			>	-KEUR,CORESSES
+	[^G] U E U R		>	-EUR,ORESSES
+	G U E U R		>	-UEUR,ORESSES
+	[^U] R			>	IRESSES
+	L			>	IRESSES
+
+# ------------------------------------------------------------
+
+flag *S:
+	#.			>	EYE
+	[AåâEéêèIîOôUû]		>	"-T"	# a-t i schouté?
+	[^S] [^T]		>	"-ST"	# dj' a-st aresté
+	.			>	"-MU"	# sicrijhoz-mu
+	#.			>	"-MEL"	# sicrijhoz-mel
+	[^Q]			>	"-TU"	# taijhe-tu
+	.			>	"-LU"	# dijhoz-lu
+	#.			>	"-NOS"	# estans-nos
+	#.			>	"-VE"	# volez-ve
+	#.			>	"-ZELS" # ??
+	.			>	"-CE"
+	#.			>	"-DJE"
+	[^CKU] E		>	-E,RECE
+	C E			>	-CE,çRECE
+	K E			>	-KE,CRECE
+	U E			>	-UE,RECE
+	
+
